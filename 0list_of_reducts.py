@@ -1,0 +1,1 @@
+#TODO  - retrieve reducts from text file 
