@@ -32,21 +32,14 @@ def save_to_csv(decision_grouped, folder_path, file_name):
                 row = list(combination) + [decision]
                 writer.writerow(row)
 
-# def create_folder(folder_name):
-#     if not os.path.exists(folder_name):
-#         os.makedirs(folder_name)
+def create_folder(folder_name):
+    if not os.path.exists(folder_name):
+        os.makedirs(folder_name)
 
-# folder_name = "2consistent_data"
-# create_folder(folder_name)
-
-for x in range(0, 5):
-  print(x)
-  if not os.path.exists(f'subtable_{x+1}'):
-    os.makedirs(f'subtable_{x+1}')
+folder_name = "DATASET OUTPUT"
+create_folder(folder_name)
 
 
-
-for i in range(0, 5):
-    csv_file = f"./subtable_{i+1}/1lymphography_reduct_subtable_{i+1}.csv"
-    decision_grouped = replace_inconsistencies(csv_file)
-    save_to_csv(decision_grouped, f'subtable_{i+1}', f"2consistent_modified_lymphography{i+1}.csv")
+csv_file = f"../modified_lymphography.csv"
+decision_grouped = replace_inconsistencies(csv_file)
+save_to_csv(decision_grouped, folder_name, f"consistent_modified_lymphography.csv")

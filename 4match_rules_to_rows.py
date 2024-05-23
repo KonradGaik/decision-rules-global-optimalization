@@ -2,32 +2,27 @@ import os
 import pandas as pd
 
 def evaluate_rule(row_value, rule_value):
-    # Usunięcie zbędnych nawiasów i spacji, jeśli istnieją
     rule_value = rule_value.replace('(', '').replace(')', '').strip()
-    # Sprawdzenie, czy reguła jest w postaci warunku
     if '>' in rule_value:
         value = float(rule_value.split('>')[-1].strip())
         return row_value > value
     elif '<=' in rule_value:
         value = float(rule_value.split('<=')[-1].strip())
         return row_value <= value
-    else:
-        return False
+    return False
 
 def match_rules_to_rows(data_df, rules_df):
     matched_rows = []
     for i, row in data_df.iterrows():
-        row_number = i + 1  # Numer wiersza w danych
         matched_rules = []
+        matched_rule_strings = set()  # Zbiór dla unikalnych łańcuchów reguł
+        
         for j, rule_row in rules_df.iterrows():
             rule = ""
             rule_length = 0
             is_matched = True
             for col_name, rule_value in rule_row.items():
                 if pd.notna(rule_value):
-                    if pd.isna(row[col_name]):
-                        is_matched = False
-                        break
                     if col_name != 'class':
                         if evaluate_rule(row[col_name], rule_value):
                             rule += f"{rule_value} && "
@@ -36,19 +31,31 @@ def match_rules_to_rows(data_df, rules_df):
                             is_matched = False
                             break
                     else:
-                        if row[col_name] != int(rule_value):
+                        if str(row[col_name]) != str(rule_value):
                             is_matched = False
                             break
             if is_matched:
-                matched_rules.append(rule[:-3] + f" => {rule_row['class']}")
+                # Sprawdzenie czy taki łańcuch reguły już nie istnieje
+                if rule not in matched_rule_strings:
+                    matched_rule_strings.add(rule)
+                    matched_rules.append({'Rule': rule[:-4] + f" => {rule_row['class']}", 'Rule Length': rule_length})
+        
         if matched_rules:
-            matched_rows.append({'Row Number': row_number, 'Matched Rules': matched_rules})
+            matched_rows.append({'Row Number': i + 1, 'Matched Rules': matched_rules})
+    
     matched_rows_df = pd.DataFrame(matched_rows)
+    matched_rows_df['Matched Rules'] = matched_rows_df['Matched Rules'].apply(lambda x: tuple(x))
+    matched_rows_df = matched_rows_df.join(pd.DataFrame(matched_rows_df['Matched Rules'].tolist()))
+    
     return matched_rows_df
 
 # Foldery z danymi i regułami
 base_rules_folder = 'subtable_'
 
+output_folder = 'subtable_'
+os.makedirs(output_folder, exist_ok=True)
+
+# Iteracja po folderach subtable1, subtable2, ..., subtable5
 for i in range(1, 6):
     # Ścieżki do plików danych i reguł
     csv_file_data = os.path.join(f"{base_rules_folder}{i}", f"2consistent_modified_lymphography{i}.csv")
@@ -58,9 +65,9 @@ for i in range(1, 6):
     data_df = pd.read_csv(csv_file_data)
     rules_df = pd.read_csv(csv_file_rules)
     
-    # Wywołanie funkcji match_rules_to_rows
+    # Dopasowanie reguł do wierszy
     matched_rows = match_rules_to_rows(data_df, rules_df)
     
-    # Zapisanie wyniku do pliku CSV
-    output_file = os.path.join(f"{base_rules_folder}{i}", f"5matched_rows_shortest_{i}.csv")
+    # Zapisanie wyników do pliku
+    output_file = os.path.join(f'{output_folder}{i}', f"4matched_rows_{i}.csv")
     matched_rows.to_csv(output_file, index=False)

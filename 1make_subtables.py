@@ -1,10 +1,11 @@
 import os
 import pandas as pd
 
-# Sprawdź istnienie folderu "subtables" i utwórz go, jeśli nie istnieje
-subtables_folder = "1subtables"
-if not os.path.exists(subtables_folder):
-    os.makedirs(subtables_folder)
+for x in range(5):
+  print(x)
+  if not os.path.exists(f'subtable_{x+1}'):
+    os.makedirs(f'subtable_{x+1}')
+
 
 # KROK 1 
 # Utworzenie podtablic z reduktów
@@ -25,4 +26,4 @@ for idx, reduct in enumerate(reducts, start=1):
     # Wybierz tylko wybrane kolumny, dodaj 'class' na końcu
     df_selected = df[list(reduct) + ['class']]
     # Zapisz wybrane kolumny do nowego pliku CSV w folderze "subtables"
-    df_selected.to_csv(os.path.join(subtables_folder, f'modified_lymphography_reduct_subtable_{idx}.csv'), index=False)
+    df_selected.to_csv(os.path.join(f'subtable_{idx}', f'1lymphography_reduct_subtable_{idx}.csv'), index=False)

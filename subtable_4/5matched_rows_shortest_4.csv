@@ -1,0 +1,92 @@
+Row Number,Matched Rules
+2,['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']
+3,['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']
+7,['(no_of_nodes_in <= 1.5) && (changes_in_stru > 2.0) && (early_uptake_in <= 1.5) && (special_forms <= 1.5) && (block_of_affere <= 1.5)  => 2']
+8,"['(early_uptake_in > 1.5) && (changes_in_lym > 2.5) && (special_forms > 1.5) && (block_of_affere <= 1.5)  => 2', '(early_uptake_in > 1.5) && (changes_in_lym > 2.5) && (special_forms > 2.5) && (block_of_affere <= 1.5)  => 2', '(no_of_nodes_in > 1.5) && (changes_in_stru > 5.5) && (early_uptake_in > 1.5) && (changes_in_lym > 2.5) && (special_forms > 2.5) && (block_of_affere <= 1.5)  => 2']"
+9,['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']
+10,['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']
+11,['(no_of_nodes_in <= 3.5) && (changes_in_node <= 2.5) && (block_of_affere > 1.5)  => 2']
+14,"['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2', '(no_of_nodes_in > 2.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']"
+15,['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']
+16,['(no_of_nodes_in <= 3.5) && (changes_in_node <= 2.5) && (block_of_affere > 1.5)  => 2']
+18,"['(no_of_nodes_in > 1.5) && (changes_in_node <= 2.5) && (block_of_affere > 1.5)  => 4', '(no_of_nodes_in > 3.5) && (changes_in_node <= 3.5) && (early_uptake_in > 1.5) && (changes_in_lym <= 2.5) && (block_of_affere > 1.5)  => 4']"
+19,['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']
+20,"['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2', '(no_of_nodes_in > 2.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']"
+21,"['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2', '(no_of_nodes_in > 2.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']"
+22,['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']
+23,['(early_uptake_in > 1.5) && (special_forms <= 1.5) && (block_of_affere <= 1.5)  => 2']
+24,['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']
+27,['(no_of_nodes_in <= 3.5) && (changes_in_node <= 2.5) && (block_of_affere > 1.5)  => 2']
+29,['(no_of_nodes_in <= 3.0) && (early_uptake_in <= 1.5) && (block_of_affere <= 1.5)  => 3']
+32,['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']
+33,['(no_of_nodes_in <= 3.0) && (early_uptake_in <= 1.5) && (block_of_affere <= 1.5)  => 3']
+36,['(no_of_nodes_in <= 1.5) && (changes_in_stru > 2.0) && (early_uptake_in <= 1.5) && (special_forms <= 1.5) && (block_of_affere <= 1.5)  => 2']
+37,['(no_of_nodes_in <= 1.5) && (changes_in_stru > 2.0) && (early_uptake_in <= 1.5) && (special_forms <= 1.5) && (block_of_affere <= 1.5)  => 2']
+38,['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']
+39,['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']
+40,['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']
+41,['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']
+42,['(no_of_nodes_in > 1.5) && (changes_in_stru > 2.0) && (early_uptake_in <= 1.5) && (changes_in_lym <= 2.5) && (block_of_affere <= 1.5)  => 4']
+50,['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']
+51,['(no_of_nodes_in > 1.5) && (changes_in_node <= 2.5) && (block_of_affere > 1.5)  => 4']
+53,['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']
+54,['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']
+55,['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']
+56,['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']
+57,"['(no_of_nodes_in <= 1.5) && (changes_in_stru <= 4.0) && (early_uptake_in <= 1.5) && (special_forms <= 1.5) && (block_of_affere <= 1.5)  => 2', '(no_of_nodes_in <= 1.5) && (changes_in_stru > 2.0) && (early_uptake_in <= 1.5) && (special_forms <= 1.5) && (block_of_affere <= 1.5)  => 2']"
+60,['(no_of_nodes_in <= 1.5) && (changes_in_stru > 2.0) && (changes_in_node > 2.5) && (early_uptake_in <= 1.5) && (special_forms > 1.5) && (block_of_affere <= 1.5)  => 2']
+61,['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']
+62,['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']
+64,"['(no_of_nodes_in > 2.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2', '(no_of_nodes_in > 2.5) && (changes_in_node > 2.5) && (special_forms > 2.5) && (block_of_affere > 1.5)  => 2', '(no_of_nodes_in > 3.5) && (changes_in_node <= 3.5) && (changes_in_lym > 2.5) && (block_of_affere > 1.5)  => 2']"
+67,['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']
+69,['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']
+70,['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']
+71,['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']
+72,['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']
+75,"['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2', '(no_of_nodes_in > 2.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']"
+76,['(no_of_nodes_in <= 3.0) && (early_uptake_in <= 1.5) && (block_of_affere <= 1.5)  => 3']
+78,['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']
+79,['(no_of_nodes_in <= 3.0) && (early_uptake_in <= 1.5) && (block_of_affere <= 1.5)  => 3']
+80,"['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2', '(no_of_nodes_in > 2.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2', '(no_of_nodes_in > 2.5) && (changes_in_node > 2.5) && (special_forms > 2.5) && (block_of_affere > 1.5)  => 2']"
+82,['(no_of_nodes_in <= 3.0) && (early_uptake_in <= 1.5) && (block_of_affere <= 1.5)  => 3']
+83,"['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2', '(no_of_nodes_in > 2.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']"
+84,['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']
+85,"['(early_uptake_in > 1.5) && (changes_in_lym > 2.5) && (special_forms > 1.5) && (block_of_affere <= 1.5)  => 2', '(early_uptake_in > 1.5) && (changes_in_lym > 2.5) && (special_forms > 2.5) && (block_of_affere <= 1.5)  => 2']"
+86,['(early_uptake_in <= 1.5) && (block_of_affere <= 1.5)  => 1']
+88,['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']
+92,['(no_of_nodes_in <= 3.5) && (changes_in_node <= 2.5) && (block_of_affere > 1.5)  => 2']
+93,['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']
+94,['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']
+96,['(early_uptake_in > 1.5) && (special_forms <= 1.5) && (block_of_affere <= 1.5)  => 2']
+98,['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']
+99,"['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2', '(changes_in_node > 3.5) && (block_of_affere > 1.5)  => 2']"
+100,"['(no_of_nodes_in <= 1.5) && (changes_in_stru <= 4.0) && (early_uptake_in <= 1.5) && (special_forms <= 1.5) && (block_of_affere <= 1.5)  => 2', '(no_of_nodes_in <= 1.5) && (changes_in_stru <= 4.0) && (early_uptake_in <= 1.5) && (changes_in_lym > 1.5) && (special_forms <= 1.5) && (block_of_affere <= 1.5)  => 2', '(no_of_nodes_in <= 1.5) && (changes_in_stru > 2.0) && (early_uptake_in <= 1.5) && (special_forms <= 1.5) && (block_of_affere <= 1.5)  => 2']"
+103,['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']
+104,"['(no_of_nodes_in <= 3.5) && (changes_in_node <= 2.5) && (block_of_affere > 1.5)  => 2', '(no_of_nodes_in > 1.5) && (changes_in_node <= 2.5) && (block_of_affere > 1.5)  => 2']"
+105,['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']
+106,['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']
+108,['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']
+109,"['(early_uptake_in > 1.5) && (special_forms <= 1.5) && (block_of_affere <= 1.5)  => 2', '(no_of_nodes_in > 1.5) && (changes_in_stru <= 5.5) && (early_uptake_in > 1.5) && (special_forms <= 1.5) && (block_of_affere <= 1.5)  => 2']"
+110,"['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2', '(no_of_nodes_in > 2.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']"
+111,['(early_uptake_in > 1.5) && (changes_in_lym > 2.5) && (special_forms > 1.5) && (block_of_affere <= 1.5)  => 2']
+113,['(no_of_nodes_in <= 3.5) && (changes_in_node <= 2.5) && (block_of_affere > 1.5)  => 2']
+114,['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']
+115,['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']
+116,['(no_of_nodes_in <= 1.5) && (changes_in_stru > 2.0) && (changes_in_node > 2.5) && (early_uptake_in <= 1.5) && (special_forms > 1.5) && (block_of_affere <= 1.5)  => 2']
+118,['(no_of_nodes_in <= 1.5) && (changes_in_stru > 2.0) && (early_uptake_in <= 1.5) && (special_forms <= 1.5) && (block_of_affere <= 1.5)  => 2']
+123,['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']
+126,"['(no_of_nodes_in > 1.5) && (changes_in_stru > 2.0) && (changes_in_node > 2.5) && (early_uptake_in <= 1.5) && (changes_in_lym <= 2.5) && (block_of_affere <= 1.5)  => 2', '(no_of_nodes_in > 1.5) && (changes_in_stru > 2.0) && (early_uptake_in <= 1.5) && (block_of_affere <= 1.5)  => 2']"
+127,['(no_of_nodes_in <= 1.5) && (changes_in_stru > 2.0) && (changes_in_node > 2.5) && (early_uptake_in <= 1.5) && (special_forms > 1.5) && (block_of_affere <= 1.5)  => 2']
+128,"['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2', '(no_of_nodes_in > 2.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']"
+129,['(no_of_nodes_in > 1.5) && (changes_in_stru > 2.0) && (early_uptake_in <= 1.5) && (block_of_affere <= 1.5)  => 2']
+131,['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']
+132,['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']
+134,['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']
+135,"['(no_of_nodes_in > 1.5) && (changes_in_node <= 2.5) && (block_of_affere > 1.5)  => 2', '(no_of_nodes_in > 3.5) && (changes_in_node <= 3.5) && (changes_in_lym > 2.5) && (block_of_affere > 1.5)  => 2', '(no_of_nodes_in > 3.5) && (changes_in_stru > 5.5) && (changes_in_node <= 3.5) && (changes_in_lym > 2.5) && (block_of_affere > 1.5)  => 2']"
+138,"['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2', '(changes_in_node > 3.5) && (block_of_affere > 1.5)  => 2']"
+139,"['(no_of_nodes_in > 2.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2', '(no_of_nodes_in > 2.5) && (changes_in_node > 2.5) && (special_forms > 2.5) && (block_of_affere > 1.5)  => 2', '(no_of_nodes_in > 3.5) && (changes_in_node <= 3.5) && (changes_in_lym > 2.5) && (block_of_affere > 1.5)  => 2']"
+141,['(no_of_nodes_in <= 3.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2']
+142,['(no_of_nodes_in > 1.5) && (changes_in_stru > 2.0) && (early_uptake_in <= 1.5) && (changes_in_lym <= 2.5) && (block_of_affere <= 1.5)  => 4']
+145,"['(no_of_nodes_in <= 1.5) && (changes_in_stru <= 4.0) && (early_uptake_in <= 1.5) && (special_forms <= 1.5) && (block_of_affere <= 1.5)  => 2', '(no_of_nodes_in <= 1.5) && (changes_in_stru > 2.0) && (early_uptake_in <= 1.5) && (special_forms <= 1.5) && (block_of_affere <= 1.5)  => 2']"
+147,['(early_uptake_in > 1.5) && (special_forms <= 1.5) && (block_of_affere <= 1.5)  => 2']
+148,"['(no_of_nodes_in > 2.5) && (changes_in_node > 2.5) && (block_of_affere > 1.5)  => 2', '(no_of_nodes_in > 2.5) && (changes_in_node > 2.5) && (special_forms > 2.5) && (block_of_affere > 1.5)  => 2', '(no_of_nodes_in > 3.5) && (changes_in_node <= 3.5) && (changes_in_lym > 2.5) && (block_of_affere > 1.5)  => 2']"
