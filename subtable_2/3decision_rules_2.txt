@@ -2,9 +2,9 @@
 (block_of_affere <= 1.5) & (special_forms <= 1.5) & (no_of_nodes_in <= 1.5) & (changes_in_stru > 1.5) & (exclusion_of_no <= 1.5) & (changes_in_stru <= 5.5), class: 4
 (block_of_affere <= 1.5) & (special_forms <= 1.5) & (no_of_nodes_in <= 1.5) & (changes_in_stru > 1.5) & (exclusion_of_no <= 1.5) & (changes_in_stru > 5.5), class: 2
 (block_of_affere <= 1.5) & (special_forms <= 1.5) & (no_of_nodes_in <= 1.5) & (changes_in_stru > 1.5) & (exclusion_of_no > 1.5), class: 2
-(block_of_affere <= 1.5) & (special_forms <= 1.5) & (no_of_nodes_in > 1.5) & (changes_in_stru <= 4.5) & (defect_in_node <= 1.5), class: 3
-(block_of_affere <= 1.5) & (special_forms <= 1.5) & (no_of_nodes_in > 1.5) & (changes_in_stru <= 4.5) & (defect_in_node > 1.5), class: 2
-(block_of_affere <= 1.5) & (special_forms <= 1.5) & (no_of_nodes_in > 1.5) & (changes_in_stru > 4.5), class: 4
+(block_of_affere <= 1.5) & (special_forms <= 1.5) & (no_of_nodes_in > 1.5) & (exclusion_of_no <= 1.5) & (defect_in_node <= 1.5), class: 3
+(block_of_affere <= 1.5) & (special_forms <= 1.5) & (no_of_nodes_in > 1.5) & (exclusion_of_no <= 1.5) & (defect_in_node > 1.5), class: 2
+(block_of_affere <= 1.5) & (special_forms <= 1.5) & (no_of_nodes_in > 1.5) & (exclusion_of_no > 1.5), class: 4
 (block_of_affere <= 1.5) & (special_forms > 1.5) & (changes_in_node <= 1.5), class: 1
 (block_of_affere <= 1.5) & (special_forms > 1.5) & (changes_in_node > 1.5) & (no_of_nodes_in <= 2.5) & (changes_in_stru <= 3.5), class: 4
 (block_of_affere <= 1.5) & (special_forms > 1.5) & (changes_in_node > 1.5) & (no_of_nodes_in <= 2.5) & (changes_in_stru > 3.5) & (changes_in_node <= 3.5) & (changes_in_node <= 2.5) & (changes_in_stru <= 4.5), class: 2
@@ -18,26 +18,26 @@
 (block_of_affere <= 1.5) & (special_forms > 1.5) & (changes_in_node > 1.5) & (no_of_nodes_in <= 2.5) & (changes_in_stru > 3.5) & (changes_in_node <= 3.5) & (changes_in_node > 2.5) & (no_of_nodes_in > 1.5) & (special_forms > 2.5) & (changes_in_stru > 4.5), class: 4
 (block_of_affere <= 1.5) & (special_forms > 1.5) & (changes_in_node > 1.5) & (no_of_nodes_in <= 2.5) & (changes_in_stru > 3.5) & (changes_in_node > 3.5), class: 4
 (block_of_affere <= 1.5) & (special_forms > 1.5) & (changes_in_node > 1.5) & (no_of_nodes_in > 2.5) & (no_of_nodes_in <= 4.5) & (no_of_nodes_in <= 3.5), class: 4
-(block_of_affere <= 1.5) & (special_forms > 1.5) & (changes_in_node > 1.5) & (no_of_nodes_in > 2.5) & (no_of_nodes_in <= 4.5) & (no_of_nodes_in > 3.5) & (changes_in_stru <= 5.5) & (changes_in_node <= 3.0) & (changes_in_stru <= 4.5), class: 4
-(block_of_affere <= 1.5) & (special_forms > 1.5) & (changes_in_node > 1.5) & (no_of_nodes_in > 2.5) & (no_of_nodes_in <= 4.5) & (no_of_nodes_in > 3.5) & (changes_in_stru <= 5.5) & (changes_in_node <= 3.0) & (changes_in_stru > 4.5), class: 1
-(block_of_affere <= 1.5) & (special_forms > 1.5) & (changes_in_node > 1.5) & (no_of_nodes_in > 2.5) & (no_of_nodes_in <= 4.5) & (no_of_nodes_in > 3.5) & (changes_in_stru <= 5.5) & (changes_in_node > 3.0), class: 4
-(block_of_affere <= 1.5) & (special_forms > 1.5) & (changes_in_node > 1.5) & (no_of_nodes_in > 2.5) & (no_of_nodes_in <= 4.5) & (no_of_nodes_in > 3.5) & (changes_in_stru > 5.5) & (changes_in_stru <= 7.0), class: 2
-(block_of_affere <= 1.5) & (special_forms > 1.5) & (changes_in_node > 1.5) & (no_of_nodes_in > 2.5) & (no_of_nodes_in <= 4.5) & (no_of_nodes_in > 3.5) & (changes_in_stru > 5.5) & (changes_in_stru > 7.0), class: 4
+(block_of_affere <= 1.5) & (special_forms > 1.5) & (changes_in_node > 1.5) & (no_of_nodes_in > 2.5) & (no_of_nodes_in <= 4.5) & (no_of_nodes_in > 3.5) & (changes_in_node <= 2.5) & (changes_in_stru <= 4.5), class: 4
+(block_of_affere <= 1.5) & (special_forms > 1.5) & (changes_in_node > 1.5) & (no_of_nodes_in > 2.5) & (no_of_nodes_in <= 4.5) & (no_of_nodes_in > 3.5) & (changes_in_node <= 2.5) & (changes_in_stru > 4.5) & (changes_in_stru <= 6.5), class: 1
+(block_of_affere <= 1.5) & (special_forms > 1.5) & (changes_in_node > 1.5) & (no_of_nodes_in > 2.5) & (no_of_nodes_in <= 4.5) & (no_of_nodes_in > 3.5) & (changes_in_node <= 2.5) & (changes_in_stru > 4.5) & (changes_in_stru > 6.5), class: 4
+(block_of_affere <= 1.5) & (special_forms > 1.5) & (changes_in_node > 1.5) & (no_of_nodes_in > 2.5) & (no_of_nodes_in <= 4.5) & (no_of_nodes_in > 3.5) & (changes_in_node > 2.5) & (changes_in_stru <= 5.5), class: 4
+(block_of_affere <= 1.5) & (special_forms > 1.5) & (changes_in_node > 1.5) & (no_of_nodes_in > 2.5) & (no_of_nodes_in <= 4.5) & (no_of_nodes_in > 3.5) & (changes_in_node > 2.5) & (changes_in_stru > 5.5), class: 2
 (block_of_affere <= 1.5) & (special_forms > 1.5) & (changes_in_node > 1.5) & (no_of_nodes_in > 2.5) & (no_of_nodes_in > 4.5), class: 4
 (block_of_affere > 1.5) & (changes_in_node <= 3.5) & (no_of_nodes_in <= 3.5) & (changes_in_node <= 1.5), class: 4
-(block_of_affere > 1.5) & (changes_in_node <= 3.5) & (no_of_nodes_in <= 3.5) & (changes_in_node > 1.5) & (changes_in_node <= 2.5) & (no_of_nodes_in <= 1.5), class: 2
-(block_of_affere > 1.5) & (changes_in_node <= 3.5) & (no_of_nodes_in <= 3.5) & (changes_in_node > 1.5) & (changes_in_node <= 2.5) & (no_of_nodes_in > 1.5) & (defect_in_node <= 3.0), class: 2
-(block_of_affere > 1.5) & (changes_in_node <= 3.5) & (no_of_nodes_in <= 3.5) & (changes_in_node > 1.5) & (changes_in_node <= 2.5) & (no_of_nodes_in > 1.5) & (defect_in_node > 3.0), class: 4
+(block_of_affere > 1.5) & (changes_in_node <= 3.5) & (no_of_nodes_in <= 3.5) & (changes_in_node > 1.5) & (changes_in_node <= 2.5) & (exclusion_of_no <= 1.5), class: 2
+(block_of_affere > 1.5) & (changes_in_node <= 3.5) & (no_of_nodes_in <= 3.5) & (changes_in_node > 1.5) & (changes_in_node <= 2.5) & (exclusion_of_no > 1.5) & (no_of_nodes_in <= 1.5), class: 2
+(block_of_affere > 1.5) & (changes_in_node <= 3.5) & (no_of_nodes_in <= 3.5) & (changes_in_node > 1.5) & (changes_in_node <= 2.5) & (exclusion_of_no > 1.5) & (no_of_nodes_in > 1.5), class: 4
 (block_of_affere > 1.5) & (changes_in_node <= 3.5) & (no_of_nodes_in <= 3.5) & (changes_in_node > 1.5) & (changes_in_node > 2.5) & (no_of_nodes_in <= 2.5), class: 2
 (block_of_affere > 1.5) & (changes_in_node <= 3.5) & (no_of_nodes_in <= 3.5) & (changes_in_node > 1.5) & (changes_in_node > 2.5) & (no_of_nodes_in > 2.5) & (special_forms <= 2.5), class: 2
 (block_of_affere > 1.5) & (changes_in_node <= 3.5) & (no_of_nodes_in <= 3.5) & (changes_in_node > 1.5) & (changes_in_node > 2.5) & (no_of_nodes_in > 2.5) & (special_forms > 2.5) & (changes_in_stru <= 5.0), class: 2
 (block_of_affere > 1.5) & (changes_in_node <= 3.5) & (no_of_nodes_in <= 3.5) & (changes_in_node > 1.5) & (changes_in_node > 2.5) & (no_of_nodes_in > 2.5) & (special_forms > 2.5) & (changes_in_stru > 5.0), class: 4
-(block_of_affere > 1.5) & (changes_in_node <= 3.5) & (no_of_nodes_in > 3.5) & (special_forms <= 1.5), class: 1
-(block_of_affere > 1.5) & (changes_in_node <= 3.5) & (no_of_nodes_in > 3.5) & (special_forms > 1.5) & (changes_in_stru <= 4.5) & (changes_in_node <= 2.5) & (defect_in_node <= 3.0), class: 4
-(block_of_affere > 1.5) & (changes_in_node <= 3.5) & (no_of_nodes_in > 3.5) & (special_forms > 1.5) & (changes_in_stru <= 4.5) & (changes_in_node <= 2.5) & (defect_in_node > 3.0), class: 1
-(block_of_affere > 1.5) & (changes_in_node <= 3.5) & (no_of_nodes_in > 3.5) & (special_forms > 1.5) & (changes_in_stru <= 4.5) & (changes_in_node > 2.5), class: 2
-(block_of_affere > 1.5) & (changes_in_node <= 3.5) & (no_of_nodes_in > 3.5) & (special_forms > 1.5) & (changes_in_stru > 4.5) & (special_forms <= 2.5) & (changes_in_stru <= 6.5), class: 4
-(block_of_affere > 1.5) & (changes_in_node <= 3.5) & (no_of_nodes_in > 3.5) & (special_forms > 1.5) & (changes_in_stru > 4.5) & (special_forms <= 2.5) & (changes_in_stru > 6.5), class: 2
-(block_of_affere > 1.5) & (changes_in_node <= 3.5) & (no_of_nodes_in > 3.5) & (special_forms > 1.5) & (changes_in_stru > 4.5) & (special_forms > 2.5), class: 4
+(block_of_affere > 1.5) & (changes_in_node <= 3.5) & (no_of_nodes_in > 3.5) & (changes_in_stru <= 4.5) & (changes_in_node <= 2.5) & (no_of_nodes_in <= 6.5), class: 4
+(block_of_affere > 1.5) & (changes_in_node <= 3.5) & (no_of_nodes_in > 3.5) & (changes_in_stru <= 4.5) & (changes_in_node <= 2.5) & (no_of_nodes_in > 6.5), class: 1
+(block_of_affere > 1.5) & (changes_in_node <= 3.5) & (no_of_nodes_in > 3.5) & (changes_in_stru <= 4.5) & (changes_in_node > 2.5), class: 2
+(block_of_affere > 1.5) & (changes_in_node <= 3.5) & (no_of_nodes_in > 3.5) & (changes_in_stru > 4.5) & (special_forms <= 1.5), class: 1
+(block_of_affere > 1.5) & (changes_in_node <= 3.5) & (no_of_nodes_in > 3.5) & (changes_in_stru > 4.5) & (special_forms > 1.5) & (special_forms <= 2.5) & (changes_in_node <= 2.5), class: 2
+(block_of_affere > 1.5) & (changes_in_node <= 3.5) & (no_of_nodes_in > 3.5) & (changes_in_stru > 4.5) & (special_forms > 1.5) & (special_forms <= 2.5) & (changes_in_node > 2.5), class: 4
+(block_of_affere > 1.5) & (changes_in_node <= 3.5) & (no_of_nodes_in > 3.5) & (changes_in_stru > 4.5) & (special_forms > 1.5) & (special_forms > 2.5), class: 4
 (block_of_affere > 1.5) & (changes_in_node > 3.5) & (no_of_nodes_in <= 1.5), class: 2
 (block_of_affere > 1.5) & (changes_in_node > 3.5) & (no_of_nodes_in > 1.5), class: 4
