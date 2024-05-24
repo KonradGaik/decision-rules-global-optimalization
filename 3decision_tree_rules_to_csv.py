@@ -37,7 +37,7 @@ def process_csv_file(csv_file, index, output_folder):
     df = pd.read_csv(csv_file)
     X = df.drop(columns=['class'])
     y = df['class']
-    clf = DecisionTreeClassifier(criterion='gini',max_depth=None, random_state=0)
+    clf = DecisionTreeClassifier(criterion='gini',max_depth=None, random_state=1234)
     clf.fit(X, y)
     depth = clf.tree_.max_depth
     print(f"Głębokość drzewa {index}: {depth}")

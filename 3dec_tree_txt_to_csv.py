@@ -1,42 +1,55 @@
 import csv
+import re
 
-# Funkcja do wczytywania reguł decyzyjnych z pliku tekstowego
-def read_decision_rules(filename):
-    with open(filename, 'r') as file:
-        return [line.strip() for line in file]
+# Funkcja do parsowania wierszy z pliku tekstowego
+def parse_line(line, attributes):
+    parts = line.strip().split(", class: ")
+    class_label = parts[1]
+    conditions = parts[0].split(") & (")
+    conditions[0] = conditions[0][1:]  # Usunięcie początkowego nawiasu '('
+    conditions[-1] = conditions[-1][:-1]  # Usunięcie końcowego nawiasu ')'
+    
+    condition_dict = {attr: "" for attr in attributes}
+    condition_dict["class"] = class_label
+    for condition in conditions:
+        for key in condition_dict.keys():
+            if key in condition:
+                condition_dict[key] = condition.strip()
+                break
+    
+    return condition_dict
 
-# Funkcja do określenia maksymalnej liczby warunków w regułach
-def max_conditions_length(rules):
-    max_length = 0
-    for rule in rules:
-        conditions, _ = rule.split(', class: ')
-        conditions = conditions.split('&')
-        length = len(conditions)
-        if length > max_length:
-            max_length = length
-    return max_length
+# Wczytanie pliku tekstowego i przetworzenie jego zawartości
+input_file = "subtable_1/3decision_rules_1.txt"
+output_file = "output.csv"
 
-# Wczytaj reguły decyzyjne z pliku tekstowego i określ maksymalną liczbę warunków
-max_rule_length = 0
-for x in range(1, 6):
-    decision_rules = read_decision_rules(f'subtable_{x}/3decision_rules_{x}.txt')
-    max_rule_length = max(max_rule_length, max_conditions_length(decision_rules))
+with open(input_file, "r") as file:
+    lines = file.readlines()
 
-# Utwórz listę nazw kolumn, uwzględniając maksymalną liczbę warunków
-column_names = [f"condition_{i}" for i in range(1, max_rule_length + 1)] + ["class_label"]
+# Ekstrakcja wszystkich unikalnych atrybutów
+attribute_set = set()
+for line in lines:
+    parts = line.strip().split(", class: ")[0]
+    conditions = parts.split(") & (")
+    conditions[0] = conditions[0][1:]  # Usunięcie początkowego nawiasu '('
+    conditions[-1] = conditions[-1][:-1]  # Usunięcie końcowego nawiasu ')'
+    
+    for condition in conditions:
+        attr_name = condition.split(" ")[0]
+        attribute_set.add(attr_name)
 
-# Wczytaj reguły decyzyjne z pliku tekstowego
-for x in range(1, 6):
-    decision_rules = read_decision_rules(f'subtable_{x}/3decision_rules_{x}.txt')
+attributes = list(attribute_set)
+attributes.sort()  # Sortowanie atrybutów dla uporządkowanego CSV
+attributes.append("class")
 
-    with open(f'subtable_{x}/3decision_rules{x}.csv', 'w', newline='') as csvfile:
-        writer = csv.writer(csvfile)
-        writer.writerow(column_names)
-        for rule in decision_rules:
-            conditions, class_label = rule.split(', class: ')
-            conditions = conditions.split('&')
-            conditions = [c.strip().replace('(', '').replace(')', '') for c in conditions]
-            conditions.extend([''] * (max_rule_length - len(conditions)))  # Uzupełnij puste kolumny
-            row = conditions + [class_label]
-            writer.writerow(row)
-        print(f"Reguły decyzyjne zostały zapisane do pliku decision_rules{x}.csv!")
+parsed_lines = [parse_line(line, attributes) for line in lines]
+
+# Zapisanie wyników do pliku CSV
+with open(output_file, "w", newline='') as csvfile:
+    writer = csv.DictWriter(csvfile, fieldnames=attributes)
+    
+    writer.writeheader()
+    for parsed_line in parsed_lines:
+        writer.writerow(parsed_line)
+
+print(f"Plik CSV został wygenerowany: {output_file}")
