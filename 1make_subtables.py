@@ -2,15 +2,17 @@ import os
 import pandas as pd
 
 for x in range(5):
-  print(x)
-  if not os.path.exists(f'subtable_{x+1}'):
-    os.makedirs(f'subtable_{x+1}')
-
+    print(x)
+    if not os.path.exists(f'subtable_{x+1}'):
+        os.makedirs(f'subtable_{x+1}')
 
 # KROK 1 
 # Utworzenie podtablic z reduktów
 # Wczytaj plik CSV
 df = pd.read_csv('modified_lymphography.csv')
+
+# Usuwanie wierszy zawierających ciąg 'c,c,c,c,c,c' w dowolnej kolejności
+df = df[~df.apply(lambda row: all(value == 'c' for value in row), axis=1)]
 
 # Lista reductów
 reducts = [

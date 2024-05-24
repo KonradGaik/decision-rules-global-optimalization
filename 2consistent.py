@@ -32,12 +32,6 @@ def save_to_csv(decision_grouped, folder_path, file_name):
                 row = list(combination) + [decision]
                 writer.writerow(row)
 
-# def create_folder(folder_name):
-#     if not os.path.exists(folder_name):
-#         os.makedirs(folder_name)
-
-# folder_name = "2consistent_data"
-# create_folder(folder_name)
 
 for x in range(0, 5):
   print(x)

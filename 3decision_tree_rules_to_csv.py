@@ -1,17 +1,18 @@
 import os
 import numpy as np
 import pandas as pd
-from sklearn.tree import DecisionTreeClassifier, plot_tree
+from sklearn.tree import DecisionTreeClassifier
 from sklearn.tree import _tree
 import matplotlib.pyplot as plt
+from sklearn.tree import plot_tree
 
 def get_rules(tree, feature_names, class_names):
     tree_ = tree.tree_
+
     feature_name = [
         feature_names[i] if i != _tree.TREE_UNDEFINED else "undefined!"
         for i in tree_.feature
     ]
-
     paths = []
     path = []
 
@@ -27,70 +28,42 @@ def get_rules(tree, feature_names, class_names):
         else:
             class_index = np.argmax(tree_.value[node])
             class_decision = class_names[class_index]
-            rule = " & ".join(path) + f" => {class_decision}"
+            rule = f"{' & '.join(path)}, class: {class_decision}"
             paths.append(rule)
-
     recurse(0, path, paths)
-
     return paths
 
 def process_csv_file(csv_file, index, output_folder):
-    # Read data from the CSV file
     df = pd.read_csv(csv_file)
-
-    # Separate features from the target variable
     X = df.drop(columns=['class'])
     y = df['class']
-
-    # Train the decision tree classifier
     clf = DecisionTreeClassifier(criterion='gini', random_state=1234)
     clf.fit(X, y)
-    # Check the depth of the tree
     depth = clf.tree_.max_depth
     print(f"Głębokość drzewa {index}: {depth}")
-
-    # Get class names and convert to string
     class_names = list(map(str, df['class'].unique()))
-
-    # Get rules
     rules = get_rules(clf, X.columns, class_names)
 
-    # Initialize an empty DataFrame to store rules
-    df_rules = pd.DataFrame(columns=X.columns)  # Create columns for each attribute
-    for i, rule in enumerate(rules, start=1):
-        descriptors = rule.split(" & ")
-        decision = descriptors[-1].split(" => ")[1]
-        descriptors = descriptors[:-1]
-        descriptors.extend([np.nan] * (len(X.columns) - len(descriptors)))  # Fill missing descriptors
-        df_rules.at[i, "class"] = decision
-        for descriptor in descriptors:
-            if isinstance(descriptor, str):  # Ensure descriptor is a string before iterating
-                for col in X.columns:
-                    if col in descriptor:
-                        df_rules.at[i, col] = descriptor
+    output_file = os.path.join(output_folder, f"3decision_rules_{index}.txt")
+    with open(output_file, 'w') as f:
+        for rule in rules:
+            f.write(rule + '\n')
 
-    # Save rules to CSV file
-    output_file = os.path.join(output_folder, f"3decision_rules_{index}.csv")
-    df_rules.to_csv(output_file, index=False)
-
-    # Generate and save the decision tree as a JPG file using matplotlib
+    # Generowanie i zapisywanie drzewa decyzyjnego jako plik JPG
     plt.figure(figsize=(20,10))
     plot_tree(clf, feature_names=X.columns, class_names=class_names, filled=True, rounded=True)
-    jpg_file = os.path.join(output_folder, f"3decision_tree_{index}.jpg")
-    plt.savefig(jpg_file)
+    tree_image_path = os.path.join(output_folder, f"3decision_tree_{index}.jpg")
+    plt.savefig(tree_image_path)
     plt.close()
+    print(f"Tree image saved to: {tree_image_path}")
 
     return rules, X, y
 
-# Iterate over subtable folders
 for folder_index in range(1, 6):
     folder_name = f'subtable_{folder_index}'
-    csv_file = os.path.join(folder_name, f'2consistent_modified_lymphography{folder_index}.csv')
-    
-    # Check if the file exists
+    csv_file = os.path.join(folder_name, f'1lymphography_reduct_subtable_{folder_index}.csv')
     if os.path.exists(csv_file):
         print(f"Found file: {csv_file}")
-        # Process CSV file
         rules, X, y = process_csv_file(csv_file, folder_index, folder_name)
     else:
         print(f"File not found: {csv_file}")
