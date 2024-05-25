@@ -18,38 +18,38 @@ def parse_line(line, attributes):
                 break
     
     return condition_dict
+for i in range(1,6):
+    # Wczytanie pliku tekstowego i przetworzenie jego zawartości
+    input_file = f"subtable_{i}/3decision_rules_{i}.txt"
+    output_file = f"subtable_{i}/3decision_rules_{i}.csv"
 
-# Wczytanie pliku tekstowego i przetworzenie jego zawartości
-input_file = "subtable_1/3decision_rules_1.txt"
-output_file = "output.csv"
+    with open(input_file, "r") as file:
+        lines = file.readlines()
 
-with open(input_file, "r") as file:
-    lines = file.readlines()
+    # Ekstrakcja wszystkich unikalnych atrybutów
+    attribute_set = set()
+    for line in lines:
+        parts = line.strip().split(", class: ")[0]
+        conditions = parts.split(") & (")
+        conditions[0] = conditions[0][1:]  # Usunięcie początkowego nawiasu '('
+        conditions[-1] = conditions[-1][:-1]  # Usunięcie końcowego nawiasu ')'
+        
+        for condition in conditions:
+            attr_name = condition.split(" ")[0]
+            attribute_set.add(attr_name)
 
-# Ekstrakcja wszystkich unikalnych atrybutów
-attribute_set = set()
-for line in lines:
-    parts = line.strip().split(", class: ")[0]
-    conditions = parts.split(") & (")
-    conditions[0] = conditions[0][1:]  # Usunięcie początkowego nawiasu '('
-    conditions[-1] = conditions[-1][:-1]  # Usunięcie końcowego nawiasu ')'
-    
-    for condition in conditions:
-        attr_name = condition.split(" ")[0]
-        attribute_set.add(attr_name)
+    attributes = list(attribute_set)
+    attributes.sort()  # Sortowanie atrybutów dla uporządkowanego CSV
+    attributes.append("class")
 
-attributes = list(attribute_set)
-attributes.sort()  # Sortowanie atrybutów dla uporządkowanego CSV
-attributes.append("class")
+    parsed_lines = [parse_line(line, attributes) for line in lines]
 
-parsed_lines = [parse_line(line, attributes) for line in lines]
+    # Zapisanie wyników do pliku CSV
+    with open(output_file, "w", newline='') as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=attributes)
+        
+        writer.writeheader()
+        for parsed_line in parsed_lines:
+            writer.writerow(parsed_line)
 
-# Zapisanie wyników do pliku CSV
-with open(output_file, "w", newline='') as csvfile:
-    writer = csv.DictWriter(csvfile, fieldnames=attributes)
-    
-    writer.writeheader()
-    for parsed_line in parsed_lines:
-        writer.writerow(parsed_line)
-
-print(f"Plik CSV został wygenerowany: {output_file}")
+    print(f"Plik CSV został wygenerowany: {output_file}")

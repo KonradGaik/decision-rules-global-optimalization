@@ -1,10 +1,10 @@
 import os
 import pandas as pd
 
-for x in range(5):
+for x in range(1,6):
     print(x)
-    if not os.path.exists(f'subtable_{x+1}'):
-        os.makedirs(f'subtable_{x+1}')
+    if not os.path.exists(f'subtable_{x}'):
+        os.makedirs(f'subtable_{x}')
 
 # KROK 1 
 # Utworzenie podtablic z reduktów
