@@ -7,7 +7,6 @@ def replace_inconsistencies(csv_file):
     with open(csv_file, 'r') as file:
         reader = csv.reader(file)
         for row in reader:
-            # Pomijamy wiersz, jeśli wszystkie wartości w nim są "c"
             if all(value == "c" for value in row):
                 continue
             attribute_combination = tuple(row[:-1])

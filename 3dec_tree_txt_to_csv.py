@@ -1,13 +1,12 @@
 import csv
 import re
 
-# Funkcja do parsowania wierszy z pliku tekstowego
 def parse_line(line, attributes):
     parts = line.strip().split(", class: ")
     class_label = parts[1]
     conditions = parts[0].split(") & (")
-    conditions[0] = conditions[0][1:]  # Usunięcie początkowego nawiasu '('
-    conditions[-1] = conditions[-1][:-1]  # Usunięcie końcowego nawiasu ')'
+    conditions[0] = conditions[0][1:]
+    conditions[-1] = conditions[-1][:-1]
     
     condition_dict = {attr: "" for attr in attributes}
     condition_dict["class"] = class_label
@@ -19,32 +18,29 @@ def parse_line(line, attributes):
     
     return condition_dict
 for i in range(1,6):
-    # Wczytanie pliku tekstowego i przetworzenie jego zawartości
     input_file = f"subtable_{i}/3decision_rules_{i}.txt"
     output_file = f"subtable_{i}/3decision_rules_{i}.csv"
 
     with open(input_file, "r") as file:
         lines = file.readlines()
 
-    # Ekstrakcja wszystkich unikalnych atrybutów
     attribute_set = set()
     for line in lines:
         parts = line.strip().split(", class: ")[0]
         conditions = parts.split(") & (")
-        conditions[0] = conditions[0][1:]  # Usunięcie początkowego nawiasu '('
-        conditions[-1] = conditions[-1][:-1]  # Usunięcie końcowego nawiasu ')'
+        conditions[0] = conditions[0][1:] 
+        conditions[-1] = conditions[-1][:-1]
         
         for condition in conditions:
             attr_name = condition.split(" ")[0]
             attribute_set.add(attr_name)
 
     attributes = list(attribute_set)
-    attributes.sort()  # Sortowanie atrybutów dla uporządkowanego CSV
+    attributes.sort()
     attributes.append("class")
 
     parsed_lines = [parse_line(line, attributes) for line in lines]
-
-    # Zapisanie wyników do pliku CSV
+ 
     with open(output_file, "w", newline='') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=attributes)
         

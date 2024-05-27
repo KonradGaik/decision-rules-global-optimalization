@@ -2,9 +2,7 @@ import os
 import pandas as pd
 
 def evaluate_rule(row_value, rule_value):
-    # Usunięcie zbędnych nawiasów i spacji, jeśli istnieją
     rule_value = rule_value.replace('(', '').replace(')', '').strip()
-    # Sprawdzenie, czy reguła jest w postaci warunku
     if '>' in rule_value:
         value = float(rule_value.split('>')[-1].strip())
         return row_value > value
@@ -17,7 +15,7 @@ def evaluate_rule(row_value, rule_value):
 def match_rules_to_rows(data_df, rules_df):
     matched_rows = []
     for i, row in data_df.iterrows():
-        row_number = i + 1  # Numer wiersza w danych
+        row_number = i + 1  
         matched_rules = []
         for j, rule_row in rules_df.iterrows():
             rule = ""
@@ -48,17 +46,14 @@ def match_rules_to_rows(data_df, rules_df):
 
 
 for i in range(1, 6):
-    # Ścieżki do plików danych i reguł
+
     csv_file_data = os.path.join(f"./", f"1consistent_lymphography.csv")
     csv_file_rules = os.path.join(f"./", f"3decision_rules_1.csv")
-    
-    # Wczytanie danych i reguł
+
     data_df = pd.read_csv(csv_file_data)
     rules_df = pd.read_csv(csv_file_rules)
     
-    # Wywołanie funkcji match_rules_to_rows
     matched_rows = match_rules_to_rows(data_df, rules_df)
     
-    # Zapisanie wyniku do pliku CSV
     output_file = os.path.join(f"./", f"5matched_rows_shortest.csv")
     matched_rows.to_csv(output_file, index=False)

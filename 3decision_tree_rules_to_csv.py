@@ -49,7 +49,7 @@ def process_csv_file(csv_file, index, output_folder):
         for rule in rules:
             f.write(rule + '\n')
 
-    # Generowanie i zapisywanie drzewa decyzyjnego jako plik JPG
+
     plt.figure(figsize=(20,10))
     plot_tree(clf, feature_names=X.columns, class_names=class_names, filled=True, rounded=True)
     tree_image_path = os.path.join(output_folder, f"3decision_tree_{index}.jpg")
