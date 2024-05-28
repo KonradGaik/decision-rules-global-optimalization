@@ -9,7 +9,7 @@ def parse_line(line, attributes):
     conditions[-1] = conditions[-1][:-1]
     
     condition_dict = {attr: "" for attr in attributes}
-    condition_dict["class"] = class_label
+    condition_dict["Class"] = class_label
     for condition in conditions:
         for key in condition_dict.keys():
             if key in condition:
@@ -18,8 +18,8 @@ def parse_line(line, attributes):
     
     return condition_dict
 
-input_file = f"./3decision_rules_1.txt"
-output_file = f"./3decision_rules_1.csv"
+input_file = f"./decision_rules.txt"
+output_file = f"./decision_rules.csv"
 
 with open(input_file, "r") as file:
     lines = file.readlines()
@@ -38,7 +38,7 @@ for line in lines:
 
 attributes = list(attribute_set)
 attributes.sort() 
-attributes.append("class")
+attributes.append("Class")
 
 parsed_lines = [parse_line(line, attributes) for line in lines]
 

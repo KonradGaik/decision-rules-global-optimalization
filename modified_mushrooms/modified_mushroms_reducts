@@ -1,6 +1,0 @@
-REDUCTS (5)
-{ bruises, odor, stalk-surface-above-ring, habitat } 1.0
-{ bruises, stalk-root, ring-number, spore-print-color } 1.0
-{ odor, stalk-root, ring-type, habitat } 1.0
-{ bruises, stalk-root, spore-print-color, population } 1.0
-{ odor, spore-print-color, population, habitat } 1.0
