@@ -1,0 +1,6 @@
+REDUCTS
+dislocation_of, changes_in_node, block_of_affere, special_forms, no_of_nodes_in, changes_in_stru
+changes_in_node, defect_in_node, block_of_affere, exclusion_of_no, special_forms, no_of_nodes_in, changes_in_stru
+changes_in_node, defect_in_node, changes_in_lym, block_of_affere, special_forms, no_of_nodes_in, changes_in_stru
+early_uptake_in, changes_in_node, changes_in_lym, block_of_affere, special_forms, no_of_nodes_in, changes_in_stru
+early_uptake_in, changes_in_node, block_of_affere, exclusion_of_no, special_forms, no_of_nodes_in, changes_in_stru
