@@ -1,6 +1,0 @@
-REDUCTS (5)
-{ block_of_affere, changes_in_node, changes_in_stru, special_forms, dislocation_of, no_of_nodes_in } 1.0
-{ block_of_affere, defect_in_node, changes_in_node, changes_in_stru, special_forms, exclusion_of_no, no_of_nodes_in } 1.0
-{ block_of_affere, changes_in_lym, defect_in_node, changes_in_node, changes_in_stru, special_forms, no_of_nodes_in } 1.0
-{ block_of_affere, early_uptake_in, changes_in_lym, changes_in_node, changes_in_stru, special_forms, no_of_nodes_in } 1.0
-{ block_of_affere, early_uptake_in, changes_in_node, changes_in_stru, special_forms, exclusion_of_no, no_of_nodes_in } 1.0

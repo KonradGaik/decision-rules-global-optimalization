@@ -1,2 +1,0 @@
-# decision-rules-global-optimalization
-
