@@ -17,9 +17,10 @@ def parse_line(line, attributes):
                 break
     
     return condition_dict
+
 for i in range(1,6):
-    input_file = f"subtable_{i}/3decision_rules_{i}.txt"
-    output_file = f"subtable_{i}/3decision_rules_{i}.csv"
+    input_file = f"subtable_{i}/decision_rules_{i}.txt"
+    output_file = f"subtable_{i}/decision_rules{i}.csv"
 
     with open(input_file, "r") as file:
         lines = file.readlines()

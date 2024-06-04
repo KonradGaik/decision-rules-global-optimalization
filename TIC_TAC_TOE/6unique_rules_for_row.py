@@ -23,6 +23,6 @@ def count_unique_rules(file_path, inx):
     return output_file_path
 
 for i in range(1, 6):
-    file_path = f'./subtable_{i}/4matched_rows_{i}.csv'
+    file_path = f'./subtable_{i}/matched_rows{i}.csv'
     output_file = count_unique_rules(file_path, i)
     print(f"Wynik zapisano do: {output_file}")

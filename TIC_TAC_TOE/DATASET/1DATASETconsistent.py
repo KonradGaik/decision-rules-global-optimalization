@@ -33,4 +33,4 @@ def save_to_csv(decision_grouped, folder_path, file_name):
 
 csv_file = f"./encoded_tic_tac_toe.csv"
 decision_grouped = replace_inconsistencies(csv_file)
-save_to_csv(decision_grouped, f'.', f"consistent_lymphography.csv")
+save_to_csv(decision_grouped, f'.', f"consistent_tic-tac-toe.csv")

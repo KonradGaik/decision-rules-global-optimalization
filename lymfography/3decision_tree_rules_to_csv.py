@@ -37,18 +37,23 @@ def process_csv_file(csv_file, index, output_folder):
     df = pd.read_csv(csv_file)
     X = df.drop(columns=['class'])
     y = df['class']
-    clf = DecisionTreeClassifier(criterion='gini',max_depth=None, random_state=1234)
+    clf = DecisionTreeClassifier(criterion='gini', max_depth=None, random_state=1234)
     clf.fit(X, y)
     depth = clf.tree_.max_depth
     print(f"Głębokość drzewa {index}: {depth}")
     class_names = list(map(str, df['class'].unique()))
     rules = get_rules(clf, X.columns, class_names)
 
+    # Calculate rule lengths
+    rule_lengths = [rule.count('&') + 1 for rule in rules]
+    min_length = min(rule_lengths)
+    max_length = max(rule_lengths)
+    print(f"Długość reguł decyzyjnych (min, max): ({min_length}, {max_length})")
+
     output_file = os.path.join(output_folder, f"3decision_rules_{index}.txt")
     with open(output_file, 'w') as f:
         for rule in rules:
             f.write(rule + '\n')
-
 
     plt.figure(figsize=(20,10))
     plot_tree(clf, feature_names=X.columns, class_names=class_names, filled=True, rounded=True)

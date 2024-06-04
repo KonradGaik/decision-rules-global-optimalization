@@ -20,7 +20,7 @@ def count_unique_rules(file_path, inx):
     df['Unique Rule Count'] = df['Matched Rules'].apply(unique_rule_count)
     
     # Zapisz wynik do nowego pliku CSV
-    output_file_path = (f'./6after_unique_rule_count.csv')
+    output_file_path = (f'./unique_rule_count.csv')
     df.to_csv(output_file_path, index=False)
     return output_file_path
 i = ''

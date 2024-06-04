@@ -59,7 +59,7 @@ def process_csv_file(csv_file, index, output_folder):
     return rules, X, y
 
 
-csv_file = os.path.join('./', f'consistent_lymphography.csv')
+csv_file = os.path.join('./', f'consistent_tic-tac-toe.csv')
 if os.path.exists(csv_file):
     print(f"Found file: {csv_file}")
     rules, X, y = process_csv_file(csv_file, 1, '.')

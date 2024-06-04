@@ -29,10 +29,7 @@ def match_rules_to_rows(data_df, rules_df):
                         else:
                             is_matched = False
                             break
-                    else:
-                        if str(row['Class']) != str(rule_value):
-                            is_matched = False
-                            break
+
             if is_matched and rule_length > 0:
                 matched_rule_strings.add(rule)
                 matched_rules.append({'Rule': rule[:-4] + f" => {rule_row['Class']}", 'Rule Length': rule_length})
@@ -50,7 +47,7 @@ def match_rules_to_rows(data_df, rules_df):
 
 
 
-csv_file_data = os.path.join(f"./", f"consistent_lymphography.csv")
+csv_file_data = os.path.join(f"./", f"consistent_tic-tac-toe.csv")
 csv_file_rules = os.path.join(f"./", f"decision_rules.csv")
 
 

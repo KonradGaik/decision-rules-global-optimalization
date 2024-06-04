@@ -39,7 +39,7 @@ for x in range(0, 5):
 
 
 
-for i in range(0, 5):
-    csv_file = f"./subtable_{i+1}/1lymphography_reduct_subtable_{i+1}.csv"
+for i in range(1, 6):
+    csv_file = f"./subtable_{i}/encoded_tic_tac_toe_{i}.csv"
     decision_grouped = replace_inconsistencies(csv_file)
-    save_to_csv(decision_grouped, f'subtable_{i+1}', f"2consistent_modified_lymphography{i+1}.csv")
+    save_to_csv(decision_grouped, f'subtable_{i}', f"consistent_modified_tic-tac-toe{i}.csv")

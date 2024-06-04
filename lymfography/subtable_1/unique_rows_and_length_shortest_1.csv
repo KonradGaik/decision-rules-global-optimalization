@@ -1,0 +1,91 @@
+Row Number,Rule,Rule Length
+2,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+3,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+4,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+8,block_of_affere <= 1.5 && changes_in_stru > 1.5 && dislocation_of > 1.5 && no_of_nodes_in <= 1.5 && special_forms <= 1.5  => 2,5
+9,block_of_affere <= 1.5 && changes_in_node <= 3.5 && changes_in_stru > 3.5 && dislocation_of <= 1.5 && no_of_nodes_in > 3.0 && special_forms > 1.5  => 2,6
+10,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+11,block_of_affere > 1.5 && changes_in_node <= 2.5 && no_of_nodes_in <= 1.5  => 2,3
+14,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in > 2.5 && special_forms <= 2.5  => 2,4
+15,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+16,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+17,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+18,block_of_affere > 1.5 && changes_in_node <= 2.5 && no_of_nodes_in <= 1.5  => 2,3
+20,block_of_affere > 1.5 && changes_in_node <= 2.5 && dislocation_of > 1.5 && no_of_nodes_in > 1.5  => 4,4
+21,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+22,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in > 2.5 && special_forms <= 2.5  => 2,4
+23,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in > 2.5 && special_forms <= 2.5  => 2,4
+24,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+25,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+26,block_of_affere <= 1.5 && changes_in_stru > 1.5 && dislocation_of > 1.5 && no_of_nodes_in <= 1.5 && special_forms <= 1.5  => 2,5
+27,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+28,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+31,block_of_affere > 1.5 && changes_in_node <= 2.5 && no_of_nodes_in <= 1.5  => 2,3
+36,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+41,block_of_affere <= 1.5 && changes_in_stru > 1.5 && dislocation_of > 1.5 && no_of_nodes_in <= 1.5 && special_forms <= 1.5  => 2,5
+42,block_of_affere <= 1.5 && changes_in_stru > 1.5 && dislocation_of > 1.5 && no_of_nodes_in <= 1.5 && special_forms <= 1.5  => 2,5
+43,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+44,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+45,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+53,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+54,block_of_affere > 1.5 && changes_in_node <= 2.5 && dislocation_of > 1.5 && no_of_nodes_in > 1.5  => 4,4
+55,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+56,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+57,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+58,block_of_affere <= 1.5 && changes_in_stru > 1.5 && dislocation_of > 1.5 && no_of_nodes_in <= 1.5 && special_forms <= 1.5  => 2,5
+60,block_of_affere <= 1.5 && changes_in_node <= 3.5 && changes_in_stru > 3.5 && dislocation_of <= 1.5 && no_of_nodes_in <= 1.5 && special_forms > 1.5  => 2,6
+61,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+62,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+63,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+66,block_of_affere > 1.5 && changes_in_node > 2.5 && changes_in_stru <= 5.0 && no_of_nodes_in > 2.5 && special_forms > 2.5  => 2,5
+66,block_of_affere > 1.5 && changes_in_node > 2.5 && changes_in_stru <= 4.5 && no_of_nodes_in > 3.5 && special_forms > 1.5  => 2,5
+69,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+71,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+72,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+73,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+76,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in > 2.5 && special_forms <= 2.5  => 2,4
+79,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+81,block_of_affere > 1.5 && changes_in_node > 2.5 && changes_in_stru <= 5.0 && no_of_nodes_in > 2.5 && special_forms > 2.5  => 2,5
+84,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in > 2.5 && special_forms <= 2.5  => 2,4
+85,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in > 2.5 && special_forms <= 2.5  => 2,4
+86,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+87,block_of_affere <= 1.5 && changes_in_node <= 3.5 && changes_in_stru > 3.5 && dislocation_of <= 1.5 && no_of_nodes_in <= 1.5 && special_forms > 1.5  => 2,6
+91,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+95,block_of_affere > 1.5 && changes_in_node <= 2.5 && no_of_nodes_in <= 1.5  => 2,3
+96,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+97,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+99,block_of_affere <= 1.5 && changes_in_stru > 5.5 && dislocation_of <= 1.5 && no_of_nodes_in <= 1.5 && special_forms <= 1.5  => 2,5
+100,block_of_affere <= 1.5 && changes_in_stru > 5.5 && dislocation_of <= 1.5 && no_of_nodes_in <= 1.5 && special_forms <= 1.5  => 2,5
+102,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+103,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+104,block_of_affere > 1.5 && changes_in_node > 3.5 && no_of_nodes_in <= 1.5  => 2,3
+104,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+105,block_of_affere <= 1.5 && changes_in_stru > 1.5 && dislocation_of > 1.5 && no_of_nodes_in <= 1.5 && special_forms <= 1.5  => 2,5
+109,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+110,block_of_affere > 1.5 && changes_in_node <= 2.5 && dislocation_of <= 1.5 && no_of_nodes_in > 1.5  => 2,4
+111,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+112,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+113,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+114,block_of_affere <= 1.5 && dislocation_of > 1.5 && no_of_nodes_in > 1.5 && special_forms <= 2.5  => 2,4
+114,block_of_affere <= 1.5 && changes_in_node > 1.5 && changes_in_stru <= 4.5 && no_of_nodes_in > 1.5 && special_forms <= 1.5  => 2,5
+115,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in > 2.5 && special_forms <= 2.5  => 2,4
+116,block_of_affere <= 1.5 && dislocation_of > 1.5 && no_of_nodes_in > 1.5 && special_forms <= 2.5  => 2,4
+118,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+119,block_of_affere > 1.5 && changes_in_node <= 2.5 && no_of_nodes_in <= 1.5  => 2,3
+120,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+121,block_of_affere <= 1.5 && changes_in_node <= 3.5 && changes_in_stru > 3.5 && dislocation_of <= 1.5 && no_of_nodes_in <= 1.5 && special_forms > 1.5  => 2,6
+129,block_of_affere <= 1.5 && dislocation_of > 1.5 && no_of_nodes_in > 1.5 && special_forms <= 2.5  => 2,4
+130,block_of_affere <= 1.5 && changes_in_node <= 3.5 && changes_in_stru > 3.5 && dislocation_of <= 1.5 && no_of_nodes_in <= 1.5 && special_forms > 1.5  => 2,6
+131,block_of_affere <= 1.5 && changes_in_node <= 3.5 && changes_in_stru <= 4.5 && dislocation_of <= 1.5 && no_of_nodes_in <= 3.0 && special_forms > 1.5  => 2,6
+134,block_of_affere > 1.5 && changes_in_node <= 3.5 && changes_in_stru > 6.5 && no_of_nodes_in > 3.5 && special_forms <= 2.5  => 2,5
+134,block_of_affere > 1.5 && changes_in_node <= 2.5 && dislocation_of <= 1.5 && no_of_nodes_in > 1.5  => 2,4
+137,block_of_affere > 1.5 && changes_in_node > 3.5 && no_of_nodes_in <= 1.5  => 2,3
+137,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+138,block_of_affere > 1.5 && changes_in_node > 2.5 && changes_in_stru <= 5.0 && no_of_nodes_in > 2.5 && special_forms > 2.5  => 2,5
+138,block_of_affere > 1.5 && changes_in_node > 2.5 && changes_in_stru <= 4.5 && no_of_nodes_in > 3.5 && special_forms > 1.5  => 2,5
+140,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+143,block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5  => 2,3
+145,block_of_affere <= 1.5 && changes_in_stru > 1.5 && dislocation_of > 1.5 && no_of_nodes_in <= 1.5 && special_forms <= 1.5  => 2,5
+147,block_of_affere <= 1.5 && changes_in_stru > 1.5 && dislocation_of > 1.5 && no_of_nodes_in <= 1.5 && special_forms <= 1.5  => 2,5
+148,block_of_affere > 1.5 && changes_in_node > 2.5 && changes_in_stru <= 5.0 && no_of_nodes_in > 2.5 && special_forms > 2.5  => 2,5
+148,block_of_affere > 1.5 && changes_in_node > 2.5 && changes_in_stru <= 4.5 && no_of_nodes_in > 3.5 && special_forms > 1.5  => 2,5
