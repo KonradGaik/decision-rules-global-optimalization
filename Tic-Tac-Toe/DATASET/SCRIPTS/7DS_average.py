@@ -5,11 +5,11 @@ def count_conditions(rule):
     return rule.count('&&') + 1
 
 # Funkcja do obliczania średniej długości reguł w wierszu, zaokrąglonej do liczby całkowitej i zamiany kropki na przecinek
-def average_rule_length(rules):
-    rules_list = [rule.strip() for rule in rules.split(",")]
-    lengths = [count_conditions(rule.split("=>")[0]) for rule in rules_list]
-    average_length = (sum(lengths) / len(lengths))
-    return str(average_length).replace('.', ',')
+def average_rule_length(rule):
+    rule = rule.strip()
+    condition_part = rule.split("=>")[0]
+    length = count_conditions(condition_part)
+    return str(length).replace('.', ',')
 
 # Odczytaj plik CSV
 input_file = '../RESULTS/6matched_rows_unique.csv'
