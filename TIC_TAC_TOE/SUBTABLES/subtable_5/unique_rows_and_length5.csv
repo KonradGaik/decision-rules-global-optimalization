@@ -1,0 +1,959 @@
+Row Number,Matched Rules,Matched Rules
+1,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-x > 0.5 => negative', 'Rule Length': 5},)",5
+2,"bottom-left-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x <= 0.5 && top-left-square-x > 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 7},)",7
+3,"bottom-left-square-o > 0.5 && bottom-left-square-x <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-b <= 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o > 0.5 && middle-right-square-x <= 0.5 && top-left-square-b <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 13},)",13
+4,"bottom-left-square-x <= 0.5 && bottom-middle-square-b > 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 6},)",6
+5,"bottom-left-square-o <= 0.5 && bottom-left-square-x <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-b > 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o > 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 10},)",10
+6,"bottom-left-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x <= 0.5 && top-left-square-x > 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 7},)",7
+7,"bottom-left-square-o > 0.5 && bottom-left-square-x <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-b > 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x <= 0.5 && top-left-square-b <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 11},)",11
+8,"bottom-left-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x <= 0.5 && top-left-square-x > 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 7},)",7
+9,"bottom-left-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x <= 0.5 && top-left-square-x > 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 7},)",7
+10,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+11,"bottom-left-square-o > 0.5 && bottom-middle-square-b > 0.5 && bottom-middle-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-left-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 9},)",9
+12,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+13,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+14,"bottom-left-square-o > 0.5 && bottom-middle-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-left-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 8},)",8
+15,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+16,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+17,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+18,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+19,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+20,"bottom-left-square-o > 0.5 && bottom-middle-square-o <= 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 8},)",8
+21,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+22,"bottom-left-square-x > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-b <= 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-b <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x > 0.5 && top-left-square-x > 0.5 => negative', 'Rule Length': 9},)",9
+23,"bottom-left-square-x <= 0.5 && bottom-middle-square-o <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 7},)",7
+24,"bottom-left-square-x <= 0.5 && bottom-middle-square-o > 0.5 && middle-left-square-b <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 8},)",8
+25,"bottom-left-square-x <= 0.5 && bottom-middle-square-o <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 7},)",7
+26,"bottom-left-square-x <= 0.5 && bottom-middle-square-o > 0.5 && middle-left-square-b <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 8},)",8
+27,"bottom-left-square-x <= 0.5 && bottom-middle-square-o <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 7},)",7
+28,"bottom-left-square-x > 0.5 && bottom-middle-square-o > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-b > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-b <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-b > 0.5 && middle-right-square-x <= 0.5 && top-left-square-x > 0.5 => negative', 'Rule Length': 11},)",11
+29,"bottom-left-square-x > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-b <= 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x <= 0.5 && top-left-square-x > 0.5 => negative', 'Rule Length': 8},)",8
+30,"bottom-left-square-x <= 0.5 && bottom-middle-square-o <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 7},)",7
+31,"bottom-left-square-x <= 0.5 && bottom-middle-square-o <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 7},)",7
+32,"bottom-left-square-x <= 0.5 && bottom-middle-square-o <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 7},)",7
+33,"bottom-left-square-x <= 0.5 && bottom-middle-square-o > 0.5 && middle-left-square-b <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 8},)",8
+34,"bottom-left-square-x <= 0.5 && bottom-middle-square-o <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 7},)",7
+35,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+36,"bottom-left-square-o > 0.5 && bottom-middle-square-o <= 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 8},)",8
+37,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+38,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+39,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+40,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+41,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+42,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+43,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+44,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+45,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+46,"bottom-left-square-o > 0.5 && bottom-middle-square-o <= 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && middle-right-square-x <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 9},)",9
+47,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+48,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+49,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+50,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+51,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+52,"bottom-left-square-o > 0.5 && bottom-middle-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-left-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 8},)",8
+53,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+54,"bottom-left-square-o > 0.5 && bottom-left-square-x <= 0.5 && bottom-middle-square-o > 0.5 && middle-left-square-b > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 9},)",9
+55,"bottom-left-square-x <= 0.5 && bottom-middle-square-o <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 7},)",7
+56,"bottom-left-square-o <= 0.5 && bottom-left-square-x <= 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5 && middle-left-square-b > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 10},)",10
+57,"bottom-left-square-x > 0.5 && bottom-middle-square-o > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-b > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-b <= 0.5 && middle-right-square-x <= 0.5 && top-left-square-x > 0.5 => negative', 'Rule Length': 10},)",10
+58,"bottom-left-square-x > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-b <= 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x <= 0.5 && top-left-square-x > 0.5 => negative', 'Rule Length': 8},)",8
+59,"bottom-left-square-x <= 0.5 && middle-left-square-b > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o > 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 6},)",6
+60,"bottom-left-square-x <= 0.5 && middle-left-square-b > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o > 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 6},)",6
+61,"bottom-left-square-x <= 0.5 && middle-left-square-b > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o > 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 6},)",6
+62,"bottom-left-square-x <= 0.5 && middle-left-square-b > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o > 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 6},)",6
+63,"bottom-left-square-x <= 0.5 && middle-left-square-b > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o > 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 6},)",6
+64,"bottom-left-square-x > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-b <= 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x <= 0.5 && top-left-square-x > 0.5 => negative', 'Rule Length': 8},)",8
+65,"bottom-left-square-x <= 0.5 && bottom-middle-square-o <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 7},)",7
+66,"bottom-left-square-o > 0.5 && bottom-left-square-x <= 0.5 && bottom-middle-square-o > 0.5 && middle-left-square-b > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 9},)",9
+67,"bottom-left-square-x <= 0.5 && bottom-middle-square-o <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 7},)",7
+68,"bottom-left-square-o <= 0.5 && bottom-left-square-x <= 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-b > 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-b > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && middle-right-square-x <= 0.5 && top-left-square-b <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 13},)",13
+69,"bottom-left-square-x <= 0.5 && bottom-middle-square-o <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 7},)",7
+70,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+71,"bottom-left-square-o > 0.5 && bottom-middle-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-left-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 8},)",8
+72,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+73,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+74,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+75,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+76,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+77,"bottom-left-square-o > 0.5 && bottom-middle-square-o <= 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 8},)",8
+78,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+79,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+80,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-x > 0.5 => negative', 'Rule Length': 5},)",5
+81,"bottom-left-square-x > 0.5 && bottom-middle-square-o > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-b <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 8},)",8
+82,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-x > 0.5 => negative', 'Rule Length': 5},)",5
+83,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-x > 0.5 => negative', 'Rule Length': 5},)",5
+84,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-x > 0.5 => negative', 'Rule Length': 5},)",5
+85,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+86,"bottom-left-square-o <= 0.5 && bottom-left-square-x > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 8},)",8
+87,"bottom-left-square-o > 0.5 && bottom-middle-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x <= 0.5 => negative', 'Rule Length': 7},)",7
+88,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+89,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+90,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+91,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+92,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+93,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+94,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+95,"bottom-left-square-o <= 0.5 && bottom-left-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 6},)",6
+96,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+97,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+98,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+99,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+100,"bottom-left-square-o > 0.5 && bottom-middle-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x <= 0.5 => negative', 'Rule Length': 7},)",7
+101,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+102,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-x > 0.5 => negative', 'Rule Length': 5},)",5
+103,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-x > 0.5 => negative', 'Rule Length': 5},)",5
+104,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-x > 0.5 => negative', 'Rule Length': 5},)",5
+105,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+106,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+107,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+108,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+109,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+110,"bottom-left-square-o > 0.5 && bottom-middle-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x <= 0.5 => negative', 'Rule Length': 7},)",7
+111,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+112,"bottom-left-square-o > 0.5 && bottom-middle-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-left-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 8},)",8
+113,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+114,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+115,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+116,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-x > 0.5 => negative', 'Rule Length': 5},)",5
+117,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-x > 0.5 => negative', 'Rule Length': 5},)",5
+118,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-x > 0.5 => negative', 'Rule Length': 5},)",5
+119,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+120,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+121,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+122,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+123,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+124,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+125,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+126,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+127,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+128,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+129,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+130,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+131,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+132,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+133,"bottom-left-square-x <= 0.5 && bottom-middle-square-o <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 7},)",7
+134,"bottom-left-square-x <= 0.5 && bottom-middle-square-o <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 7},)",7
+135,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+136,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+137,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+138,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+139,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+140,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+141,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+142,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+143,"bottom-left-square-x <= 0.5 && bottom-middle-square-o <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 7},)",7
+144,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+145,"bottom-left-square-o <= 0.5 && bottom-left-square-x > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 8},)",8
+146,"bottom-left-square-o > 0.5 && bottom-middle-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x <= 0.5 => negative', 'Rule Length': 7},)",7
+147,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+148,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+149,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+150,"bottom-left-square-o <= 0.5 && bottom-left-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 6},)",6
+151,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+152,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+153,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+154,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+155,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+156,"bottom-left-square-o <= 0.5 && bottom-left-square-x > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 8},)",8
+157,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+158,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+159,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-x > 0.5 => negative', 'Rule Length': 5},)",5
+160,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-x > 0.5 => negative', 'Rule Length': 5},)",5
+161,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 => negative', 'Rule Length': 4},)",4
+162,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-x > 0.5 => negative', 'Rule Length': 5},)",5
+163,"bottom-left-square-x > 0.5 && bottom-middle-square-o <= 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-x > 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 8},)",8
+164,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+165,"bottom-left-square-o <= 0.5 && bottom-left-square-x > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 8},)",8
+166,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+167,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+168,"bottom-left-square-o <= 0.5 && bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-o > 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-b > 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 10},)",10
+169,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+170,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+171,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+172,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+173,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+174,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+175,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+176,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+177,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 => negative', 'Rule Length': 4},)",4
+178,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+179,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+180,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+181,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+182,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+183,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+184,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+185,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+186,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 => negative', 'Rule Length': 4},)",4
+187,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+188,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+189,"bottom-left-square-o > 0.5 && bottom-middle-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x <= 0.5 => negative', 'Rule Length': 7},)",7
+190,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+191,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+192,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+193,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+194,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+195,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+196,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+197,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-x > 0.5 => negative', 'Rule Length': 5},)",5
+198,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-x > 0.5 => negative', 'Rule Length': 5},)",5
+199,"bottom-left-square-x > 0.5 && bottom-middle-square-o <= 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o > 0.5 => negative', 'Rule Length': 7},)",7
+200,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-x > 0.5 => negative', 'Rule Length': 5},)",5
+201,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-x > 0.5 => negative', 'Rule Length': 5},)",5
+202,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+203,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+204,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+205,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+206,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+207,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+208,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+209,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+210,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+211,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+212,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+213,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+214,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+215,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 => negative', 'Rule Length': 4},)",4
+216,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+217,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+218,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+219,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+220,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+221,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+222,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+223,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 => negative', 'Rule Length': 4},)",4
+224,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-x > 0.5 => negative', 'Rule Length': 5},)",5
+225,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-x > 0.5 => negative', 'Rule Length': 5},)",5
+226,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-x > 0.5 => negative', 'Rule Length': 5},)",5
+227,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+228,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+229,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+230,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+231,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+232,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+233,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+234,"bottom-left-square-x <= 0.5 && bottom-middle-square-o <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 7},)",7
+235,"bottom-left-square-x <= 0.5 && bottom-middle-square-o > 0.5 && middle-left-square-b <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 8},)",8
+236,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+237,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+238,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+239,"bottom-left-square-o > 0.5 && bottom-left-square-x <= 0.5 && bottom-middle-square-o > 0.5 && middle-left-square-b > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 9},)",9
+240,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+241,"bottom-left-square-o > 0.5 && bottom-middle-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x <= 0.5 => negative', 'Rule Length': 7},)",7
+242,"bottom-left-square-o <= 0.5 && bottom-left-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 6},)",6
+243,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+244,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+245,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+246,"bottom-left-square-o <= 0.5 && bottom-left-square-x > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 8},)",8
+247,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+248,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-x > 0.5 => negative', 'Rule Length': 5},)",5
+249,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-x > 0.5 => negative', 'Rule Length': 5},)",5
+250,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-x > 0.5 => negative', 'Rule Length': 5},)",5
+251,"bottom-left-square-x > 0.5 && bottom-middle-square-o <= 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o > 0.5 => negative', 'Rule Length': 7},)",7
+252,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-x > 0.5 => negative', 'Rule Length': 5},)",5
+253,"bottom-left-square-x > 0.5 && bottom-middle-square-o > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-b <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 8},)",8
+254,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-x > 0.5 => negative', 'Rule Length': 5},)",5
+255,"bottom-left-square-o <= 0.5 && bottom-left-square-x > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 8},)",8
+256,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+257,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+258,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+259,"bottom-left-square-o <= 0.5 && bottom-left-square-x > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 8},)",8
+260,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+261,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+262,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+263,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+264,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+265,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+266,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+267,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 => negative', 'Rule Length': 4},)",4
+268,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+269,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+270,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+271,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+272,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+273,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+274,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+275,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 => negative', 'Rule Length': 4},)",4
+276,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+277,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+278,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-x > 0.5 => negative', 'Rule Length': 5},)",5
+279,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-x > 0.5 => negative', 'Rule Length': 5},)",5
+280,"bottom-left-square-x > 0.5 && bottom-middle-square-o > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-b <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 8},)",8
+281,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-x > 0.5 => negative', 'Rule Length': 5},)",5
+282,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-x > 0.5 => negative', 'Rule Length': 5},)",5
+283,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-x > 0.5 => negative', 'Rule Length': 5},)",5
+284,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+285,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+286,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+287,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+288,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+289,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+290,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+291,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+292,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+293,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+294,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+295,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+296,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+297,"bottom-left-square-o > 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-b <= 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-o <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o <= 0.5 && middle-middle-square-x > 0.5 && middle-right-square-b <= 0.5 && middle-right-square-x <= 0.5 && top-left-square-o > 0.5 && top-right-square-b <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 13},)",13
+298,"bottom-left-square-x <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x > 0.5 && top-left-square-o > 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 8},)",8
+299,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+300,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+301,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+302,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+303,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+304,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+305,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+306,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+307,"bottom-left-square-x > 0.5 && bottom-middle-square-o > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-b <= 0.5 && top-left-square-x <= 0.5 => negative', 'Rule Length': 8},)",8
+308,"bottom-left-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && middle-right-square-x > 0.5 && top-left-square-o > 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 8},)",8
+309,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+310,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+311,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+312,"bottom-left-square-o > 0.5 && bottom-right-square-b > 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-b <= 0.5 => negative', 'Rule Length': 6},)",6
+313,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+314,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+315,"bottom-left-square-o > 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-b <= 0.5 && middle-left-square-o <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-b > 0.5 && top-left-square-o > 0.5 && top-right-square-b <= 0.5 => negative', 'Rule Length': 9},)",9
+316,"bottom-left-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && middle-right-square-x > 0.5 && top-left-square-o > 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 8},)",8
+317,"bottom-left-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && middle-right-square-x > 0.5 && top-left-square-o > 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 8},)",8
+318,"bottom-left-square-o > 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-b <= 0.5 && middle-left-square-o <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o <= 0.5 && middle-middle-square-x <= 0.5 && middle-right-square-b <= 0.5 && top-left-square-o > 0.5 && top-right-square-b <= 0.5 => negative', 'Rule Length': 10},)",10
+319,"bottom-left-square-o <= 0.5 && bottom-left-square-x > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 8},)",8
+320,"bottom-left-square-o > 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-b <= 0.5 && middle-left-square-o <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o <= 0.5 && middle-middle-square-x > 0.5 && middle-right-square-b <= 0.5 && middle-right-square-x > 0.5 && top-left-square-o > 0.5 && top-right-square-b <= 0.5 => negative', 'Rule Length': 11},)",11
+321,"bottom-left-square-o > 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-b <= 0.5 && middle-left-square-o <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o <= 0.5 && middle-middle-square-x > 0.5 && middle-right-square-b <= 0.5 && middle-right-square-x > 0.5 && top-left-square-o > 0.5 && top-right-square-b <= 0.5 => negative', 'Rule Length': 11},)",11
+322,"bottom-left-square-o > 0.5 && bottom-right-square-b > 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-b <= 0.5 => negative', 'Rule Length': 6},)",6
+323,"bottom-left-square-b > 0.5 && bottom-left-square-o <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 10},)",10
+324,"bottom-left-square-o <= 0.5 && bottom-left-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 6},)",6
+325,"bottom-left-square-o > 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-b <= 0.5 && middle-left-square-o <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o <= 0.5 && middle-middle-square-x > 0.5 && middle-right-square-b <= 0.5 && middle-right-square-x <= 0.5 && top-left-square-o > 0.5 && top-right-square-b <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 12},)",12
+326,"bottom-left-square-o <= 0.5 && bottom-left-square-x <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-b > 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-o <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-b <= 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 12},)",12
+327,"bottom-left-square-o > 0.5 && bottom-right-square-b > 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-b <= 0.5 => negative', 'Rule Length': 6},)",6
+328,"bottom-left-square-o <= 0.5 && bottom-left-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 6},)",6
+329,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 => negative', 'Rule Length': 4},)",4
+330,"bottom-left-square-o <= 0.5 && bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-o > 0.5 && middle-left-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-b <= 0.5 && middle-right-square-o <= 0.5 && top-left-square-x <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 10},)",10
+331,"bottom-left-square-b > 0.5 && bottom-left-square-o <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-o <= 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-o > 0.5 && middle-middle-square-b <= 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-x > 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 11},)",11
+332,"bottom-left-square-o <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-x <= 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 8},)",8
+333,"bottom-left-square-o <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-x <= 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 8},)",8
+334,"bottom-left-square-o <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-x <= 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 8},)",8
+335,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 => negative', 'Rule Length': 4},)",4
+336,"bottom-left-square-o <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-x <= 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 8},)",8
+337,"bottom-left-square-o > 0.5 && bottom-right-square-b > 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-b <= 0.5 => negative', 'Rule Length': 6},)",6
+338,"bottom-left-square-o <= 0.5 && bottom-left-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 6},)",6
+339,"bottom-left-square-o <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-o <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 9},)",9
+340,"bottom-left-square-o <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-o <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 9},)",9
+341,"bottom-left-square-o <= 0.5 && bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-o > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-b > 0.5 && middle-right-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 9},)",9
+342,"bottom-left-square-o > 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-b <= 0.5 && middle-left-square-o <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-b > 0.5 && top-left-square-o > 0.5 && top-right-square-b <= 0.5 => negative', 'Rule Length': 9},)",9
+343,"bottom-left-square-b > 0.5 && bottom-left-square-o <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-o <= 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-b > 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && middle-middle-square-x > 0.5 && middle-right-square-o <= 0.5 && middle-right-square-x <= 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 14},)",14
+344,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 => negative', 'Rule Length': 4},)",4
+345,"bottom-left-square-o <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-o <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 9},)",9
+346,"bottom-left-square-o > 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-b > 0.5 => negative', 'Rule Length': 5},)",5
+347,"bottom-left-square-o > 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-b > 0.5 => negative', 'Rule Length': 5},)",5
+348,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+349,"bottom-left-square-o > 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-b > 0.5 => negative', 'Rule Length': 5},)",5
+350,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+351,"bottom-left-square-o > 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-b > 0.5 => negative', 'Rule Length': 5},)",5
+352,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+353,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+354,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+355,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+356,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+357,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 => negative', 'Rule Length': 4},)",4
+358,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+359,"bottom-left-square-o > 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-b > 0.5 => negative', 'Rule Length': 5},)",5
+360,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+361,"bottom-left-square-o > 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-b > 0.5 => negative', 'Rule Length': 5},)",5
+362,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+363,"bottom-left-square-o > 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-b > 0.5 => negative', 'Rule Length': 5},)",5
+364,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+365,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 => negative', 'Rule Length': 4},)",4
+366,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+367,"bottom-left-square-o > 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-b <= 0.5 && middle-left-square-o <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o <= 0.5 && middle-middle-square-x > 0.5 && middle-right-square-b <= 0.5 && middle-right-square-x > 0.5 && top-left-square-o > 0.5 && top-right-square-b <= 0.5 => negative', 'Rule Length': 11},)",11
+368,"bottom-left-square-o > 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-b <= 0.5 && middle-left-square-o <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o <= 0.5 && middle-middle-square-x > 0.5 && middle-right-square-b <= 0.5 && middle-right-square-x > 0.5 && top-left-square-o > 0.5 && top-right-square-b <= 0.5 => negative', 'Rule Length': 11},)",11
+369,"bottom-left-square-o > 0.5 && bottom-right-square-b > 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-b <= 0.5 => negative', 'Rule Length': 6},)",6
+370,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+371,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+372,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+373,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+374,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+375,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+376,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+377,"bottom-left-square-x <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x > 0.5 && top-left-square-o > 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 8},)",8
+378,"bottom-left-square-x <= 0.5 && bottom-middle-square-b > 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 6},)",6
+379,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 => negative', 'Rule Length': 4},)",4
+380,"bottom-left-square-o > 0.5 && bottom-middle-square-b > 0.5 && bottom-right-square-b <= 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-b <= 0.5 => negative', 'Rule Length': 7},)",7
+381,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+382,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+383,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+384,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+385,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+386,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+387,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+388,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+389,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 => negative', 'Rule Length': 4},)",4
+390,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+391,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+392,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+393,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+394,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+395,"bottom-left-square-o > 0.5 && bottom-middle-square-b > 0.5 && bottom-right-square-b <= 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-b <= 0.5 => negative', 'Rule Length': 7},)",7
+396,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+397,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+398,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+399,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+400,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+401,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+402,"bottom-left-square-x > 0.5 && bottom-middle-square-o <= 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 7},)",7
+403,"bottom-left-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && middle-right-square-x > 0.5 && top-left-square-o > 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 8},)",8
+404,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 => negative', 'Rule Length': 4},)",4
+405,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+406,"bottom-left-square-o > 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-b <= 0.5 && middle-left-square-o <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o <= 0.5 && middle-middle-square-x <= 0.5 && middle-right-square-b <= 0.5 && top-left-square-o > 0.5 && top-right-square-b <= 0.5 => negative', 'Rule Length': 10},)",10
+407,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+408,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+409,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+410,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+411,"bottom-left-square-o > 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-b > 0.5 => negative', 'Rule Length': 5},)",5
+412,"bottom-left-square-o > 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-b > 0.5 => negative', 'Rule Length': 5},)",5
+413,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+414,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+415,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+416,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 => negative', 'Rule Length': 4},)",4
+417,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+418,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+419,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+420,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+421,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 => negative', 'Rule Length': 4},)",4
+422,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+423,"bottom-left-square-o > 0.5 && bottom-right-square-b > 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-b <= 0.5 => negative', 'Rule Length': 6},)",6
+424,"bottom-left-square-o > 0.5 && bottom-middle-square-b > 0.5 && bottom-right-square-b <= 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-b <= 0.5 => negative', 'Rule Length': 7},)",7
+425,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+426,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+427,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+428,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+429,"bottom-left-square-x <= 0.5 && bottom-middle-square-b > 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 6},)",6
+430,"bottom-left-square-x <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x > 0.5 && top-left-square-o > 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 8},)",8
+431,"bottom-left-square-o > 0.5 && bottom-middle-square-b <= 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-b <= 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-o <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o <= 0.5 && middle-middle-square-x <= 0.5 && middle-right-square-b <= 0.5 && top-left-square-o > 0.5 && top-right-square-b <= 0.5 => negative', 'Rule Length': 12},)",12
+432,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+433,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+434,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+435,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+436,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+437,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+438,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+439,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+440,"bottom-left-square-x > 0.5 && bottom-middle-square-o <= 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 7},)",7
+441,"bottom-left-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && middle-right-square-x > 0.5 && top-left-square-o > 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 8},)",8
+442,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 => negative', 'Rule Length': 4},)",4
+443,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+444,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+445,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+446,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+447,"bottom-left-square-o > 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-b <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-o <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o <= 0.5 && middle-middle-square-x > 0.5 && middle-right-square-b <= 0.5 && top-left-square-o > 0.5 && top-right-square-b <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 12},)",12
+448,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+449,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+450,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+451,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+452,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+453,"bottom-left-square-x > 0.5 && bottom-middle-square-o > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-b <= 0.5 && top-left-square-x <= 0.5 => negative', 'Rule Length': 8},)",8
+454,"bottom-left-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && middle-right-square-x > 0.5 && top-left-square-o > 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 8},)",8
+455,"bottom-left-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && middle-right-square-x > 0.5 && top-left-square-o > 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 8},)",8
+456,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 => negative', 'Rule Length': 4},)",4
+457,"bottom-left-square-o > 0.5 && bottom-middle-square-b > 0.5 && bottom-right-square-b <= 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-b <= 0.5 => negative', 'Rule Length': 7},)",7
+458,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+459,"bottom-left-square-b <= 0.5 && bottom-left-square-o <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-b > 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 11},)",11
+460,"bottom-left-square-o <= 0.5 && bottom-left-square-x > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 8},)",8
+461,"bottom-left-square-o > 0.5 && bottom-right-square-b > 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-b <= 0.5 => negative', 'Rule Length': 6},)",6
+462,"bottom-left-square-o > 0.5 && bottom-middle-square-b > 0.5 && bottom-right-square-b <= 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-b <= 0.5 => negative', 'Rule Length': 7},)",7
+463,"bottom-left-square-o <= 0.5 && bottom-left-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 6},)",6
+464,"bottom-left-square-b > 0.5 && bottom-left-square-o <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 10},)",10
+465,"bottom-left-square-b > 0.5 && bottom-left-square-o <= 0.5 && bottom-middle-square-b > 0.5 && bottom-right-square-b > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 8},)",8
+466,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 => negative', 'Rule Length': 4},)",4
+467,"bottom-left-square-o <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-o <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-b > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 10},)",10
+468,"bottom-left-square-o <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-x <= 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 8},)",8
+469,"bottom-left-square-o <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-o > 0.5 && middle-middle-square-b > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-x > 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 9},)",9
+470,"bottom-left-square-o <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-o <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 9},)",9
+471,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 => negative', 'Rule Length': 4},)",4
+472,"bottom-left-square-o <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-b > 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && middle-middle-square-x <= 0.5 && middle-right-square-o <= 0.5 && middle-right-square-x <= 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 12},)",12
+473,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+474,"bottom-left-square-o > 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-b > 0.5 => negative', 'Rule Length': 5},)",5
+475,"bottom-left-square-o > 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-b > 0.5 => negative', 'Rule Length': 5},)",5
+476,"bottom-left-square-o > 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-b > 0.5 => negative', 'Rule Length': 5},)",5
+477,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+478,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+479,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 => negative', 'Rule Length': 4},)",4
+480,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+481,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 => negative', 'Rule Length': 4},)",4
+482,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+483,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 => negative', 'Rule Length': 4},)",4
+484,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+485,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+486,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+487,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+488,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+489,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+490,"bottom-left-square-o > 0.5 && bottom-middle-square-o <= 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && middle-right-square-x <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 9},)",9
+491,"bottom-left-square-x <= 0.5 && bottom-middle-square-o <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 7},)",7
+492,"bottom-left-square-x <= 0.5 && bottom-middle-square-o > 0.5 && middle-left-square-b <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 8},)",8
+493,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+494,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+495,"bottom-left-square-o > 0.5 && bottom-middle-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-left-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 8},)",8
+496,"bottom-left-square-o > 0.5 && bottom-left-square-x <= 0.5 && bottom-middle-square-o > 0.5 && middle-left-square-b > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 9},)",9
+497,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+498,"bottom-left-square-o > 0.5 && bottom-middle-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x <= 0.5 => negative', 'Rule Length': 7},)",7
+499,"bottom-left-square-o <= 0.5 && bottom-left-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 6},)",6
+500,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+501,"bottom-left-square-o > 0.5 && bottom-middle-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x <= 0.5 => negative', 'Rule Length': 7},)",7
+502,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+503,"bottom-left-square-o <= 0.5 && bottom-left-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 6},)",6
+504,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+505,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+506,"bottom-left-square-o <= 0.5 && bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-o > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-b > 0.5 && middle-right-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 9},)",9
+507,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+508,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+509,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 => negative', 'Rule Length': 4},)",4
+510,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+511,"bottom-left-square-o > 0.5 && bottom-middle-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x <= 0.5 => negative', 'Rule Length': 7},)",7
+512,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+513,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+514,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+515,"bottom-left-square-o <= 0.5 && bottom-left-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 6},)",6
+516,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 => negative', 'Rule Length': 4},)",4
+517,"bottom-left-square-o > 0.5 && bottom-middle-square-b <= 0.5 && bottom-middle-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-left-square-o <= 0.5 && top-left-square-x <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 10},)",10
+518,"bottom-left-square-o > 0.5 && bottom-middle-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x <= 0.5 => negative', 'Rule Length': 7},)",7
+519,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+520,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+521,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+522,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+523,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+524,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+525,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+526,"bottom-left-square-o > 0.5 && bottom-middle-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x <= 0.5 => negative', 'Rule Length': 7},)",7
+527,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+528,"bottom-left-square-o > 0.5 && bottom-middle-square-o <= 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 8},)",8
+529,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+530,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+531,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+532,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+533,"bottom-left-square-x <= 0.5 && bottom-middle-square-b > 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 6},)",6
+534,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+535,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+536,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+537,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+538,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+539,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+540,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+541,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+542,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+543,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+544,"bottom-left-square-x > 0.5 && bottom-middle-square-o <= 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 7},)",7
+545,"bottom-left-square-x <= 0.5 && bottom-middle-square-o <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 7},)",7
+546,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 => negative', 'Rule Length': 4},)",4
+547,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+548,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+549,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+550,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+551,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+552,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+553,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+554,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+555,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+556,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+557,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+558,"bottom-left-square-x <= 0.5 && bottom-middle-square-o <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 7},)",7
+559,"bottom-left-square-x <= 0.5 && bottom-middle-square-o <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 7},)",7
+560,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 => negative', 'Rule Length': 4},)",4
+561,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+562,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+563,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+564,"bottom-left-square-o <= 0.5 && bottom-left-square-x > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 8},)",8
+565,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+566,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+567,"bottom-left-square-o <= 0.5 && bottom-left-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 6},)",6
+568,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+569,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+570,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 => negative', 'Rule Length': 4},)",4
+571,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+572,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+573,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+574,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+575,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 => negative', 'Rule Length': 4},)",4
+576,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+577,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+578,"bottom-left-square-o > 0.5 && bottom-middle-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x <= 0.5 => negative', 'Rule Length': 7},)",7
+579,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+580,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+581,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+582,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+583,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 => negative', 'Rule Length': 4},)",4
+584,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+585,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 => negative', 'Rule Length': 4},)",4
+586,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+587,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 => negative', 'Rule Length': 4},)",4
+588,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+589,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+590,"bottom-left-square-o > 0.5 && bottom-left-square-x <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-b > 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 9},)",9
+591,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+592,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+593,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+594,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+595,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+596,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+597,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+598,"bottom-left-square-x > 0.5 && bottom-middle-square-o > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-o > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x > 0.5 && top-left-square-b > 0.5 => negative', 'Rule Length': 8},)",8
+599,"bottom-left-square-x <= 0.5 && bottom-middle-square-o <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 7},)",7
+600,"bottom-left-square-x <= 0.5 && bottom-middle-square-o <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 7},)",7
+601,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+602,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+603,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+604,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+605,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+606,"bottom-left-square-x <= 0.5 && bottom-middle-square-o <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 7},)",7
+607,"bottom-left-square-o <= 0.5 && bottom-left-square-x <= 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-b > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-b > 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => negative', 'Rule Length': 11},)",11
+608,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+609,"bottom-left-square-o <= 0.5 && bottom-left-square-x > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 8},)",8
+610,"bottom-left-square-o > 0.5 && bottom-middle-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x <= 0.5 => negative', 'Rule Length': 7},)",7
+611,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+612,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+613,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+614,"bottom-left-square-o <= 0.5 && bottom-left-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 6},)",6
+615,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 => negative', 'Rule Length': 4},)",4
+616,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+617,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 => negative', 'Rule Length': 4},)",4
+618,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+619,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 => negative', 'Rule Length': 4},)",4
+620,"bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => negative', 'Rule Length': 5},)",5
+621,"bottom-left-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => negative', 'Rule Length': 4},)",4
+622,"bottom-left-square-o > 0.5 && bottom-middle-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x <= 0.5 => negative', 'Rule Length': 7},)",7
+623,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+624,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 => negative', 'Rule Length': 4},)",4
+625,"bottom-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-right-square-o <= 0.5 => negative', 'Rule Length': 3},)",3
+626,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 => negative', 'Rule Length': 4},)",4
+627,"bottom-left-square-o > 0.5 && bottom-middle-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 7},)",7
+628,"bottom-left-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 5},)",5
+629,"bottom-left-square-o > 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => positive', 'Rule Length': 5},)",5
+630,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+631,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+632,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+633,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+634,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+635,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+636,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+637,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+638,"bottom-left-square-o > 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => positive', 'Rule Length': 5},)",5
+639,"bottom-left-square-o > 0.5 && bottom-middle-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 7},)",7
+640,"bottom-left-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 5},)",5
+641,"bottom-left-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 5},)",5
+642,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+643,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+644,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x > 0.5 => positive', 'Rule Length': 6},)",6
+645,"bottom-left-square-x > 0.5 && bottom-middle-square-o <= 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o > 0.5 => positive', 'Rule Length': 7},)",7
+646,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+647,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+648,"bottom-left-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 5},)",5
+649,"bottom-left-square-o > 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => positive', 'Rule Length': 5},)",5
+650,"bottom-left-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 5},)",5
+651,"bottom-left-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 5},)",5
+652,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+653,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+654,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+655,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x > 0.5 => positive', 'Rule Length': 6},)",6
+656,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+657,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+658,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+659,"bottom-left-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 5},)",5
+660,"bottom-left-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 5},)",5
+661,"bottom-left-square-o > 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => positive', 'Rule Length': 5},)",5
+662,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+663,"bottom-left-square-o > 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => positive', 'Rule Length': 5},)",5
+664,"bottom-left-square-o > 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => positive', 'Rule Length': 5},)",5
+665,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x > 0.5 => positive', 'Rule Length': 6},)",6
+666,"bottom-left-square-x > 0.5 && bottom-middle-square-o > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-b <= 0.5 && top-left-square-x > 0.5 => positive', 'Rule Length': 8},)",8
+667,"bottom-left-square-x > 0.5 && bottom-middle-square-o <= 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-b > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x > 0.5 => positive', 'Rule Length': 8},)",8
+668,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+669,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+670,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+671,"bottom-left-square-o > 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => positive', 'Rule Length': 5},)",5
+672,"bottom-left-square-o > 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => positive', 'Rule Length': 5},)",5
+673,"bottom-left-square-o > 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => positive', 'Rule Length': 5},)",5
+674,"bottom-left-square-o > 0.5 && bottom-left-square-x <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x > 0.5 && top-left-square-b <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => positive', 'Rule Length': 10},)",10
+675,"bottom-left-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x > 0.5 && top-left-square-x > 0.5 && top-right-square-x > 0.5 => positive', 'Rule Length': 7},)",7
+676,"bottom-left-square-o <= 0.5 && bottom-left-square-x <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-b <= 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o > 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => positive', 'Rule Length': 10},)",10
+677,"bottom-left-square-o > 0.5 && bottom-left-square-x <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-b <= 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && middle-right-square-x <= 0.5 && top-left-square-b <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => positive', 'Rule Length': 13},)",13
+678,"bottom-left-square-o <= 0.5 && bottom-left-square-x <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => positive', 'Rule Length': 9},)",9
+679,"bottom-left-square-o > 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => positive', 'Rule Length': 5},)",5
+680,"bottom-left-square-x > 0.5 && bottom-middle-square-o > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-b > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x > 0.5 && top-left-square-x > 0.5 => positive', 'Rule Length': 9},)",9
+681,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x > 0.5 => positive', 'Rule Length': 6},)",6
+682,"bottom-left-square-x > 0.5 && bottom-middle-square-o <= 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o > 0.5 => positive', 'Rule Length': 7},)",7
+683,"bottom-left-square-x <= 0.5 && middle-left-square-b <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o > 0.5 && top-right-square-x > 0.5 => positive', 'Rule Length': 6},)",6
+684,"bottom-left-square-x > 0.5 && bottom-middle-square-o > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-b <= 0.5 && top-left-square-x > 0.5 => positive', 'Rule Length': 8},)",8
+685,"bottom-left-square-o > 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => positive', 'Rule Length': 5},)",5
+686,"bottom-left-square-x > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-b <= 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-b > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x > 0.5 && top-left-square-x > 0.5 => positive', 'Rule Length': 9},)",9
+687,"bottom-left-square-o <= 0.5 && bottom-left-square-x <= 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-b > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && middle-right-square-x > 0.5 && top-left-square-b <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => positive', 'Rule Length': 12},)",12
+688,"bottom-left-square-x > 0.5 && bottom-middle-square-o > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-b <= 0.5 && top-left-square-x > 0.5 => positive', 'Rule Length': 8},)",8
+689,"bottom-left-square-x > 0.5 && bottom-middle-square-o > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-b > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-b > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-b > 0.5 && middle-right-square-x <= 0.5 && top-left-square-x > 0.5 => positive', 'Rule Length': 11},)",11
+690,"bottom-left-square-o <= 0.5 && bottom-left-square-x <= 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-b <= 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-b > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && middle-right-square-x <= 0.5 && top-left-square-b <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => positive', 'Rule Length': 13},)",13
+691,"bottom-left-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 5},)",5
+692,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+693,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+694,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+695,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+696,"bottom-left-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 5},)",5
+697,"bottom-left-square-x > 0.5 && bottom-middle-square-o > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-b <= 0.5 && top-left-square-x > 0.5 => positive', 'Rule Length': 8},)",8
+698,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+699,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+700,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+701,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+702,"bottom-left-square-x > 0.5 && bottom-middle-square-o > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-b <= 0.5 && top-left-square-x > 0.5 => positive', 'Rule Length': 8},)",8
+703,"bottom-left-square-x > 0.5 && bottom-middle-square-o > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-b > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x > 0.5 && top-left-square-x > 0.5 => positive', 'Rule Length': 9},)",9
+704,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+705,"bottom-left-square-x > 0.5 && bottom-middle-square-o > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-b <= 0.5 && top-left-square-x > 0.5 => positive', 'Rule Length': 8},)",8
+706,"bottom-left-square-o > 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => positive', 'Rule Length': 5},)",5
+707,"bottom-left-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x > 0.5 && top-left-square-x > 0.5 && top-right-square-x > 0.5 => positive', 'Rule Length': 7},)",7
+708,"bottom-left-square-o > 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => positive', 'Rule Length': 5},)",5
+709,"bottom-left-square-o > 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => positive', 'Rule Length': 5},)",5
+710,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x > 0.5 => positive', 'Rule Length': 6},)",6
+711,"bottom-left-square-x > 0.5 && bottom-middle-square-o > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-b <= 0.5 && top-left-square-x > 0.5 => positive', 'Rule Length': 8},)",8
+712,"bottom-left-square-x > 0.5 && bottom-middle-square-o <= 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-b > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x > 0.5 => positive', 'Rule Length': 8},)",8
+713,"bottom-left-square-x <= 0.5 && middle-left-square-b <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o > 0.5 && top-right-square-x > 0.5 => positive', 'Rule Length': 6},)",6
+714,"bottom-left-square-x <= 0.5 && middle-left-square-b <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o > 0.5 && top-right-square-x > 0.5 => positive', 'Rule Length': 6},)",6
+715,"bottom-left-square-x <= 0.5 && middle-left-square-b <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o > 0.5 && top-right-square-x > 0.5 => positive', 'Rule Length': 6},)",6
+716,"bottom-left-square-o > 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => positive', 'Rule Length': 5},)",5
+717,"bottom-left-square-o > 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => positive', 'Rule Length': 5},)",5
+718,"bottom-left-square-o > 0.5 && bottom-middle-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-left-square-o <= 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 7},)",7
+719,"bottom-left-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 5},)",5
+720,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+721,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+722,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+723,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+724,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+725,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+726,"bottom-left-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 5},)",5
+727,"bottom-left-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 5},)",5
+728,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+729,"bottom-left-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 5},)",5
+730,"bottom-left-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 5},)",5
+731,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+732,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+733,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+734,"bottom-left-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 5},)",5
+735,"bottom-left-square-o > 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => positive', 'Rule Length': 5},)",5
+736,"bottom-left-square-o > 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => positive', 'Rule Length': 5},)",5
+737,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x > 0.5 => positive', 'Rule Length': 6},)",6
+738,"bottom-left-square-x > 0.5 && bottom-middle-square-o <= 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o > 0.5 => positive', 'Rule Length': 7},)",7
+739,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+740,"bottom-left-square-o > 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => positive', 'Rule Length': 5},)",5
+741,"bottom-left-square-o > 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-b <= 0.5 && middle-left-square-o <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-b > 0.5 && top-left-square-o > 0.5 && top-right-square-b <= 0.5 => positive', 'Rule Length': 9},)",9
+742,"bottom-left-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 && top-right-square-x > 0.5 => positive', 'Rule Length': 6},)",6
+743,"bottom-left-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 && top-right-square-x > 0.5 => positive', 'Rule Length': 6},)",6
+744,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 => positive', 'Rule Length': 4},)",4
+745,"bottom-left-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 && top-right-square-x > 0.5 => positive', 'Rule Length': 6},)",6
+746,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 => positive', 'Rule Length': 4},)",4
+747,"bottom-left-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 && top-right-square-x > 0.5 => positive', 'Rule Length': 6},)",6
+748,"bottom-left-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 && top-right-square-x > 0.5 => positive', 'Rule Length': 6},)",6
+749,"bottom-left-square-o > 0.5 && bottom-middle-square-b <= 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-b <= 0.5 && bottom-right-square-o > 0.5 && middle-left-square-o <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o <= 0.5 && middle-middle-square-x <= 0.5 && middle-right-square-b <= 0.5 && top-left-square-o > 0.5 && top-right-square-b <= 0.5 => positive', 'Rule Length': 12},)",12
+750,"bottom-left-square-o > 0.5 && middle-left-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 => positive', 'Rule Length': 4},)",4
+751,"bottom-left-square-o > 0.5 && middle-left-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 => positive', 'Rule Length': 4},)",4
+752,"bottom-left-square-o > 0.5 && middle-left-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 => positive', 'Rule Length': 4},)",4
+753,"bottom-left-square-o > 0.5 && middle-left-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 => positive', 'Rule Length': 4},)",4
+754,"bottom-left-square-o > 0.5 && middle-left-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 => positive', 'Rule Length': 4},)",4
+755,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 => positive', 'Rule Length': 4},)",4
+756,"bottom-left-square-x <= 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-x > 0.5 => positive', 'Rule Length': 7},)",7
+757,"bottom-left-square-x <= 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-x > 0.5 => positive', 'Rule Length': 7},)",7
+758,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 => positive', 'Rule Length': 4},)",4
+759,"bottom-left-square-x > 0.5 && bottom-middle-square-o <= 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o > 0.5 => positive', 'Rule Length': 7},)",7
+760,"bottom-left-square-x <= 0.5 && middle-left-square-b <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o > 0.5 && top-right-square-x > 0.5 => positive', 'Rule Length': 6},)",6
+761,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 => positive', 'Rule Length': 4},)",4
+762,"bottom-left-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && middle-right-square-x <= 0.5 && top-left-square-o > 0.5 && top-right-square-x > 0.5 => positive', 'Rule Length': 8},)",8
+763,"bottom-left-square-o > 0.5 && middle-left-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 => positive', 'Rule Length': 4},)",4
+764,"bottom-left-square-o > 0.5 && middle-left-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 => positive', 'Rule Length': 4},)",4
+765,"bottom-left-square-o > 0.5 && middle-left-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 => positive', 'Rule Length': 4},)",4
+766,"bottom-left-square-o > 0.5 && middle-left-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 => positive', 'Rule Length': 4},)",4
+767,"bottom-left-square-o > 0.5 && middle-left-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 => positive', 'Rule Length': 4},)",4
+768,"bottom-left-square-o > 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-b <= 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-o <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o <= 0.5 && middle-middle-square-x > 0.5 && middle-right-square-b <= 0.5 && top-left-square-o > 0.5 && top-right-square-b <= 0.5 => positive', 'Rule Length': 11},)",11
+769,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 => positive', 'Rule Length': 4},)",4
+770,"bottom-left-square-x <= 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-x > 0.5 => positive', 'Rule Length': 7},)",7
+771,"bottom-left-square-x <= 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-x > 0.5 => positive', 'Rule Length': 7},)",7
+772,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 => positive', 'Rule Length': 4},)",4
+773,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 => positive', 'Rule Length': 4},)",4
+774,"bottom-left-square-x <= 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-x > 0.5 => positive', 'Rule Length': 7},)",7
+775,"bottom-left-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 5},)",5
+776,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 => positive', 'Rule Length': 4},)",4
+777,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+778,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+779,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+780,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 => positive', 'Rule Length': 4},)",4
+781,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+782,"bottom-left-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 5},)",5
+783,"bottom-left-square-o > 0.5 && middle-left-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 => positive', 'Rule Length': 4},)",4
+784,"bottom-left-square-o > 0.5 && middle-left-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 => positive', 'Rule Length': 4},)",4
+785,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 => positive', 'Rule Length': 4},)",4
+786,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+787,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 => positive', 'Rule Length': 4},)",4
+788,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+789,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+790,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 => positive', 'Rule Length': 4},)",4
+791,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 => positive', 'Rule Length': 4},)",4
+792,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+793,"bottom-left-square-o > 0.5 && middle-left-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 => positive', 'Rule Length': 4},)",4
+794,"bottom-left-square-o > 0.5 && middle-left-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 => positive', 'Rule Length': 4},)",4
+795,"bottom-left-square-o > 0.5 && middle-left-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 => positive', 'Rule Length': 4},)",4
+796,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 => positive', 'Rule Length': 4},)",4
+797,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+798,"bottom-left-square-o > 0.5 && middle-left-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 => positive', 'Rule Length': 4},)",4
+799,"bottom-left-square-o > 0.5 && middle-left-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 => positive', 'Rule Length': 4},)",4
+800,"bottom-left-square-o > 0.5 && middle-left-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 => positive', 'Rule Length': 4},)",4
+801,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 => positive', 'Rule Length': 4},)",4
+802,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+803,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 => positive', 'Rule Length': 4},)",4
+804,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 => positive', 'Rule Length': 4},)",4
+805,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 => positive', 'Rule Length': 4},)",4
+806,"bottom-left-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 && top-right-square-x > 0.5 => positive', 'Rule Length': 6},)",6
+807,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 => positive', 'Rule Length': 4},)",4
+808,"bottom-left-square-x > 0.5 && bottom-middle-square-o > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-b <= 0.5 && top-left-square-o > 0.5 => positive', 'Rule Length': 8},)",8
+809,"bottom-left-square-o > 0.5 && middle-left-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 => positive', 'Rule Length': 4},)",4
+810,"bottom-left-square-o > 0.5 && middle-left-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 => positive', 'Rule Length': 4},)",4
+811,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 => positive', 'Rule Length': 4},)",4
+812,"bottom-left-square-o <= 0.5 && bottom-left-square-x > 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-o <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-b <= 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 11},)",11
+813,"bottom-left-square-o <= 0.5 && bottom-middle-square-b > 0.5 && bottom-right-square-b <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 7},)",7
+814,"bottom-left-square-o <= 0.5 && bottom-left-square-x <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-b <= 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-o <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-b <= 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 12},)",12
+815,"bottom-left-square-o <= 0.5 && bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-o > 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-b > 0.5 && middle-right-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 10},)",10
+816,"bottom-left-square-b <= 0.5 && bottom-left-square-o <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-b <= 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 11},)",11
+817,"bottom-left-square-b <= 0.5 && bottom-left-square-o <= 0.5 && bottom-middle-square-b > 0.5 && bottom-right-square-b > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 8},)",8
+818,"bottom-left-square-o > 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-b <= 0.5 && middle-left-square-o <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-b > 0.5 && top-left-square-o > 0.5 && top-right-square-b <= 0.5 => positive', 'Rule Length': 9},)",9
+819,"bottom-left-square-o <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-b <= 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && middle-right-square-x <= 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 11},)",11
+820,"bottom-left-square-o <= 0.5 && bottom-middle-square-b > 0.5 && bottom-right-square-b <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 7},)",7
+821,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 => positive', 'Rule Length': 4},)",4
+822,"bottom-left-square-x > 0.5 && bottom-middle-square-o <= 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-x <= 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 8},)",8
+823,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+824,"bottom-left-square-o <= 0.5 && bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-o > 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-b <= 0.5 && middle-right-square-o <= 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 9},)",9
+825,"bottom-left-square-b <= 0.5 && bottom-left-square-o <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-b <= 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 11},)",11
+826,"bottom-left-square-b <= 0.5 && bottom-left-square-o <= 0.5 && bottom-middle-square-b > 0.5 && bottom-right-square-b > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 8},)",8
+827,"bottom-left-square-o > 0.5 && bottom-middle-square-b <= 0.5 && bottom-middle-square-o <= 0.5 && bottom-right-square-b <= 0.5 && middle-left-square-o <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o <= 0.5 && middle-middle-square-x <= 0.5 && middle-right-square-b <= 0.5 && top-left-square-o > 0.5 && top-right-square-b <= 0.5 => positive', 'Rule Length': 11},)",11
+828,"bottom-left-square-o <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && middle-right-square-x > 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 10},)",10
+829,"bottom-left-square-o <= 0.5 && bottom-middle-square-b > 0.5 && bottom-right-square-b <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 7},)",7
+830,"bottom-left-square-o <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-b <= 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && middle-right-square-x <= 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 11},)",11
+831,"bottom-left-square-o <= 0.5 && bottom-middle-square-b > 0.5 && bottom-right-square-b <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 7},)",7
+832,"bottom-left-square-o <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-b <= 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && middle-right-square-x <= 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 11},)",11
+833,"bottom-left-square-b <= 0.5 && bottom-left-square-o <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-o <= 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-o > 0.5 && middle-middle-square-b <= 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-x > 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 11},)",11
+834,"bottom-left-square-o <= 0.5 && bottom-middle-square-b > 0.5 && bottom-right-square-b <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 7},)",7
+835,"bottom-left-square-o <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-o <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-o > 0.5 && middle-middle-square-b <= 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-x > 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 10},)",10
+836,"bottom-left-square-o <= 0.5 && bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-o > 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-b <= 0.5 && middle-right-square-o <= 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 9},)",9
+837,"bottom-left-square-b <= 0.5 && bottom-left-square-o <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-b <= 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 11},)",11
+838,"bottom-left-square-b <= 0.5 && bottom-left-square-o <= 0.5 && bottom-middle-square-b > 0.5 && bottom-right-square-b > 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 8},)",8
+839,"bottom-left-square-o > 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-b <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-o <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o <= 0.5 && middle-middle-square-x > 0.5 && middle-right-square-b <= 0.5 && top-left-square-o > 0.5 && top-right-square-b <= 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 12},)",12
+840,"bottom-left-square-o <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && middle-right-square-x > 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 10},)",10
+841,"bottom-left-square-o <= 0.5 && bottom-middle-square-b > 0.5 && bottom-right-square-b <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 7},)",7
+842,"bottom-left-square-b <= 0.5 && bottom-left-square-o <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-o <= 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-b > 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && middle-middle-square-x > 0.5 && middle-right-square-o <= 0.5 && middle-right-square-x <= 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 14},)",14
+843,"bottom-left-square-o <= 0.5 && bottom-middle-square-b > 0.5 && bottom-right-square-b <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 7},)",7
+844,"bottom-left-square-o <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-o <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-b > 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && middle-middle-square-x > 0.5 && middle-right-square-o <= 0.5 && middle-right-square-x <= 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 13},)",13
+845,"bottom-left-square-o <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && middle-right-square-x > 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 10},)",10
+846,"bottom-left-square-o <= 0.5 && bottom-middle-square-b > 0.5 && bottom-right-square-b <= 0.5 && bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 7},)",7
+847,"bottom-left-square-o <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && middle-right-square-x > 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 10},)",10
+848,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 => positive', 'Rule Length': 4},)",4
+849,"bottom-left-square-x > 0.5 && bottom-middle-square-o > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-b <= 0.5 && top-left-square-o > 0.5 => positive', 'Rule Length': 8},)",8
+850,"bottom-left-square-o > 0.5 && middle-left-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 => positive', 'Rule Length': 4},)",4
+851,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 => positive', 'Rule Length': 4},)",4
+852,"bottom-left-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 && top-right-square-x > 0.5 => positive', 'Rule Length': 6},)",6
+853,"bottom-left-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 && top-right-square-x > 0.5 => positive', 'Rule Length': 6},)",6
+854,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 => positive', 'Rule Length': 4},)",4
+855,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 => positive', 'Rule Length': 4},)",4
+856,"bottom-left-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 && top-right-square-x > 0.5 => positive', 'Rule Length': 6},)",6
+857,"bottom-left-square-o > 0.5 && middle-left-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 => positive', 'Rule Length': 4},)",4
+858,"bottom-left-square-o > 0.5 && middle-left-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 => positive', 'Rule Length': 4},)",4
+859,"bottom-left-square-o > 0.5 && middle-left-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 => positive', 'Rule Length': 4},)",4
+860,"bottom-left-square-o > 0.5 && middle-left-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 => positive', 'Rule Length': 4},)",4
+861,"bottom-left-square-o > 0.5 && middle-left-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 => positive', 'Rule Length': 4},)",4
+862,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 => positive', 'Rule Length': 4},)",4
+863,"bottom-left-square-o > 0.5 && middle-left-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 => positive', 'Rule Length': 4},)",4
+864,"bottom-left-square-o > 0.5 && middle-left-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 => positive', 'Rule Length': 4},)",4
+865,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 => positive', 'Rule Length': 4},)",4
+866,"bottom-left-square-x <= 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-o > 0.5 && top-right-square-x > 0.5 => positive', 'Rule Length': 7},)",7
+867,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 => positive', 'Rule Length': 4},)",4
+868,"bottom-left-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 5},)",5
+869,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 => positive', 'Rule Length': 4},)",4
+870,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+871,"bottom-left-square-o > 0.5 && middle-left-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 => positive', 'Rule Length': 4},)",4
+872,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 => positive', 'Rule Length': 4},)",4
+873,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+874,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 => positive', 'Rule Length': 4},)",4
+875,"bottom-left-square-o > 0.5 && middle-left-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 => positive', 'Rule Length': 4},)",4
+876,"bottom-left-square-o > 0.5 && middle-left-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 => positive', 'Rule Length': 4},)",4
+877,"bottom-left-square-o > 0.5 && middle-left-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 => positive', 'Rule Length': 4},)",4
+878,"bottom-left-square-o > 0.5 && middle-left-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 => positive', 'Rule Length': 4},)",4
+879,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 => positive', 'Rule Length': 4},)",4
+880,"bottom-left-square-o > 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => positive', 'Rule Length': 5},)",5
+881,"bottom-left-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 && top-right-square-x > 0.5 => positive', 'Rule Length': 6},)",6
+882,"bottom-left-square-o > 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => positive', 'Rule Length': 5},)",5
+883,"bottom-left-square-o > 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => positive', 'Rule Length': 5},)",5
+884,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 => positive', 'Rule Length': 4},)",4
+885,"bottom-left-square-x > 0.5 && bottom-middle-square-o > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-o > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x <= 0.5 && top-left-square-b > 0.5 => positive', 'Rule Length': 8},)",8
+886,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 => positive', 'Rule Length': 4},)",4
+887,"bottom-left-square-x <= 0.5 && middle-left-square-b <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o > 0.5 && top-right-square-x > 0.5 => positive', 'Rule Length': 6},)",6
+888,"bottom-left-square-x <= 0.5 && middle-left-square-b <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o > 0.5 && top-right-square-x > 0.5 => positive', 'Rule Length': 6},)",6
+889,"bottom-left-square-x <= 0.5 && middle-left-square-b <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o > 0.5 && top-right-square-x > 0.5 => positive', 'Rule Length': 6},)",6
+890,"bottom-left-square-o > 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => positive', 'Rule Length': 5},)",5
+891,"bottom-left-square-o > 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => positive', 'Rule Length': 5},)",5
+892,"bottom-left-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 5},)",5
+893,"bottom-left-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 5},)",5
+894,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+895,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+896,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+897,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 => positive', 'Rule Length': 4},)",4
+898,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+899,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+900,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+901,"bottom-left-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 5},)",5
+902,"bottom-left-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 5},)",5
+903,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+904,"bottom-left-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 5},)",5
+905,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+906,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+907,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+908,"bottom-left-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 5},)",5
+909,"bottom-left-square-o > 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => positive', 'Rule Length': 5},)",5
+910,"bottom-left-square-o > 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => positive', 'Rule Length': 5},)",5
+911,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 => positive', 'Rule Length': 4},)",4
+912,"bottom-left-square-x > 0.5 && bottom-middle-square-o <= 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o > 0.5 => positive', 'Rule Length': 7},)",7
+913,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+914,"bottom-left-square-o > 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => positive', 'Rule Length': 5},)",5
+915,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 => positive', 'Rule Length': 4},)",4
+916,"bottom-left-square-o <= 0.5 && bottom-left-square-x <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => positive', 'Rule Length': 9},)",9
+917,"bottom-left-square-x > 0.5 && bottom-middle-square-o > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-b > 0.5 => positive', 'Rule Length': 7},)",7
+918,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 => positive', 'Rule Length': 4},)",4
+919,"bottom-left-square-o <= 0.5 && bottom-left-square-x <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => positive', 'Rule Length': 9},)",9
+920,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 => positive', 'Rule Length': 4},)",4
+921,"bottom-left-square-x > 0.5 && bottom-middle-square-o > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-b > 0.5 => positive', 'Rule Length': 7},)",7
+922,"bottom-left-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 5},)",5
+923,"bottom-left-square-x > 0.5 && bottom-middle-square-o > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-b > 0.5 => positive', 'Rule Length': 7},)",7
+924,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+925,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 => positive', 'Rule Length': 4},)",4
+926,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+927,"bottom-left-square-x > 0.5 && bottom-middle-square-o > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-b > 0.5 => positive', 'Rule Length': 7},)",7
+928,"bottom-left-square-x > 0.5 && bottom-middle-square-o > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-b > 0.5 => positive', 'Rule Length': 7},)",7
+929,"bottom-left-square-o > 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => positive', 'Rule Length': 5},)",5
+930,"bottom-left-square-o > 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => positive', 'Rule Length': 5},)",5
+931,"bottom-left-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5 => positive', 'Rule Length': 4},)",4
+932,"bottom-left-square-x > 0.5 && bottom-middle-square-o <= 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o > 0.5 => positive', 'Rule Length': 7},)",7
+933,"bottom-left-square-x <= 0.5 && middle-left-square-b <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && middle-right-square-o > 0.5 && top-right-square-x > 0.5 => positive', 'Rule Length': 6},)",6
+934,"bottom-left-square-o > 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5 => positive', 'Rule Length': 5},)",5
+935,"bottom-left-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 5},)",5
+936,"bottom-left-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 5},)",5
+937,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+938,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+939,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+940,"bottom-left-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 5},)",5
+941,"bottom-left-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 5},)",5
+942,"bottom-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-right-square-x <= 0.5 => positive', 'Rule Length': 3},)",3
+943,"bottom-left-square-o <= 0.5 && bottom-left-square-x > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 8},)",8
+944,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x > 0.5 => positive', 'Rule Length': 6},)",6
+945,"bottom-left-square-x > 0.5 && bottom-middle-square-o > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-b <= 0.5 && top-left-square-x > 0.5 => positive', 'Rule Length': 8},)",8
+946,"bottom-left-square-o > 0.5 && bottom-middle-square-b <= 0.5 && bottom-middle-square-o <= 0.5 && bottom-right-square-o > 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-left-square-o <= 0.5 && top-left-square-x > 0.5 && top-right-square-o <= 0.5 => positive', 'Rule Length': 10},)",10
+947,"bottom-left-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x > 0.5 && top-left-square-x > 0.5 && top-right-square-x > 0.5 => positive', 'Rule Length': 7},)",7
+948,"bottom-left-square-o > 0.5 && bottom-left-square-x <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-middle-square-o <= 0.5 && bottom-right-square-b <= 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x <= 0.5 && top-left-square-b <= 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => positive', 'Rule Length': 12},)",12
+949,"bottom-left-square-o > 0.5 && bottom-middle-square-o <= 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o <= 0.5 && middle-right-square-x > 0.5 && top-left-square-o <= 0.5 && top-right-square-x > 0.5 => positive', 'Rule Length': 9},)",9
+950,"bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-x <= 0.5 && middle-left-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x > 0.5 => positive', 'Rule Length': 6},)",6
+951,"bottom-left-square-o <= 0.5 && bottom-left-square-x > 0.5 && bottom-middle-square-x > 0.5 && bottom-right-square-o > 0.5 && middle-left-square-o > 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-b <= 0.5 && middle-right-square-o <= 0.5 && top-left-square-x > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 10},)",10
+952,"bottom-left-square-o > 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-b <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-o <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o <= 0.5 && middle-middle-square-x > 0.5 && middle-right-square-b <= 0.5 && middle-right-square-x <= 0.5 && top-left-square-o > 0.5 && top-right-square-b <= 0.5 && top-right-square-o <= 0.5 => positive', 'Rule Length': 13},)",13
+953,"bottom-left-square-x > 0.5 && bottom-middle-square-o > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-b <= 0.5 && top-left-square-o > 0.5 => positive', 'Rule Length': 8},)",8
+954,"bottom-left-square-x <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x <= 0.5 && top-left-square-o > 0.5 && top-right-square-x > 0.5 => positive', 'Rule Length': 8},)",8
+955,"bottom-left-square-o <= 0.5 && bottom-left-square-x > 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-o <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-b <= 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-o > 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 11},)",11
+956,"bottom-left-square-x > 0.5 && bottom-middle-square-o > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o > 0.5 && top-left-square-b <= 0.5 && top-left-square-o > 0.5 => positive', 'Rule Length': 8},)",8
+957,"bottom-left-square-o <= 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-o <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-o > 0.5 && middle-middle-square-b <= 0.5 && middle-middle-square-o <= 0.5 && middle-right-square-x > 0.5 && top-left-square-o > 0.5 && top-right-square-o > 0.5 => positive', 'Rule Length': 10},)",10
+958,"bottom-left-square-o > 0.5 && bottom-middle-square-b <= 0.5 && bottom-right-square-b <= 0.5 && bottom-right-square-x > 0.5 && middle-left-square-o <= 0.5 && middle-left-square-x > 0.5 && middle-middle-square-o <= 0.5 && middle-middle-square-x > 0.5 && middle-right-square-b <= 0.5 && middle-right-square-x <= 0.5 && top-left-square-o > 0.5 && top-right-square-b <= 0.5 && top-right-square-o <= 0.5 => positive', 'Rule Length': 13},)",13

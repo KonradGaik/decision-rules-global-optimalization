@@ -1,0 +1,88 @@
+Row Number,Matched Rules,Matched Rules
+2,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3},)",3
+3,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3},)",3
+7,"block_of_affere <= 1.5 && changes_in_stru > 4.0 && early_uptake_in <= 1.5 && no_of_nodes_in <= 1.5 && special_forms <= 1.5 => 2', 'Rule Length': 5},)",5
+8,"block_of_affere <= 1.5 && changes_in_lym > 2.5 && changes_in_node > 2.5 && changes_in_stru > 5.5 && early_uptake_in > 1.5 && no_of_nodes_in > 1.5 && special_forms > 2.5 => 2', 'Rule Length': 7},)",7
+9,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3},)",3
+10,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3},)",3
+11,"block_of_affere > 1.5 && changes_in_node <= 2.5 && no_of_nodes_in <= 1.5 => 2', 'Rule Length': 3},)",3
+14,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in > 2.5 && special_forms <= 2.5 => 2', 'Rule Length': 4},)",4
+15,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3},)",3
+16,"block_of_affere > 1.5 && changes_in_node <= 2.5 && no_of_nodes_in <= 1.5 => 2', 'Rule Length': 3},)",3
+19,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3},)",3
+20,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in > 2.5 && special_forms <= 2.5 => 2', 'Rule Length': 4},)",4
+21,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in > 2.5 && special_forms <= 2.5 => 2', 'Rule Length': 4},)",4
+22,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3},)",3
+23,"block_of_affere <= 1.5 && early_uptake_in > 1.5 && no_of_nodes_in <= 1.5 && special_forms <= 1.5 => 2', 'Rule Length': 4},)",4
+24,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3},)",3
+27,"block_of_affere > 1.5 && changes_in_node <= 2.5 && no_of_nodes_in <= 1.5 => 2', 'Rule Length': 3},)",3
+32,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3},)",3
+36,"block_of_affere <= 1.5 && changes_in_stru > 4.0 && early_uptake_in <= 1.5 && no_of_nodes_in <= 1.5 && special_forms <= 1.5 => 2', 'Rule Length': 5},)",5
+37,"block_of_affere <= 1.5 && changes_in_stru > 4.0 && early_uptake_in <= 1.5 && no_of_nodes_in <= 1.5 && special_forms <= 1.5 => 2', 'Rule Length': 5},)",5
+38,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3},)",3
+39,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3},)",3
+40,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3},)",3
+41,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3},)",3
+42,"block_of_affere <= 1.5 && changes_in_lym <= 2.5 && changes_in_node <= 2.5 && changes_in_stru > 2.0 && early_uptake_in <= 1.5 && no_of_nodes_in > 1.5 => 4', 'Rule Length': 6},)",6
+50,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3},)",3
+51,"block_of_affere > 1.5 && changes_in_node <= 2.5 && no_of_nodes_in > 1.5 && special_forms > 2.5 => 4', 'Rule Length': 4},)",4
+53,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3},)",3
+54,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3},)",3
+55,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3},)",3
+56,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3},)",3
+57,"block_of_affere <= 1.5 && changes_in_lym <= 1.5 && changes_in_stru <= 4.0 && early_uptake_in <= 1.5 && no_of_nodes_in <= 1.5 && special_forms <= 1.5 => 2', 'Rule Length': 6},)",6
+60,"block_of_affere <= 1.5 && changes_in_node > 2.5 && changes_in_stru > 4.0 && early_uptake_in <= 1.5 && no_of_nodes_in <= 1.5 && special_forms > 1.5 => 2', 'Rule Length': 6},)",6
+61,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3},)",3
+62,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3},)",3
+64,"block_of_affere > 1.5 && changes_in_lym > 2.5 && changes_in_node <= 3.5 && changes_in_stru <= 5.5 && no_of_nodes_in > 3.5 => 2', 'Rule Length': 5},)",5
+67,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3},)",3
+69,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3},)",3
+70,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3},)",3
+71,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3},)",3
+72,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3},)",3
+75,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in > 2.5 && special_forms <= 2.5 => 2', 'Rule Length': 4},)",4
+78,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3},)",3
+80,"block_of_affere > 1.5 && changes_in_node > 2.5 && early_uptake_in <= 1.5 && no_of_nodes_in > 2.5 && special_forms > 2.5 => 2', 'Rule Length': 5},)",5
+83,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in > 2.5 && special_forms <= 2.5 => 2', 'Rule Length': 4},)",4
+84,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3},)",3
+85,"block_of_affere <= 1.5 && changes_in_lym > 2.5 && early_uptake_in > 1.5 && no_of_nodes_in <= 1.5 && special_forms > 2.5 => 2', 'Rule Length': 5},)",5
+88,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3},)",3
+92,"block_of_affere > 1.5 && changes_in_node <= 2.5 && no_of_nodes_in <= 1.5 => 2', 'Rule Length': 3},)",3
+93,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3},)",3
+94,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3},)",3
+96,"block_of_affere <= 1.5 && early_uptake_in > 1.5 && no_of_nodes_in <= 1.5 && special_forms <= 1.5 => 2', 'Rule Length': 4},)",4
+98,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3},)",3
+99,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3",3
+99,"block_of_affere > 1.5 && changes_in_node > 3.5 && no_of_nodes_in <= 1.5 => 2', 'Rule Length': 3})",3
+100,"block_of_affere <= 1.5 && changes_in_lym > 1.5 && changes_in_node > 2.5 && changes_in_stru <= 4.0 && early_uptake_in <= 1.5 && no_of_nodes_in <= 1.5 && special_forms <= 1.5 => 2', 'Rule Length': 7},)",7
+103,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3},)",3
+104,"block_of_affere > 1.5 && changes_in_node <= 2.5 && no_of_nodes_in > 1.5 && special_forms <= 2.5 => 2', 'Rule Length': 4},)",4
+105,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3},)",3
+106,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3},)",3
+108,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3},)",3
+109,"block_of_affere <= 1.5 && changes_in_node > 1.5 && changes_in_stru <= 5.5 && early_uptake_in > 1.5 && no_of_nodes_in > 1.5 && special_forms <= 1.5 => 2', 'Rule Length': 6},)",6
+110,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in > 2.5 && special_forms <= 2.5 => 2', 'Rule Length': 4},)",4
+111,"block_of_affere <= 1.5 && changes_in_lym > 2.5 && early_uptake_in > 1.5 && special_forms <= 2.5 => 2', 'Rule Length': 4},)",4
+113,"block_of_affere > 1.5 && changes_in_node <= 2.5 && no_of_nodes_in <= 1.5 => 2', 'Rule Length': 3},)",3
+114,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3},)",3
+115,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3},)",3
+116,"block_of_affere <= 1.5 && changes_in_node > 2.5 && changes_in_stru > 4.0 && early_uptake_in <= 1.5 && no_of_nodes_in <= 1.5 && special_forms > 1.5 => 2', 'Rule Length': 6},)",6
+118,"block_of_affere <= 1.5 && changes_in_stru > 4.0 && early_uptake_in <= 1.5 && no_of_nodes_in <= 1.5 && special_forms <= 1.5 => 2', 'Rule Length': 5},)",5
+123,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3},)",3
+126,"block_of_affere <= 1.5 && changes_in_lym <= 2.5 && changes_in_node > 2.5 && changes_in_stru > 2.0 && early_uptake_in <= 1.5 && no_of_nodes_in > 1.5 && special_forms <= 2.5 => 2', 'Rule Length': 7},)",7
+127,"block_of_affere <= 1.5 && changes_in_node > 2.5 && changes_in_stru > 4.0 && early_uptake_in <= 1.5 && no_of_nodes_in <= 1.5 && special_forms > 1.5 => 2', 'Rule Length': 6},)",6
+128,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in > 2.5 && special_forms <= 2.5 => 2', 'Rule Length': 4},)",4
+129,"block_of_affere <= 1.5 && changes_in_lym > 2.5 && changes_in_stru > 2.0 && early_uptake_in <= 1.5 && no_of_nodes_in > 1.5 => 2', 'Rule Length': 5},)",5
+131,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3},)",3
+132,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3},)",3
+134,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3},)",3
+135,"block_of_affere > 1.5 && changes_in_lym > 2.5 && changes_in_node <= 3.5 && changes_in_stru > 5.5 && no_of_nodes_in > 3.5 && special_forms <= 2.5 => 2', 'Rule Length': 6})",6
+135,"block_of_affere > 1.5 && changes_in_node <= 2.5 && no_of_nodes_in > 1.5 && special_forms <= 2.5 => 2', 'Rule Length': 4",4
+138,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3",3
+138,"block_of_affere > 1.5 && changes_in_node > 3.5 && no_of_nodes_in <= 1.5 => 2', 'Rule Length': 3})",3
+139,"block_of_affere > 1.5 && changes_in_lym > 2.5 && changes_in_node <= 3.5 && changes_in_stru <= 5.5 && no_of_nodes_in > 3.5 => 2', 'Rule Length': 5},)",5
+141,"block_of_affere > 1.5 && changes_in_node > 2.5 && no_of_nodes_in <= 2.5 => 2', 'Rule Length': 3},)",3
+142,"block_of_affere <= 1.5 && changes_in_lym <= 2.5 && changes_in_node <= 2.5 && changes_in_stru > 2.0 && early_uptake_in <= 1.5 && no_of_nodes_in > 1.5 => 4', 'Rule Length': 6},)",6
+145,"block_of_affere <= 1.5 && changes_in_lym <= 1.5 && changes_in_stru <= 4.0 && early_uptake_in <= 1.5 && no_of_nodes_in <= 1.5 && special_forms <= 1.5 => 2', 'Rule Length': 6},)",6
+147,"block_of_affere <= 1.5 && early_uptake_in > 1.5 && no_of_nodes_in <= 1.5 && special_forms <= 1.5 => 2', 'Rule Length': 4},)",4
+148,"block_of_affere > 1.5 && changes_in_lym > 2.5 && changes_in_node <= 3.5 && changes_in_stru <= 5.5 && no_of_nodes_in > 3.5 => 2', 'Rule Length': 5},)",5

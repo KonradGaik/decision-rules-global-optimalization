@@ -33,30 +33,28 @@ def match_rules_to_rows(data_df, rules_df):
                         if str(row['class']) != str(rule_value):
                             is_matched = False
                             break
+                        #if WORK
             if is_matched and rule_length > 0:
-                matched_rule_strings.add(rule)
-                matched_rules.append({'Rule': rule[:-4] + f" => {rule_row['class']}", 'Rule Length': rule_length})
+                rule_str = rule[:-4] + f" => {rule_row['class']}"
+                if rule_str not in matched_rule_strings:  # Sprawdzenie, czy reguła już została dodana
+                    matched_rule_strings.add(rule_str)
+                    matched_rules.append({'Rule': rule_str, 'Rule Length': rule_length})
     
         if matched_rules:
             matched_rows.append({'Row Number': i + 1, 'Matched Rules': matched_rules})
     
     matched_rows_df = pd.DataFrame(matched_rows)
-    matched_rows_df['Matched Rules'] = matched_rows_df['Matched Rules'].apply(lambda x: tuple(x))
+    matched_rows_df['Matched Rules'] = matched_rows_df['Matched Rules'].apply(lambda x: str(tuple([rule['Rule'] for rule in x])))
     matched_rows_df = matched_rows_df.join(pd.DataFrame(matched_rows_df['Matched Rules'].tolist()))
     
     return matched_rows_df
 
 
-
-
-
 csv_file_data = os.path.join(f"./", f"1consistent_lymphography.csv")
 csv_file_rules = os.path.join(f"./", f"3decision_rules_1.csv")
 
-
 data_df = pd.read_csv(csv_file_data, header=0)
 rules_df = pd.read_csv(csv_file_rules, header=0)
-
 
 matched_rows = match_rules_to_rows(data_df, rules_df)
 
