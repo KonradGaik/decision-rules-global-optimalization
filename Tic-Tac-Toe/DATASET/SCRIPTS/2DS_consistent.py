@@ -31,6 +31,6 @@ def save_to_csv(decision_grouped, folder_path, file_name):
                 row = list(combination) + [decision]
                 writer.writerow(row)
 
-csv_file = f"./encoded_tic_tac_toe.csv"
+csv_file = f"../RESULTS/1encoded_tic_tac_toe.csv"
 decision_grouped = replace_inconsistencies(csv_file)
-save_to_csv(decision_grouped, f'.', f"consistent_tic-tac-toe.csv")
+save_to_csv(decision_grouped, f'../RESULTS', f"2consistent_tic-tac-toe.csv")

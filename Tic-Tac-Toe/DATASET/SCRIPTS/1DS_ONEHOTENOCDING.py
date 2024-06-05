@@ -11,7 +11,7 @@ def apply_one_hot_encoding(dataset):
     return encoded_data
 
 # Wczytanie danych z pliku CSV
-csv_file = "./modified_tic-tac-toe.csv"
+csv_file = "../modified_tic-tac-toe.csv"
 df = pd.read_csv(csv_file)
 
 # Usuń wiersz, który zawiera same wartości "c"
@@ -21,7 +21,7 @@ df = df[~(df.iloc[:, :-1] == 'c').all(axis=1)]
 encoded_df = apply_one_hot_encoding(df)
 
 # Zapisz dane do nowego pliku CSV
-encoded_csv_file = "encoded_tic_tac_toe.csv"
+encoded_csv_file = "../RESULTS/1encoded_tic_tac_toe.csv"
 encoded_df.to_csv(encoded_csv_file, index=False)
 
 print("Zapisano zaszyfrowane dane do pliku:", encoded_csv_file)

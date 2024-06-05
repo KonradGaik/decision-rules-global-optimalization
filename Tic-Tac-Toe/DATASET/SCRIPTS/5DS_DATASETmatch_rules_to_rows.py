@@ -47,8 +47,8 @@ def match_rules_to_rows(data_df, rules_df):
 
 
 
-csv_file_data = os.path.join(f"./", f"consistent_tic-tac-toe.csv")
-csv_file_rules = os.path.join(f"./", f"decision_rules.csv")
+csv_file_data = os.path.join(f"../RESULTS", f"2consistent_tic-tac-toe.csv")
+csv_file_rules = os.path.join(f"../RESULTS", f"4decision_rules.csv")
 
 
 data_df = pd.read_csv(csv_file_data, header=0)
@@ -57,7 +57,7 @@ rules_df = pd.read_csv(csv_file_rules, header=0)
 
 matched_rows = match_rules_to_rows(data_df, rules_df)
 
-output_file = os.path.join(f'./', f"matched_rows.csv")
+output_file = os.path.join(f'../RESULTS', f"5matched_rows.csv")
 matched_rows.to_csv(output_file, index=False)
 
 print("Dopasowanie reguł zakończone sukcesem.")
