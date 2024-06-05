@@ -18,8 +18,8 @@ def parse_line(line, attributes):
     
     return condition_dict
 
-input_file = f"./3decision_rules_1.txt"
-output_file = f"./3decision_rules_1.csv"
+input_file = f"../RESULTS/2decision_rules.txt"
+output_file = f"../RESULTS/3decision_rules.csv"
 
 with open(input_file, "r") as file:
     lines = file.readlines()

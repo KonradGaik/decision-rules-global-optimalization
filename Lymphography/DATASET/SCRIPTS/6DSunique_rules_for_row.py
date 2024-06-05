@@ -20,7 +20,7 @@ def count_unique_rules(file_path, inx):
     df['Unique Rule Count'] = df['Matched Rules'].apply(unique_rule_count)
     
     # Zapis danych do pliku CSV
-    output_file_path = f'./6after_unique_rule_count.csv'
+    output_file_path = f'../RESULTS/6unique_rule_count.csv'
     df.to_csv(output_file_path, index=False)
 
     # Znalezienie i wydrukowanie najdłuższej reguły
@@ -31,6 +31,6 @@ def count_unique_rules(file_path, inx):
     return output_file_path
 
 i = ''
-file_path = f'./5matched_rows_shortest.csv'
+file_path = f'../RESULTS/5matched_rows_unique.csv'
 output_file = count_unique_rules(file_path, i)
 print(f"Wynik zapisano do: {output_file}")

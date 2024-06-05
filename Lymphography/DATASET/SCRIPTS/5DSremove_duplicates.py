@@ -1,6 +1,6 @@
 import pandas as pd
 import os
-
+# Sprawdź czy nie usuwa nieduplikatow TODO
 # Funkcja do czyszczenia reguł i usuwania duplikatów w wierszu
 def clean_and_deduplicate(row):
     unique_rules = set()
@@ -25,14 +25,14 @@ def remove_duplicates_from_dataframe(df):
     return df
 
 # Wczytanie pliku CSV
-csv_file = os.path.join(f"./", f"4matched_rows.csv")
+csv_file = os.path.join(f"../RESULTS", f"4matched_rows.csv")
 df = pd.read_csv(csv_file)
 
 # Usunięcie duplikatów
 df = remove_duplicates_from_dataframe(df)
 
 # Zapisanie wyniku do nowego pliku CSV
-output_file = os.path.join(f"./", f"4matched_rows_unique.csv")
+output_file = os.path.join(f"../RESULTS", f"5matched_rows_unique.csv")
 df.to_csv(output_file, index=False)
 
 print("Usuwanie duplikatów zakończone sukcesem.")

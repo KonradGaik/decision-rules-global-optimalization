@@ -50,23 +50,23 @@ def process_csv_file(csv_file, index, output_folder):
     max_length = max(rule_lengths)
     print(f"Długość reguł decyzyjnych (min, max): ({min_length}, {max_length})")
 
-    output_file = os.path.join(output_folder, f"3decision_rules_{index}.txt")
+    output_file = os.path.join(output_folder, f"2decision_rules.txt")
     with open(output_file, 'w') as f:
         for rule in rules:
             f.write(rule + '\n')
 
     plt.figure(figsize=(20,10))
     plot_tree(clf, feature_names=X.columns, class_names=class_names, filled=True, rounded=True)
-    tree_image_path = os.path.join(output_folder, f"3decision_tree_{index}.jpg")
+    tree_image_path = os.path.join(output_folder, f"2decision_tree.jpg")
     plt.savefig(tree_image_path)
     plt.close()
     print(f"Tree image saved to: {tree_image_path}")
 
     return rules, X, y
 
-csv_file = os.path.join('./', f'1consistent_lymphography.csv')
+csv_file = os.path.join('../RESULTS', f'1consistent_lymphography.csv')
 if os.path.exists(csv_file):
     print(f"Found file: {csv_file}")
-    rules, X, y = process_csv_file(csv_file, 1, '.')
+    rules, X, y = process_csv_file(csv_file, 1, '../RESULTS')
 else:
     print(f"File not found: {csv_file}")
