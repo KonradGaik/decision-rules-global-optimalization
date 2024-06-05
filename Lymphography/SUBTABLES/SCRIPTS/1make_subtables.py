@@ -3,13 +3,13 @@ import pandas as pd
 
 for x in range(1,6):
     print(x)
-    if not os.path.exists(f'subtable_{x}'):
-        os.makedirs(f'subtable_{x}')
+    if not os.path.exists(f'../RESULTS/subtable_{x}'):
+        os.makedirs(f'../RESULTS/subtable_{x}')
 
 # KROK 1 
 # Utworzenie podtablic z reduktów
 # Wczytaj plik CSV
-df = pd.read_csv('modified_lymphography.csv')
+df = pd.read_csv('../modified_lymphography.csv')
 
 df = df[~df.apply(lambda row: all(value == 'c' for value in row), axis=1)]
 
@@ -25,4 +25,4 @@ reducts = [
 
 for idx, reduct in enumerate(reducts, start=1):
     df_selected = df[list(reduct) + ['class']]
-    df_selected.to_csv(os.path.join(f'subtable_{idx}', f'1lymphography_reduct_subtable_{idx}.csv'), index=False)
+    df_selected.to_csv(os.path.join(f'../RESULTS/subtable_{idx}', f'1lymphography_reduct_subtable_{idx}.csv'), index=False)

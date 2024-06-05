@@ -32,14 +32,14 @@ def save_to_csv(decision_grouped, folder_path, file_name):
                 writer.writerow(row)
 
 
-for x in range(0, 5):
+for x in range(1, 6):
   print(x)
-  if not os.path.exists(f'subtable_{x+1}'):
-    os.makedirs(f'subtable_{x+1}')
+  if not os.path.exists(f'../RESULTS/subtable_{x}'):
+    os.makedirs(f'../RESULTS/subtable_{x}')
 
 
 
-for i in range(0, 5):
-    csv_file = f"./subtable_{i+1}/1lymphography_reduct_subtable_{i+1}.csv"
+for i in range(1, 6):
+    csv_file = f"../RESULTS/subtable_{i}/1lymphography_reduct_subtable_{i}.csv"
     decision_grouped = replace_inconsistencies(csv_file)
-    save_to_csv(decision_grouped, f'subtable_{i+1}', f"2consistent_modified_lymphography{i+1}.csv")
+    save_to_csv(decision_grouped, f'../RESULTS/subtable_{i}', f"2consistent_modified_lymphography{i}.csv")

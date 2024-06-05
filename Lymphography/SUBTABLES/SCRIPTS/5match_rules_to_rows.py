@@ -47,8 +47,8 @@ def match_rules_to_rows(data_df, rules_df):
     
     return matched_rows_df
 
-base_rules_folder = 'subtable_'
-output_folder = 'subtable_'
+base_rules_folder = '../RESULTS/subtable_'
+output_folder = '../RESULTS/subtable_'
 os.makedirs(output_folder, exist_ok=True)
 
 
@@ -61,7 +61,7 @@ for i in range(1, 6):
 
     matched_rows = match_rules_to_rows(data_df, rules_df)
     
-    output_file = os.path.join(f'{output_folder}{i}', f"4matched_rows_{i}.csv")
+    output_file = os.path.join(f'{output_folder}{i}', f"5matched_rows_{i}.csv")
     matched_rows.to_csv(output_file, index=False)
 
 print("Dopasowanie reguł zakończone sukcesem.")
