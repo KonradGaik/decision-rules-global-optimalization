@@ -15,12 +15,13 @@ df = df[~df.apply(lambda row: all(value == 'c' for value in row), axis=1)]
 
 
 reducts = [
-{ 'top-left-square', 'top-middle-square', 'top-right-square', 'middle-left-square', 'middle-middle-square', 'middle-right-square', 'bottom-left-square', 'bottom-middle-square' },
-{ 'top-left-square', 'top-middle-square', 'top-right-square', 'middle-left-square', 'middle-right-square', 'bottom-left-square', 'bottom-middle-square', 'bottom-right-square' },
-{ 'top-left-square', 'top-middle-square', 'top-right-square', 'middle-left-square', 'middle-middle-square', 'middle-right-square', 'bottom-middle-square', 'bottom-right-square' },
-{ 'top-left-square', 'top-middle-square', 'top-right-square', 'middle-left-square', 'middle-right-square', 'bottom-left-square', 'bottom-middle-square', 'bottom-right-square' },
-{ 'top-left-square', 'top-right-square', 'middle-left-square', 'middle-middle-square', 'middle-right-square', 'bottom-left-square', 'bottom-middle-square', 'bottom-right-square'}
+    { 'top-left-square', 'top-middle-square', 'top-right-square', 'middle-left-square', 'middle-right-square', 'bottom-left-square', 'bottom-middle-square', 'bottom-right-square' },
+    { 'top-left-square', 'top-middle-square', 'top-right-square', 'middle-left-square', 'middle-middle-square', 'middle-right-square', 'bottom-left-square', 'bottom-middle-square' },
+    { 'top-left-square', 'top-middle-square', 'top-right-square', 'middle-left-square', 'middle-middle-square', 'middle-right-square', 'bottom-middle-square', 'bottom-right-square' },
+    { 'top-left-square', 'top-middle-square', 'top-right-square', 'middle-left-square', 'middle-middle-square', 'bottom-left-square', 'bottom-middle-square', 'bottom-right-square' },
+    { 'top-left-square', 'top-right-square', 'middle-left-square', 'middle-middle-square', 'middle-right-square', 'bottom-left-square', 'bottom-middle-square', 'bottom-right-square' }
 ]
+
 
 
 for idx, reduct in enumerate(reducts, start=1):

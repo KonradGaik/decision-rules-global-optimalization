@@ -1,154 +1,153 @@
 Row Number,Rule,Rule Length
-3,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-24,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-31,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-33,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-60,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-62,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-66,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-81,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-133,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-134,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-143,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-161,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-163,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-177,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-186,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-199,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-215,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-223,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-234,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-235,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-239,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-251,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-253,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-267,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-275,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-280,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-298,bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x > 0.5 && top-right-square-x > 0.5  => negative,3
-307,bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x > 0.5 && top-right-square-x > 0.5  => negative,3
-308,bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x > 0.5 && top-right-square-x > 0.5  => negative,3
-316,bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x > 0.5 && top-right-square-x > 0.5  => negative,3
-317,bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x > 0.5 && top-right-square-x > 0.5  => negative,3
-335,bottom-middle-square-x <= 0.5 && middle-left-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 && top-middle-square-x <= 0.5 && top-right-square-o <= 0.5  => negative,5
-377,bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x > 0.5 && top-right-square-x > 0.5  => negative,3
-378,bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x > 0.5 && top-right-square-x > 0.5  => negative,3
-389,bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x > 0.5 && top-right-square-x > 0.5  => negative,3
-402,bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x > 0.5 && top-right-square-x > 0.5  => negative,3
-403,bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x > 0.5 && top-right-square-x > 0.5  => negative,3
-429,bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x > 0.5 && top-right-square-x > 0.5  => negative,3
-430,bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x > 0.5 && top-right-square-x > 0.5  => negative,3
-440,bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x > 0.5 && top-right-square-x > 0.5  => negative,3
-441,bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x > 0.5 && top-right-square-x > 0.5  => negative,3
-453,bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x > 0.5 && top-right-square-x > 0.5  => negative,3
-454,bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x > 0.5 && top-right-square-x > 0.5  => negative,3
-455,bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x > 0.5 && top-right-square-x > 0.5  => negative,3
-491,bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x > 0.5 && top-right-square-x > 0.5  => negative,3
-492,bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x > 0.5 && top-right-square-x > 0.5  => negative,3
-496,bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x > 0.5 && top-right-square-x > 0.5  => negative,3
-533,bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x > 0.5 && top-right-square-x > 0.5  => negative,3
-544,bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x > 0.5 && top-right-square-x > 0.5  => negative,3
-545,bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x > 0.5 && top-right-square-x > 0.5  => negative,3
-558,bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x > 0.5 && top-right-square-x > 0.5  => negative,3
-559,bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x > 0.5 && top-right-square-x > 0.5  => negative,3
-590,bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x > 0.5 && top-right-square-x > 0.5  => negative,3
-598,bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x > 0.5 && top-right-square-x > 0.5  => negative,3
-599,bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x > 0.5 && top-right-square-x > 0.5  => negative,3
-600,bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x > 0.5 && top-right-square-x > 0.5  => negative,3
-606,bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x > 0.5 && top-right-square-x > 0.5  => negative,3
-607,bottom-right-square-x > 0.5 && middle-middle-square-o > 0.5 && middle-right-square-x > 0.5 && top-right-square-x > 0.5  => negative,3
-633,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-636,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-643,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-645,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-646,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-647,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-653,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-656,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-658,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-666,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-668,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-670,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-676,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-677,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-682,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-683,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-684,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-688,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-690,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-693,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-694,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-695,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-697,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-698,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-699,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-701,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-702,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-704,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-705,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-711,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-713,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-715,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-721,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-723,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-725,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-728,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-732,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-733,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-738,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-739,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-742,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-743,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-744,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-745,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-746,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-747,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-748,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-755,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-757,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-761,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-769,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-770,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-771,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-772,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-773,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-774,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-776,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-779,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-780,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-785,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-787,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-788,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-789,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-790,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-791,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-792,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-796,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-801,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-802,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-803,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-805,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-806,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-807,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-811,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-821,middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 && top-middle-square-o > 0.5 && top-right-square-o > 0.5  => positive,3
-822,middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 && top-middle-square-o > 0.5 && top-right-square-o > 0.5  => positive,3
-823,middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 && top-middle-square-o > 0.5 && top-right-square-o > 0.5  => positive,3
-848,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-851,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-852,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-853,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-854,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-855,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-856,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-862,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-865,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-866,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-867,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-869,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-872,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-873,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-874,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-879,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,2
-945,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
-948,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,2
+1,middle-middle-square-o > 0.5 && top-left-square-x > 0.5 && top-middle-square-x > 0.5 && top-right-square-x > 0.5  => negative,4
+2,middle-middle-square-o > 0.5 && top-left-square-x > 0.5 && top-middle-square-x > 0.5 && top-right-square-x > 0.5  => negative,4
+3,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+4,middle-middle-square-o > 0.5 && top-left-square-x > 0.5 && top-middle-square-x > 0.5 && top-right-square-x > 0.5  => negative,4
+5,middle-middle-square-o > 0.5 && top-left-square-x > 0.5 && top-middle-square-x > 0.5 && top-right-square-x > 0.5  => negative,4
+6,middle-middle-square-o > 0.5 && top-left-square-x > 0.5 && top-middle-square-x > 0.5 && top-right-square-x > 0.5  => negative,4
+7,middle-middle-square-o > 0.5 && top-left-square-x > 0.5 && top-middle-square-x > 0.5 && top-right-square-x > 0.5  => negative,4
+8,middle-middle-square-o > 0.5 && top-left-square-x > 0.5 && top-middle-square-x > 0.5 && top-right-square-x > 0.5  => negative,4
+9,middle-middle-square-o > 0.5 && top-left-square-x > 0.5 && top-middle-square-x > 0.5 && top-right-square-x > 0.5  => negative,4
+22,middle-middle-square-o > 0.5 && top-left-square-x > 0.5 && top-middle-square-x > 0.5 && top-right-square-x > 0.5  => negative,4
+23,middle-middle-square-o > 0.5 && top-left-square-x > 0.5 && top-middle-square-x > 0.5 && top-right-square-x > 0.5  => negative,4
+24,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+25,middle-middle-square-o > 0.5 && top-left-square-x > 0.5 && top-middle-square-x > 0.5 && top-right-square-x > 0.5  => negative,4
+26,middle-middle-square-o > 0.5 && top-left-square-x > 0.5 && top-middle-square-x > 0.5 && top-right-square-x > 0.5  => negative,4
+27,middle-middle-square-o > 0.5 && top-left-square-x > 0.5 && top-middle-square-x > 0.5 && top-right-square-x > 0.5  => negative,4
+28,middle-middle-square-o > 0.5 && top-left-square-x > 0.5 && top-middle-square-x > 0.5 && top-right-square-x > 0.5  => negative,4
+29,middle-middle-square-o > 0.5 && top-left-square-x > 0.5 && top-middle-square-x > 0.5 && top-right-square-x > 0.5  => negative,4
+30,middle-middle-square-o > 0.5 && top-left-square-x > 0.5 && top-middle-square-x > 0.5 && top-right-square-x > 0.5  => negative,4
+31,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+32,middle-middle-square-o > 0.5 && top-left-square-x > 0.5 && top-middle-square-x > 0.5 && top-right-square-x > 0.5  => negative,4
+33,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+34,middle-middle-square-o > 0.5 && top-left-square-x > 0.5 && top-middle-square-x > 0.5 && top-right-square-x > 0.5  => negative,4
+54,middle-middle-square-o > 0.5 && top-left-square-x > 0.5 && top-middle-square-x > 0.5 && top-right-square-x > 0.5  => negative,4
+55,middle-middle-square-o > 0.5 && top-left-square-x > 0.5 && top-middle-square-x > 0.5 && top-right-square-x > 0.5  => negative,4
+56,middle-middle-square-o > 0.5 && top-left-square-x > 0.5 && top-middle-square-x > 0.5 && top-right-square-x > 0.5  => negative,4
+57,middle-middle-square-o > 0.5 && top-left-square-x > 0.5 && top-middle-square-x > 0.5 && top-right-square-x > 0.5  => negative,4
+58,middle-middle-square-o > 0.5 && top-left-square-x > 0.5 && top-middle-square-x > 0.5 && top-right-square-x > 0.5  => negative,4
+59,middle-middle-square-o > 0.5 && top-left-square-x > 0.5 && top-middle-square-x > 0.5 && top-right-square-x > 0.5  => negative,4
+60,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+61,middle-middle-square-o > 0.5 && top-left-square-x > 0.5 && top-middle-square-x > 0.5 && top-right-square-x > 0.5  => negative,4
+62,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+63,middle-middle-square-o > 0.5 && top-left-square-x > 0.5 && top-middle-square-x > 0.5 && top-right-square-x > 0.5  => negative,4
+64,middle-middle-square-o > 0.5 && top-left-square-x > 0.5 && top-middle-square-x > 0.5 && top-right-square-x > 0.5  => negative,4
+65,middle-middle-square-o > 0.5 && top-left-square-x > 0.5 && top-middle-square-x > 0.5 && top-right-square-x > 0.5  => negative,4
+66,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+67,middle-middle-square-o > 0.5 && top-left-square-x > 0.5 && top-middle-square-x > 0.5 && top-right-square-x > 0.5  => negative,4
+68,middle-middle-square-o > 0.5 && top-left-square-x > 0.5 && top-middle-square-x > 0.5 && top-right-square-x > 0.5  => negative,4
+69,middle-middle-square-o > 0.5 && top-left-square-x > 0.5 && top-middle-square-x > 0.5 && top-right-square-x > 0.5  => negative,4
+81,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+133,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+134,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+143,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+161,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+163,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+177,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+186,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+199,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+215,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+223,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+234,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+235,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+239,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+251,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+253,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+267,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+275,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+280,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+633,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+636,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+643,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+645,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+646,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+647,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+653,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+656,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+658,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+666,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+668,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+670,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+676,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+677,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+682,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+683,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+684,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+688,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+690,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+693,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+694,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+695,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+697,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+698,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+699,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+701,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+702,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+704,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+705,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+711,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+713,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+715,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+721,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+723,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+725,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+728,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+732,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+733,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+738,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+739,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+742,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+743,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+744,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+745,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+746,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+747,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+748,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+755,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+757,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+761,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+769,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+770,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+771,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+772,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+773,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+774,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+776,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+779,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+780,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+785,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+787,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+788,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+789,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+790,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+791,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+792,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+796,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+801,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+802,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+803,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+805,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+806,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+807,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+811,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+821,middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 && top-middle-square-o > 0.5 && top-right-square-o > 0.5  => positive,4
+822,middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 && top-middle-square-o > 0.5 && top-right-square-o > 0.5  => positive,4
+823,middle-middle-square-o <= 0.5 && top-left-square-o > 0.5 && top-middle-square-o > 0.5 && top-right-square-o > 0.5  => positive,4
+848,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+851,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+852,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+853,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+854,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+855,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+856,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+862,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+865,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+866,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+867,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+869,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+872,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+873,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+874,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+879,bottom-right-square-o <= 0.5 && middle-middle-square-o <= 0.5 && top-left-square-o <= 0.5  => negative,3
+945,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3
+948,bottom-right-square-x <= 0.5 && middle-middle-square-o > 0.5 && top-left-square-x <= 0.5  => positive,3

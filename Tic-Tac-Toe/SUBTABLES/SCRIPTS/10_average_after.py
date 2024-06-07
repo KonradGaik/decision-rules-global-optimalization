@@ -18,7 +18,7 @@ def process_row(row):
         try:
             rule_str = rule.strip()
             rule_length = len(rule_str.split('&&'))
-            unique_rules.add((rule_str, rule_length-1))
+            unique_rules.add((rule_str, rule_length))
             rule_lengths.append(rule_length)
         except (ValueError, SyntaxError) as e:
             print(f"Skipping invalid rule format in row {row_number}: {e}")

@@ -10,24 +10,23 @@ def process_row(row):
         print(f"Error parsing row {row_number}: {e}")
         return []
 
-    unique_rules = set()
-    rule_lengths = []
-
-    # Przetwarzanie każdej reguły i dodanie jej do zbioru unikalnych reguł
+    # Obliczanie średniej długości reguł
+    total_length = 0
+    rule_count = 0
     for rule in matched_rules:
         try:
             rule_str = rule.strip()
             rule_length = len(rule_str.split('&&'))
-            unique_rules.add((rule_str, rule_length-1))
-            rule_lengths.append(rule_length)
+            total_length += rule_length
+            rule_count += 1
         except (ValueError, SyntaxError) as e:
             print(f"Skipping invalid rule format in row {row_number}: {e}")
             continue
 
-    # Tworzenie osobnych wierszy dla każdej unikalnej reguły
-    processed_rows = []
-    for rule_tuple in unique_rules:
-        processed_rows.append([row_number, rule_tuple[0], rule_tuple[1]])
+    average_rule_length = total_length / rule_count if rule_count > 0 else 0
+
+    # Tworzenie wiersza z numerem wiersza, regułami i średnią długością
+    processed_rows = [[row_number, f"{average_rule_length:.1f}".replace('.', ',')]]
 
     return processed_rows
 
@@ -44,7 +43,7 @@ for i in range(1, 6):
         next(reader)
         
         # Dodanie nagłówka do pliku wyjściowego
-        writer.writerow(['Row Number', 'Rule', 'Rule Length'])
+        writer.writerow(['Row Number', 'Average Rule Length'])
         
         # Przetwarzanie wierszy
         for row in reader:

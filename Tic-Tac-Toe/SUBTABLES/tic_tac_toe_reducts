@@ -1,6 +1,9 @@
 REDUCTS (5)
-{ bruises, stalk-root, spore-print-color, population } 1.0
-{ bruises, gill-size, stalk-root, spore-print-color } 1.0
-{ bruises, gill-spacing, stalk-root, spore-print-color } 1.0
-{ cap-surface, stalk-shape, stalk-root, spore-print-color, population } 1.0
-{ bruises, stalk-shape, stalk-root, stalk-surface-above-ring, habitat } 1.0
+{ top-left-square, top-middle-square, top-right-square, middle-left-square, middle-right-square, bottom-left-square, bottom-middle-square, bottom-right-square } 1.0
+{ top-left-square, top-middle-square, top-right-square, middle-left-square, middle-middle-square, middle-right-square, bottom-left-square, bottom-middle-square } 1.0
+{ top-left-square, top-middle-square, top-right-square, middle-left-square, middle-middle-square, middle-right-square, bottom-middle-square, bottom-right-square } 1.0
+{ top-left-square, top-middle-square, top-right-square, middle-left-square, middle-middle-square, bottom-left-square, bottom-middle-square, bottom-right-square } 1.0
+{ top-left-square, top-right-square, middle-left-square, middle-middle-square, middle-right-square, bottom-left-square, bottom-middle-square, bottom-right-square } 1.0
+
+
+
