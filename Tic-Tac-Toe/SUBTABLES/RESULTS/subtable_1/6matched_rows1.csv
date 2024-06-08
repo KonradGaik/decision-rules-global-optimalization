@@ -1,8 +1,9 @@
 Row Number,Matched Rules
-320,"['bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-x <= 0.5 && top-left-square-o > 0.5 && top-middle-square-x <= 0.5 && top-right-square-o <= 0.5  => negative', 'bottom-left-square-o > 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-x <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o <= 0.5  => negative']"
+320,"['bottom-left-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-right-square-x <= 0.5 && top-left-square-o <= 0.5 && top-middle-square-x <= 0.5 && top-right-square-o > 0.5  => negative', 'bottom-left-square-o <= 0.5 && bottom-middle-square-x <= 0.5 && bottom-right-square-o > 0.5 && middle-right-square-x <= 0.5 && top-left-square-o <= 0.5 && top-right-square-o <= 0.5  => negative']"
 629,['bottom-left-square-o > 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5  => positive']
 638,['bottom-left-square-o > 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5  => positive']
-649,['bottom-left-square-o > 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5  => positive']
+649,"['bottom-middle-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-b > 0.5 && top-right-square-o <= 0.5  => negative', 'bottom-left-square-o > 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5  => positive']"
+650,['bottom-middle-square-o <= 0.5 && bottom-right-square-o <= 0.5 && middle-left-square-b > 0.5 && top-right-square-o <= 0.5  => negative']
 661,['bottom-left-square-o > 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5  => positive']
 662,['bottom-left-square-o > 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5  => positive']
 663,['bottom-left-square-o > 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5  => positive']
@@ -24,8 +25,6 @@ Row Number,Matched Rules
 741,['bottom-left-square-o > 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5  => positive']
 749,['bottom-left-square-o > 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5  => positive']
 768,['bottom-left-square-o > 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5  => positive']
-810,['bottom-left-square-o <= 0.5 && middle-right-square-b > 0.5 && top-left-square-o <= 0.5 && top-middle-square-o <= 0.5  => negative']
-818,['bottom-left-square-o <= 0.5 && middle-right-square-b > 0.5 && top-left-square-o <= 0.5 && top-middle-square-o <= 0.5  => negative']
 880,['bottom-left-square-o > 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5  => positive']
 881,['bottom-left-square-o > 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5  => positive']
 882,['bottom-left-square-o > 0.5 && bottom-middle-square-o > 0.5 && bottom-right-square-o > 0.5  => positive']
