@@ -11,34 +11,52 @@ def evaluate_rule(row_value, rule_value):
         return row_value <= value
     return False
 
+
+def find_shortest_rule_length(rules_df):
+    min_length = float('inf')  # Ustaw początkową najkrótszą długość na nieskończoność
+
+    for _, rule_row in rules_df.iterrows():
+        # Oblicz długość reguły jako liczbę niepustych wartości w wierszu
+        rule_length = rule_row.count()
+
+        # Jeśli obecna długość reguły jest krótsza niż dotychczas znaleziona najkrótsza, zaktualizuj najkrótszą długość
+        if rule_length < min_length:
+            min_length = rule_length
+
+    return min_length
+
 def match_rules_to_rows(data_df, rules_df):
     matched_rows = []
+    shortest_rule_length = find_shortest_rule_length(rules_df)
     for i, row in data_df.iterrows():
         matched_rules = []
+        #print(row)
         matched_rule_strings = set()  # Zbiór dla unikalnych łańcuchów reguł
         
         for j, rule_row in rules_df.iterrows():
             rule = ""
             rule_length = 0
-            is_matched = False
             for col_name, rule_value in rule_row.items():
+                if pd.isnull(rule_value):
+                    continue
                 if pd.notna(rule_value):
                     if col_name != 'Class':
-                        if not evaluate_rule(row[col_name], rule_value):
-                            is_matched = False
-                        else:
+                        if evaluate_rule(row[col_name], rule_value):
                             rule += f"{rule_value} && "
                             rule_length += 1
                             is_matched = True
+                        else:
+                            is_matched = False
                     else:
                         if str(row[col_name]) != str(rule_value):
                             is_matched = False
+                            break
 
-            if is_matched and (rule_length >= 3):
+            if is_matched and shortest_rule_length <= rule_length:
                 if rule not in matched_rule_strings:
                     matched_rule_strings.add(rule)
                     matched_rules.append({'Rule': rule[:-4] + f" => {rule_row['Class']}", 'Rule Length': rule_length})
-        
+                            
         if matched_rules:
             matched_rows.append({'Row Number': i + 1, 'Matched Rules': matched_rules})
     

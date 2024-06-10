@@ -1,26 +1,30 @@
-import csv
+import pandas as pd
+import ast
 
-# Nazwa pliku CSV
-filename = '../RESULTS/subtable_5/10after_avg5.csv'
+def extract_unique_rules(input_file, output_file):
+    # Wczytanie danych
+    data = pd.read_csv(input_file)
 
-# Zbiór do przechowywania unikalnych reguł decyzyjnych
-unique_rules = set()
+    # Inicjalizacja zbioru do przechowywania unikalnych reguł
+    unique_rules = set()
 
-# Czytanie pliku CSV
-with open(filename, 'r') as csvfile:
-    csvreader = csv.reader(csvfile)
-    
-    # Pomijanie nagłówka
-    next(csvreader)
-    
-    # Dodawanie reguł do zbioru unikalnych reguł
-    for row in csvreader:
-        rule = row[1]
-        unique_rules.add(rule)
+    # Iteracja po wierszach danych
+    for row in data['Shortest Rules']:
+        # Konwersja łańcucha znaków do listy słowników
+        rules = ast.literal_eval(row)
+        for rule_dict in rules:
+            # Dodanie reguły do zbioru unikalnych reguł
+            unique_rules.add(rule_dict['Rule'])
 
-# Wyświetlanie wszystkich unikalnych reguł decyzyjnych
-for rule in unique_rules:
-    print(rule)
+    # Konwersja zbioru unikalnych reguł do listy i utworzenie DataFrame
+    unique_rules_df = pd.DataFrame(list(unique_rules), columns=['Unique Rules'])
+    unique_rules_df = unique_rules_df.drop_duplicates()
+    # Zapisanie unikalnych reguł do pliku CSV
+    unique_rules_df.to_csv(output_file, index=False)
 
-# Wyświetlanie liczby unikalnych reguł decyzyjnych
-print(f'Liczba unikalnych reguł decyzyjnych: {len(unique_rules)}')
+    print(f"Unikalne reguły zostały zapisane do pliku {output_file}")
+
+for i in range(1, 6):
+    input_file = f'../RESULTS/subtable_{i}/8matched_rows_shortest_{i}.csv'
+    output_file = f'../RESULTS/subtable_{i}/11unique_rules{i}.csv'
+    extract_unique_rules(input_file, output_file)

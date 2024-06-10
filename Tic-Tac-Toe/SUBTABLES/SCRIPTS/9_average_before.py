@@ -15,7 +15,10 @@ def process_row(row):
     rule_count = 0
     for rule in matched_rules:
         try:
-            rule_str = rule.strip()
+            if isinstance(rule, dict) and 'Rule' in rule:
+                rule_str = rule['Rule'].strip()
+            else:
+                rule_str = rule.strip()
             rule_length = len(rule_str.split('&&'))
             total_length += rule_length
             rule_count += 1
