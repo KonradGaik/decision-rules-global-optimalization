@@ -51,15 +51,16 @@ def match_rules_to_rows(data_df, rules_df):
                         if str(row[col_name]) != str(rule_value):
                             is_matched = False
                             break
-
-            if is_matched and shortest_rule_length <= rule_length:
+            rule_row_set = set(rule_row)
+            rule_set = set(rule.split(" && "))
+            # if i == 0 and j == 0:
+            #     print(f'TEST1: {rule_row_set}, TEST2: {rule_set}')
+            if is_matched and rule_length >= shortest_rule_length and pd.notna(rule_row_set.issubset(rule_set)):
                 if rule not in matched_rule_strings:
                     matched_rule_strings.add(rule)
                     matched_rules.append({'Rule': rule[:-4] + f" => {rule_row['Class']}", 'Rule Length': rule_length})
-                            
         if matched_rules:
             matched_rows.append({'Row Number': i + 1, 'Matched Rules': matched_rules})
-    
     matched_rows_df = pd.DataFrame(matched_rows)
     matched_rows_df['Matched Rules'] = matched_rows_df['Matched Rules'].apply(lambda x: tuple(x))
     matched_rows_df = matched_rows_df.join(pd.DataFrame(matched_rows_df['Matched Rules'].tolist()))
