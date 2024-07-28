@@ -1,0 +1,4 @@
+"Rule: (block_of_affere <= 1.5) & (early_uptake_in <= 1.5) & (no_of_nodes_in > 3.0), Class: 1, Length: 3"
+Order,special_forms,changes_in_stru,no_of_nodes_in,block_of_affere,changes_in_node,early_uptake_in,changes_in_lym,class
+37,3,5,4,1,2,1,1,4
+140,3,5,7,1,1,1,1,4

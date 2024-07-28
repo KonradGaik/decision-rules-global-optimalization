@@ -1,0 +1,31 @@
+(block_of_affere <= 1.5) & (early_uptake_in <= 1.5) & (extravasates <= 1.5) & (lymphatics <= 1.5), class: 3, length: 4
+(block_of_affere <= 1.5) & (early_uptake_in <= 1.5) & (extravasates <= 1.5) & (lymphatics > 1.5) & (Order <= 83.0) & (Order <= 61.0) & (special_forms <= 1.5), class: 2, length: 7
+(block_of_affere <= 1.5) & (early_uptake_in <= 1.5) & (extravasates <= 1.5) & (lymphatics > 1.5) & (Order <= 83.0) & (Order <= 61.0) & (special_forms > 1.5) & (dislocation_of <= 1.5), class: 2, length: 8
+(block_of_affere <= 1.5) & (early_uptake_in <= 1.5) & (extravasates <= 1.5) & (lymphatics > 1.5) & (Order <= 83.0) & (Order <= 61.0) & (special_forms > 1.5) & (dislocation_of > 1.5), class: 4, length: 8
+(block_of_affere <= 1.5) & (early_uptake_in <= 1.5) & (extravasates <= 1.5) & (lymphatics > 1.5) & (Order <= 83.0) & (Order > 61.0), class: 4, length: 6
+(block_of_affere <= 1.5) & (early_uptake_in <= 1.5) & (extravasates <= 1.5) & (lymphatics > 1.5) & (Order > 83.0), class: 2, length: 5
+(block_of_affere <= 1.5) & (early_uptake_in <= 1.5) & (extravasates > 1.5) & (lym_nodes_enlar <= 1.5), class: 1, length: 4
+(block_of_affere <= 1.5) & (early_uptake_in <= 1.5) & (extravasates > 1.5) & (lym_nodes_enlar > 1.5), class: 4, length: 4
+(block_of_affere <= 1.5) & (early_uptake_in > 1.5) & (special_forms <= 1.5) & (no_of_nodes_in <= 1.5), class: 2, length: 4
+(block_of_affere <= 1.5) & (early_uptake_in > 1.5) & (special_forms <= 1.5) & (no_of_nodes_in > 1.5) & (changes_in_stru <= 5.5) & (Order <= 120.0), class: 2, length: 6
+(block_of_affere <= 1.5) & (early_uptake_in > 1.5) & (special_forms <= 1.5) & (no_of_nodes_in > 1.5) & (changes_in_stru <= 5.5) & (Order > 120.0), class: 3, length: 6
+(block_of_affere <= 1.5) & (early_uptake_in > 1.5) & (special_forms <= 1.5) & (no_of_nodes_in > 1.5) & (changes_in_stru > 5.5), class: 4, length: 5
+(block_of_affere <= 1.5) & (early_uptake_in > 1.5) & (special_forms > 1.5) & (changes_in_lym <= 2.5), class: 4, length: 4
+(block_of_affere <= 1.5) & (early_uptake_in > 1.5) & (special_forms > 1.5) & (changes_in_lym > 2.5) & (extravasates <= 1.5) & (changes_in_node <= 3.5) & (Order <= 58.5) & (Order <= 22.5), class: 2, length: 8
+(block_of_affere <= 1.5) & (early_uptake_in > 1.5) & (special_forms > 1.5) & (changes_in_lym > 2.5) & (extravasates <= 1.5) & (changes_in_node <= 3.5) & (Order <= 58.5) & (Order > 22.5), class: 4, length: 8
+(block_of_affere <= 1.5) & (early_uptake_in > 1.5) & (special_forms > 1.5) & (changes_in_lym > 2.5) & (extravasates <= 1.5) & (changes_in_node <= 3.5) & (Order > 58.5), class: 2, length: 7
+(block_of_affere <= 1.5) & (early_uptake_in > 1.5) & (special_forms > 1.5) & (changes_in_lym > 2.5) & (extravasates <= 1.5) & (changes_in_node > 3.5), class: 4, length: 6
+(block_of_affere <= 1.5) & (early_uptake_in > 1.5) & (special_forms > 1.5) & (changes_in_lym > 2.5) & (extravasates > 1.5), class: 4, length: 5
+(block_of_affere > 1.5) & (changes_in_node <= 3.5) & (no_of_nodes_in <= 3.5) & (changes_in_node <= 1.5), class: 4, length: 4
+(block_of_affere > 1.5) & (changes_in_node <= 3.5) & (no_of_nodes_in <= 3.5) & (changes_in_node > 1.5) & (changes_in_node <= 2.5) & (lym_nodes_enlar <= 2.5), class: 2, length: 6
+(block_of_affere > 1.5) & (changes_in_node <= 3.5) & (no_of_nodes_in <= 3.5) & (changes_in_node > 1.5) & (changes_in_node <= 2.5) & (lym_nodes_enlar > 2.5), class: 4, length: 6
+(block_of_affere > 1.5) & (changes_in_node <= 3.5) & (no_of_nodes_in <= 3.5) & (changes_in_node > 1.5) & (changes_in_node > 2.5) & (lym_nodes_enlar <= 3.5), class: 2, length: 6
+(block_of_affere > 1.5) & (changes_in_node <= 3.5) & (no_of_nodes_in <= 3.5) & (changes_in_node > 1.5) & (changes_in_node > 2.5) & (lym_nodes_enlar > 3.5) & (changes_in_stru <= 5.5), class: 2, length: 7
+(block_of_affere > 1.5) & (changes_in_node <= 3.5) & (no_of_nodes_in <= 3.5) & (changes_in_node > 1.5) & (changes_in_node > 2.5) & (lym_nodes_enlar > 3.5) & (changes_in_stru > 5.5), class: 4, length: 7
+(block_of_affere > 1.5) & (changes_in_node <= 3.5) & (no_of_nodes_in > 3.5) & (lym_nodes_dimin <= 1.5) & (changes_in_lym <= 2.5), class: 4, length: 5
+(block_of_affere > 1.5) & (changes_in_node <= 3.5) & (no_of_nodes_in > 3.5) & (lym_nodes_dimin <= 1.5) & (changes_in_lym > 2.5) & (by_pass <= 1.5) & (dislocation_of <= 1.5), class: 2, length: 7
+(block_of_affere > 1.5) & (changes_in_node <= 3.5) & (no_of_nodes_in > 3.5) & (lym_nodes_dimin <= 1.5) & (changes_in_lym > 2.5) & (by_pass <= 1.5) & (dislocation_of > 1.5), class: 4, length: 7
+(block_of_affere > 1.5) & (changes_in_node <= 3.5) & (no_of_nodes_in > 3.5) & (lym_nodes_dimin <= 1.5) & (changes_in_lym > 2.5) & (by_pass > 1.5), class: 2, length: 6
+(block_of_affere > 1.5) & (changes_in_node <= 3.5) & (no_of_nodes_in > 3.5) & (lym_nodes_dimin > 1.5), class: 1, length: 4
+(block_of_affere > 1.5) & (changes_in_node > 3.5) & (no_of_nodes_in <= 1.5), class: 2, length: 3
+(block_of_affere > 1.5) & (changes_in_node > 3.5) & (no_of_nodes_in > 1.5), class: 4, length: 3

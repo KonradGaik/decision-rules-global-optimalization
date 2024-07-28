@@ -35,7 +35,7 @@ def get_rules(tree, feature_names, class_names):
 
 def process_csv_file(csv_file, index, output_folder):
     df = pd.read_csv(csv_file)
-    X = df.drop(columns=['class'])
+    X = df.drop(columns=['class', 'Order'])  # Usuwamy również kolumnę 'Order'
     y = df['class']
     clf = DecisionTreeClassifier(criterion='gini', max_depth=None, random_state=1234)
     clf.fit(X, y)

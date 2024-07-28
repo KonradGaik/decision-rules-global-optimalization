@@ -1,0 +1,5 @@
+"Rule: (changes_in_node > 3.5) & (no_of_nodes_in <= 1.5) & (block_of_affere <= 1.5), Class: 4, Length: 3"
+Order,special_forms,changes_in_stru,no_of_nodes_in,block_of_affere,changes_in_node,dislocation_of,class
+28,3,8,1,1,4,2,3
+115,3,2,1,1,4,2,3
+117,2,3,1,1,4,2,3

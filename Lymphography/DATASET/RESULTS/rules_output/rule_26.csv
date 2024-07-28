@@ -1,0 +1,2 @@
+Order,lymphatics,block_of_affere,bl_of_lymph_c,bl_of_lymph_s,by_pass,extravasates,regeneration_of,early_uptake_in,lym_nodes_dimin,lym_nodes_enlar,changes_in_lym,defect_in_node,changes_in_node,changes_in_stru,special_forms,dislocation_of,exclusion_of_no,no_of_nodes_in,class,Rule_Length,Rule
+131,2,2,1,1,1,1,1,2,1,4,3,4,2,8,2,1,2,4,2,7,(block_of_affere > 1.5) & (changes_in_node <= 3.5) & (no_of_nodes_in > 3.5) & (lym_nodes_dimin <= 1.5) & (changes_in_lym > 2.5) & (by_pass <= 1.5) & (dislocation_of <= 1.5)
