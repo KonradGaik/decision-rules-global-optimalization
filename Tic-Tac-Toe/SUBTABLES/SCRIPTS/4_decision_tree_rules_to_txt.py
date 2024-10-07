@@ -97,13 +97,13 @@ def process_csv_file(csv_file, index, output_folder):
             matched_rows_file = os.path.join(output_folder, f"rule_{index}_{rule_index+1}.csv")
             matched_rows.to_csv(matched_rows_file, index=False)
 
-    # Plot full tree (optional)
-    plt.figure(figsize=(20, 10))
-    plot_tree(clf, feature_names=X.columns, class_names=list(map(str, df['class'].unique())), filled=True, rounded=True)
-    tree_image_path = os.path.join(f"../RESULTS/subtable_{index}", f"3decision_tree_{index}.jpg")
-    plt.savefig(tree_image_path)
-    plt.close()
-    print(f"Tree image saved to: {tree_image_path}")
+    # # Plot full tree (optional)
+    # plt.figure(figsize=(20, 10))
+    # plot_tree(clf, feature_names=X.columns, class_names=list(map(str, df['class'].unique())), filled=True, rounded=True)
+    # tree_image_path = os.path.join(f"../RESULTS/subtable_{index}", f"3decision_tree_{index}.jpg")
+    # plt.savefig(tree_image_path)
+    # plt.close()
+    # print(f"Tree image saved to: {tree_image_path}")
 
     return terminal_rules, X, y
 

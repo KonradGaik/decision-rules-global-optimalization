@@ -33,7 +33,7 @@ def collect_order_and_lengths(input_folder, output_folder):
             if i < len(lengths):
                 row[f'Length_{i+1}'] = lengths[i]
             else:
-                row[f'Length_{i+1}'] = None  # lub możesz użyć 0 zamiast None
+                row[f'Length_{i+1}'] = None
         result.append(row)
 
     # Konwersja listy słowników na DataFrame

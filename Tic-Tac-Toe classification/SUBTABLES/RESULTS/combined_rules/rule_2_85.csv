@@ -1,0 +1,8 @@
+Order,middle-middle-square-o,middle-middle-square-b,middle-middle-square-x,top-right-square-x,top-right-square-o,top-right-square-b,middle-left-square-x,middle-left-square-o,middle-left-square-b,bottom-middle-square-o,bottom-middle-square-x,bottom-middle-square-b,bottom-left-square-x,bottom-left-square-o,bottom-left-square-b,top-middle-square-x,top-middle-square-o,top-middle-square-b,top-left-square-x,top-left-square-o,top-left-square-b,middle-right-square-o,middle-right-square-b,middle-right-square-x,Rule_Length,Rule
+836,0,0,1,0,1,0,0,0,1,0,1,0,1,0,0,0,1,0,0,1,0,0,0,1,4,(middle-middle-square-o <= 0.5) & (top-right-square-o > 0.5) & (top-left-square-o > 0.5) & (top-middle-square-o > 0.5)
+831,0,1,0,0,1,0,1,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,1,0,4,(middle-middle-square-o <= 0.5) & (top-right-square-o > 0.5) & (top-left-square-o > 0.5) & (top-middle-square-o > 0.5)
+824,0,1,0,0,1,0,1,0,0,0,1,0,1,0,0,0,1,0,0,1,0,0,0,1,4,(middle-middle-square-o <= 0.5) & (top-right-square-o > 0.5) & (top-left-square-o > 0.5) & (top-middle-square-o > 0.5)
+828,0,1,0,0,1,0,1,0,0,0,1,0,0,0,1,0,1,0,0,1,0,0,0,1,4,(middle-middle-square-o <= 0.5) & (top-right-square-o > 0.5) & (top-left-square-o > 0.5) & (top-middle-square-o > 0.5)
+819,0,0,1,0,1,0,1,0,0,0,1,0,0,0,1,0,1,0,0,1,0,0,1,0,4,(middle-middle-square-o <= 0.5) & (top-right-square-o > 0.5) & (top-left-square-o > 0.5) & (top-middle-square-o > 0.5)
+838,0,0,1,0,1,0,0,0,1,0,0,1,1,0,0,0,1,0,0,1,0,0,0,1,4,(middle-middle-square-o <= 0.5) & (top-right-square-o > 0.5) & (top-left-square-o > 0.5) & (top-middle-square-o > 0.5)
+840,0,0,1,0,1,0,0,0,1,0,1,0,0,0,1,0,1,0,0,1,0,0,0,1,4,(middle-middle-square-o <= 0.5) & (top-right-square-o > 0.5) & (top-left-square-o > 0.5) & (top-middle-square-o > 0.5)
