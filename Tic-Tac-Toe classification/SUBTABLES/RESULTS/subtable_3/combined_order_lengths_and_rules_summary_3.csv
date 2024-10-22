@@ -1,0 +1,17 @@
+Rule_Index,Conditions,Class,Length
+1,(middle-middle-square-o <= 0.5) & (top-right-square-o <= 0.5) & (top-middle-square-x <= 0.5) & (bottom-middle-square-x <= 0.5),negative,4
+2,(middle-middle-square-o <= 0.5) & (top-right-square-o <= 0.5) & (top-middle-square-x <= 0.5) & (bottom-middle-square-x > 0.5),negative,4
+3,(middle-middle-square-o <= 0.5) & (top-right-square-o <= 0.5) & (top-middle-square-x > 0.5) & (middle-right-square-x <= 0.5),negative,4
+4,(middle-middle-square-o <= 0.5) & (top-right-square-o <= 0.5) & (top-middle-square-x > 0.5) & (middle-right-square-x > 0.5),positive,4
+5,(middle-middle-square-o <= 0.5) & (top-right-square-o > 0.5) & (top-left-square-o <= 0.5) & (bottom-right-square-o <= 0.5),negative,4
+6,(middle-middle-square-o <= 0.5) & (top-right-square-o > 0.5) & (top-left-square-o <= 0.5) & (bottom-right-square-o > 0.5),positive,4
+7,(middle-middle-square-o <= 0.5) & (top-right-square-o > 0.5) & (top-left-square-o > 0.5) & (top-middle-square-o <= 0.5),negative,4
+8,(middle-middle-square-o <= 0.5) & (top-right-square-o > 0.5) & (top-left-square-o > 0.5) & (top-middle-square-o > 0.5),positive,4
+9,(middle-middle-square-o > 0.5) & (top-right-square-x <= 0.5) & (top-middle-square-x <= 0.5) & (middle-right-square-x <= 0.5),negative,4
+10,(middle-middle-square-o > 0.5) & (top-right-square-x <= 0.5) & (top-middle-square-x <= 0.5) & (middle-right-square-x > 0.5),positive,4
+11,(middle-middle-square-o > 0.5) & (top-right-square-x <= 0.5) & (top-middle-square-x > 0.5) & (bottom-right-square-x <= 0.5),positive,4
+12,(middle-middle-square-o > 0.5) & (top-right-square-x <= 0.5) & (top-middle-square-x > 0.5) & (bottom-right-square-x > 0.5),positive,4
+13,(middle-middle-square-o > 0.5) & (top-right-square-x > 0.5) & (bottom-right-square-x <= 0.5) & (top-left-square-x <= 0.5),positive,4
+14,(middle-middle-square-o > 0.5) & (top-right-square-x > 0.5) & (bottom-right-square-x <= 0.5) & (top-left-square-x > 0.5),negative,4
+15,(middle-middle-square-o > 0.5) & (top-right-square-x > 0.5) & (bottom-right-square-x > 0.5) & (middle-right-square-x <= 0.5),positive,4
+16,(middle-middle-square-o > 0.5) & (top-right-square-x > 0.5) & (bottom-right-square-x > 0.5) & (middle-right-square-x > 0.5),negative,4
