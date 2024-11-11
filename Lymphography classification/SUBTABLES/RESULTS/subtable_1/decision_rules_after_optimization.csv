@@ -1,0 +1,165 @@
+class,Order,optimized_rule
+,,"|--- block_of_affere <= 1.50
+"
+,,"|--- block_of_affere >  1.50
+"
+,,"|   |--- special_forms <= 2.50
+"
+,,"|   |--- special_forms >  2.50
+"
+,,"|   |--- changes_in_node <= 3.50
+"
+,,"|   |--- changes_in_node >  3.50
+"
+,,"|   |   |--- changes_in_node <= 3.50
+"
+,,"|   |   |--- changes_in_node >  3.50
+"
+,,"|   |   |   |--- class: 3
+"
+,,"|   |   |--- dislocation_of <= 1.50
+"
+,,"|   |   |--- dislocation_of >  1.50
+"
+,,"|   |   |   |--- class: 3
+"
+,,"|   |   |--- changes_in_node <= 2.50
+"
+,,"|   |   |--- changes_in_node >  2.50
+"
+,,"|   |   |--- no_of_nodes_in <= 1.50
+"
+,,"|   |   |   |--- class: 2
+"
+,,"|   |   |--- no_of_nodes_in >  1.50
+"
+,,"|   |   |   |--- class: 3
+"
+,,"|   |   |   |--- changes_in_node <= 1.50
+"
+,,"|   |   |   |--- changes_in_node >  1.50
+"
+,,"|   |   |   |--- changes_in_node <= 2.50
+"
+,,"|   |   |   |--- changes_in_node >  2.50
+"
+,,"|   |   |   |--- no_of_nodes_in <= 1.50
+"
+,,"|   |   |   |   |--- class: 2
+"
+,,"|   |   |   |--- no_of_nodes_in >  1.50
+"
+,,"|   |   |   |--- no_of_nodes_in <= 2.50
+"
+,,"|   |   |   |   |--- class: 2
+"
+,,"|   |   |   |--- no_of_nodes_in >  2.50
+"
+,,"|   |   |   |   |--- dislocation_of <= 1.50
+"
+,,"|   |   |   |   |   |--- class: 1
+"
+,,"|   |   |   |   |--- dislocation_of >  1.50
+"
+,,"|   |   |   |   |   |--- class: 3
+"
+,,"|   |   |   |   |--- special_forms <= 1.50
+"
+,,"|   |   |   |   |--- special_forms >  1.50
+"
+,,"|   |   |   |   |--- changes_in_stru <= 4.50
+"
+,,"|   |   |   |   |   |--- class: 3
+"
+,,"|   |   |   |   |--- changes_in_stru >  4.50
+"
+,,"|   |   |   |   |   |--- class: 4
+"
+,,"|   |   |   |   |--- changes_in_node <= 3.50
+"
+,,"|   |   |   |   |--- changes_in_node >  3.50
+"
+,,"|   |   |   |   |   |--- class: 3
+"
+,,"|   |   |   |   |--- special_forms <= 2.50
+"
+,,"|   |   |   |   |--- special_forms >  2.50
+"
+,,"|   |   |   |   |   |--- class: 3
+"
+,,"|   |   |   |   |--- changes_in_stru <= 6.00
+"
+,,"|   |   |   |   |   |--- class: 2
+"
+,,"|   |   |   |   |--- changes_in_stru >  6.00
+"
+,,"|   |   |   |   |   |--- dislocation_of <= 1.50
+"
+,,"|   |   |   |   |   |--- dislocation_of >  1.50
+"
+,,"|   |   |   |   |   |   |--- class: 2
+"
+,,"|   |   |   |   |   |--- changes_in_node <= 2.50
+"
+,,"|   |   |   |   |   |--- changes_in_node >  2.50
+"
+,,"|   |   |   |   |   |--- changes_in_stru <= 3.50
+"
+,,"|   |   |   |   |   |   |--- class: 3
+"
+,,"|   |   |   |   |   |--- changes_in_stru >  3.50
+"
+,,"|   |   |   |   |   |--- dislocation_of <= 1.50
+"
+,,"|   |   |   |   |   |   |--- class: 2
+"
+,,"|   |   |   |   |   |--- dislocation_of >  1.50
+"
+,,"|   |   |   |   |   |   |--- class: 4
+"
+,,"|   |   |   |   |   |--- changes_in_stru <= 7.50
+"
+,,"|   |   |   |   |   |   |--- class: 3
+"
+,,"|   |   |   |   |   |--- changes_in_stru >  7.50
+"
+,,"|   |   |   |   |   |   |--- class: 2
+"
+,,"|   |   |   |   |   |   |--- changes_in_stru <= 6.50
+"
+,,"|   |   |   |   |   |   |   |--- class: 3
+"
+,,"|   |   |   |   |   |   |--- changes_in_stru >  6.50
+"
+,,"|   |   |   |   |   |   |   |--- class: 2
+"
+,,"|   |   |   |   |   |   |--- changes_in_stru <= 6.00
+"
+,,"|   |   |   |   |   |   |   |--- class: 2
+"
+,,"|   |   |   |   |   |   |--- changes_in_stru >  6.00
+"
+,,"|   |   |   |   |   |   |   |--- class: 3
+"
+,,"|   |   |   |   |   |   |--- changes_in_stru <= 4.00
+"
+,,"|   |   |   |   |   |   |   |--- class: 3
+"
+,,"|   |   |   |   |   |   |--- changes_in_stru >  4.00
+"
+,,"|   |   |   |   |   |   |   |--- class: 2
+"
+,,"|   |   |   |   |   |   |--- no_of_nodes_in <= 1.50
+"
+,,"|   |   |   |   |   |   |   |--- class: 2
+"
+,,"|   |   |   |   |   |   |--- no_of_nodes_in >  1.50
+"
+,,"|   |   |   |   |   |   |   |--- changes_in_stru <= 4.50
+"
+,,"|   |   |   |   |   |   |   |   |--- class: 2
+"
+,,"|   |   |   |   |   |   |   |--- changes_in_stru >  4.50
+"
+,,"|   |   |   |   |   |   |   |   |--- class: 3
+"

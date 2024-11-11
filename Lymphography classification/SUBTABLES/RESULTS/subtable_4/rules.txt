@@ -1,0 +1,79 @@
+|--- block_of_affere <= 1.50
+|   |--- special_forms <= 2.50
+|   |   |--- changes_in_node <= 3.50
+|   |   |   |--- changes_in_node <= 1.50
+|   |   |   |   |--- changes_in_stru <= 4.50
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- changes_in_stru >  4.50
+|   |   |   |   |   |--- class: 3
+|   |   |   |--- changes_in_node >  1.50
+|   |   |   |   |--- special_forms <= 1.50
+|   |   |   |   |   |--- early_uptake_in <= 1.50
+|   |   |   |   |   |   |--- changes_in_stru <= 6.50
+|   |   |   |   |   |   |   |--- changes_in_lym <= 1.50
+|   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |--- changes_in_lym >  1.50
+|   |   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |   |--- changes_in_stru >  6.50
+|   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |--- early_uptake_in >  1.50
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |--- special_forms >  1.50
+|   |   |   |   |   |--- changes_in_node <= 2.50
+|   |   |   |   |   |   |--- changes_in_stru <= 6.00
+|   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |--- changes_in_stru >  6.00
+|   |   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |--- changes_in_node >  2.50
+|   |   |   |   |   |   |--- changes_in_lym <= 2.50
+|   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |--- changes_in_lym >  2.50
+|   |   |   |   |   |   |   |--- class: 3
+|   |   |--- changes_in_node >  3.50
+|   |   |   |--- class: 3
+|   |--- special_forms >  2.50
+|   |   |--- changes_in_lym <= 1.50
+|   |   |   |--- class: 4
+|   |   |--- changes_in_lym >  1.50
+|   |   |   |--- early_uptake_in <= 1.50
+|   |   |   |   |--- changes_in_stru <= 6.00
+|   |   |   |   |   |--- class: 2
+|   |   |   |   |--- changes_in_stru >  6.00
+|   |   |   |   |   |--- class: 3
+|   |   |   |--- early_uptake_in >  1.50
+|   |   |   |   |--- no_of_nodes_in <= 1.50
+|   |   |   |   |   |--- changes_in_lym <= 2.50
+|   |   |   |   |   |   |--- class: 3
+|   |   |   |   |   |--- changes_in_lym >  2.50
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |--- no_of_nodes_in >  1.50
+|   |   |   |   |   |--- class: 3
+|--- block_of_affere >  1.50
+|   |--- changes_in_node <= 3.50
+|   |   |--- changes_in_node <= 2.50
+|   |   |   |--- no_of_nodes_in <= 1.50
+|   |   |   |   |--- class: 2
+|   |   |   |--- no_of_nodes_in >  1.50
+|   |   |   |   |--- special_forms <= 2.50
+|   |   |   |   |   |--- changes_in_stru <= 6.00
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |--- changes_in_stru >  6.00
+|   |   |   |   |   |   |--- class: 4
+|   |   |   |   |--- special_forms >  2.50
+|   |   |   |   |   |--- class: 3
+|   |   |--- changes_in_node >  2.50
+|   |   |   |--- no_of_nodes_in <= 2.50
+|   |   |   |   |--- class: 2
+|   |   |   |--- no_of_nodes_in >  2.50
+|   |   |   |   |--- changes_in_stru <= 6.00
+|   |   |   |   |   |--- class: 2
+|   |   |   |   |--- changes_in_stru >  6.00
+|   |   |   |   |   |--- special_forms <= 2.50
+|   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |--- special_forms >  2.50
+|   |   |   |   |   |   |--- class: 3
+|   |--- changes_in_node >  3.50
+|   |   |--- no_of_nodes_in <= 1.50
+|   |   |   |--- class: 2
+|   |   |--- no_of_nodes_in >  1.50
+|   |   |   |--- class: 3

@@ -1,0 +1,628 @@
+|--- bottom-left-square-o <= 0.50
+|--- bottom-left-square-o >  0.50
+|   |--- middle-left-square-o <= 0.50
+|   |--- middle-left-square-o >  0.50
+|   |--- top-middle-square-o <= 0.50
+|   |--- top-middle-square-o >  0.50
+|   |   |--- top-left-square-x <= 0.50
+|   |   |--- top-left-square-x >  0.50
+|   |   |--- middle-right-square-o <= 0.50
+|   |   |--- middle-right-square-o >  0.50
+|   |   |--- middle-right-square-o <= 0.50
+|   |   |--- middle-right-square-o >  0.50
+|   |   |--- bottom-middle-square-x <= 0.50
+|   |   |--- bottom-middle-square-x >  0.50
+|   |   |   |--- top-middle-square-b <= 0.50
+|   |   |   |--- top-middle-square-b >  0.50
+|   |   |   |--- middle-left-square-x <= 0.50
+|   |   |   |--- middle-left-square-x >  0.50
+|   |   |   |--- top-right-square-o <= 0.50
+|   |   |   |--- top-right-square-o >  0.50
+|   |   |   |--- top-middle-square-o <= 0.50
+|   |   |   |--- top-middle-square-o >  0.50
+|   |   |   |--- bottom-middle-square-b <= 0.50
+|   |   |   |--- bottom-middle-square-b >  0.50
+|   |   |   |--- middle-left-square-b <= 0.50
+|   |   |   |--- middle-left-square-b >  0.50
+|   |   |   |--- bottom-right-square-o <= 0.50
+|   |   |   |--- bottom-right-square-o >  0.50
+|   |   |   |--- middle-left-square-b <= 0.50
+|   |   |   |--- middle-left-square-b >  0.50
+|   |   |   |   |--- class: positive
+|   |   |   |   |--- top-right-square-o <= 0.50
+|   |   |   |   |--- top-right-square-o >  0.50
+|   |   |   |   |--- bottom-right-square-o <= 0.50
+|   |   |   |   |   |--- class: positive
+|   |   |   |   |--- bottom-right-square-o >  0.50
+|   |   |   |   |--- middle-right-square-x <= 0.50
+|   |   |   |   |--- middle-right-square-x >  0.50
+|   |   |   |   |--- bottom-left-square-b <= 0.50
+|   |   |   |   |   |--- class: positive
+|   |   |   |   |--- bottom-left-square-b >  0.50
+|   |   |   |   |--- top-left-square-x <= 0.50
+|   |   |   |   |   |--- class: positive
+|   |   |   |   |--- top-left-square-x >  0.50
+|   |   |   |   |--- middle-right-square-x <= 0.50
+|   |   |   |   |   |--- class: positive
+|   |   |   |   |--- middle-right-square-x >  0.50
+|   |   |   |   |--- bottom-right-square-x <= 0.50
+|   |   |   |   |--- bottom-right-square-x >  0.50
+|   |   |   |   |--- top-right-square-x <= 0.50
+|   |   |   |   |   |--- class: positive
+|   |   |   |   |--- top-right-square-x >  0.50
+|   |   |   |   |--- bottom-right-square-o <= 0.50
+|   |   |   |   |--- bottom-right-square-o >  0.50
+|   |   |   |   |--- top-left-square-o <= 0.50
+|   |   |   |   |--- top-left-square-o >  0.50
+|   |   |   |   |--- top-right-square-o <= 0.50
+|   |   |   |   |--- top-right-square-o >  0.50
+|   |   |   |   |--- top-right-square-o <= 0.50
+|   |   |   |   |   |--- class: positive
+|   |   |   |   |--- top-right-square-o >  0.50
+|   |   |   |   |--- top-right-square-x <= 0.50
+|   |   |   |   |--- top-right-square-x >  0.50
+|   |   |   |   |   |--- class: positive
+|   |   |   |   |--- middle-right-square-x <= 0.50
+|   |   |   |   |   |--- class: negative
+|   |   |   |   |--- middle-right-square-x >  0.50
+|   |   |   |   |   |--- class: positive
+|   |   |   |   |--- top-right-square-x <= 0.50
+|   |   |   |   |--- top-right-square-x >  0.50
+|   |   |   |   |   |--- bottom-right-square-o <= 0.50
+|   |   |   |   |   |--- bottom-right-square-o >  0.50
+|   |   |   |   |   |--- bottom-left-square-x <= 0.50
+|   |   |   |   |   |--- bottom-left-square-x >  0.50
+|   |   |   |   |   |--- bottom-middle-square-x <= 0.50
+|   |   |   |   |   |--- bottom-middle-square-x >  0.50
+|   |   |   |   |   |--- bottom-right-square-o <= 0.50
+|   |   |   |   |   |--- bottom-right-square-o >  0.50
+|   |   |   |   |   |--- top-middle-square-x <= 0.50
+|   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |--- top-middle-square-x >  0.50
+|   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |--- bottom-middle-square-x <= 0.50
+|   |   |   |   |   |--- bottom-middle-square-x >  0.50
+|   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |--- bottom-right-square-x <= 0.50
+|   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |--- bottom-right-square-x >  0.50
+|   |   |   |   |   |--- top-middle-square-b <= 0.50
+|   |   |   |   |   |--- top-middle-square-b >  0.50
+|   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |--- top-left-square-b <= 0.50
+|   |   |   |   |   |--- top-left-square-b >  0.50
+|   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |--- top-right-square-o <= 0.50
+|   |   |   |   |   |--- top-right-square-o >  0.50
+|   |   |   |   |   |--- bottom-right-square-x <= 0.50
+|   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |--- bottom-right-square-x >  0.50
+|   |   |   |   |   |--- bottom-middle-square-o <= 0.50
+|   |   |   |   |   |--- bottom-middle-square-o >  0.50
+|   |   |   |   |   |--- bottom-middle-square-x <= 0.50
+|   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |--- bottom-middle-square-x >  0.50
+|   |   |   |   |   |--- top-right-square-o <= 0.50
+|   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |--- top-right-square-o >  0.50
+|   |   |   |   |   |--- middle-left-square-o <= 0.50
+|   |   |   |   |   |--- middle-left-square-o >  0.50
+|   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |--- top-left-square-x <= 0.50
+|   |   |   |   |   |--- top-left-square-x >  0.50
+|   |   |   |   |   |--- bottom-middle-square-o <= 0.50
+|   |   |   |   |   |--- bottom-middle-square-o >  0.50
+|   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |--- bottom-middle-square-b <= 0.50
+|   |   |   |   |   |--- bottom-middle-square-b >  0.50
+|   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |--- top-left-square-x <= 0.50
+|   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |--- top-left-square-x >  0.50
+|   |   |   |   |   |--- top-left-square-b <= 0.50
+|   |   |   |   |   |--- top-left-square-b >  0.50
+|   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |--- bottom-right-square-x <= 0.50
+|   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |--- bottom-right-square-x >  0.50
+|   |   |   |   |   |   |--- bottom-middle-square-o <= 0.50
+|   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |--- bottom-middle-square-o >  0.50
+|   |   |   |   |   |   |--- top-left-square-o <= 0.50
+|   |   |   |   |   |   |--- top-left-square-o >  0.50
+|   |   |   |   |   |   |--- top-middle-square-o <= 0.50
+|   |   |   |   |   |   |--- top-middle-square-o >  0.50
+|   |   |   |   |   |   |--- bottom-right-square-x <= 0.50
+|   |   |   |   |   |   |--- bottom-right-square-x >  0.50
+|   |   |   |   |   |   |--- top-right-square-x <= 0.50
+|   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |--- top-right-square-x >  0.50
+|   |   |   |   |   |   |--- middle-right-square-b <= 0.50
+|   |   |   |   |   |   |--- middle-right-square-b >  0.50
+|   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |--- top-middle-square-o <= 0.50
+|   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |--- top-middle-square-o >  0.50
+|   |   |   |   |   |   |--- top-right-square-x <= 0.50
+|   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |--- top-right-square-x >  0.50
+|   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |--- top-middle-square-x <= 0.50
+|   |   |   |   |   |   |--- top-middle-square-x >  0.50
+|   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |--- bottom-left-square-x <= 0.50
+|   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |--- bottom-left-square-x >  0.50
+|   |   |   |   |   |   |--- bottom-left-square-x <= 0.50
+|   |   |   |   |   |   |--- bottom-left-square-x >  0.50
+|   |   |   |   |   |   |--- bottom-left-square-x <= 0.50
+|   |   |   |   |   |   |--- bottom-left-square-x >  0.50
+|   |   |   |   |   |   |--- top-middle-square-x <= 0.50
+|   |   |   |   |   |   |--- top-middle-square-x >  0.50
+|   |   |   |   |   |   |--- top-middle-square-x <= 0.50
+|   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |--- top-middle-square-x >  0.50
+|   |   |   |   |   |   |--- top-left-square-x <= 0.50
+|   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |--- top-left-square-x >  0.50
+|   |   |   |   |   |   |--- bottom-right-square-b <= 0.50
+|   |   |   |   |   |   |--- bottom-right-square-b >  0.50
+|   |   |   |   |   |   |--- top-right-square-o <= 0.50
+|   |   |   |   |   |   |--- top-right-square-o >  0.50
+|   |   |   |   |   |   |--- top-right-square-b <= 0.50
+|   |   |   |   |   |   |--- top-right-square-b >  0.50
+|   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |--- bottom-right-square-o <= 0.50
+|   |   |   |   |   |   |--- bottom-right-square-o >  0.50
+|   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |--- bottom-right-square-o <= 0.50
+|   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |--- bottom-right-square-o >  0.50
+|   |   |   |   |   |   |--- top-right-square-b <= 0.50
+|   |   |   |   |   |   |--- top-right-square-b >  0.50
+|   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |--- top-middle-square-x <= 0.50
+|   |   |   |   |   |   |--- top-middle-square-x >  0.50
+|   |   |   |   |   |   |--- top-middle-square-b <= 0.50
+|   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |--- top-middle-square-b >  0.50
+|   |   |   |   |   |   |--- top-middle-square-x <= 0.50
+|   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |--- top-middle-square-x >  0.50
+|   |   |   |   |   |   |--- middle-left-square-x <= 0.50
+|   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |--- middle-left-square-x >  0.50
+|   |   |   |   |   |   |--- middle-right-square-o <= 0.50
+|   |   |   |   |   |   |--- middle-right-square-o >  0.50
+|   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |--- middle-right-square-x <= 0.50
+|   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |--- middle-right-square-x >  0.50
+|   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |--- top-left-square-o <= 0.50
+|   |   |   |   |   |   |   |--- top-left-square-o >  0.50
+|   |   |   |   |   |   |   |--- middle-right-square-x <= 0.50
+|   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |--- middle-right-square-x >  0.50
+|   |   |   |   |   |   |   |--- middle-right-square-o <= 0.50
+|   |   |   |   |   |   |   |--- middle-right-square-o >  0.50
+|   |   |   |   |   |   |   |--- middle-left-square-b <= 0.50
+|   |   |   |   |   |   |   |--- middle-left-square-b >  0.50
+|   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |--- top-left-square-b <= 0.50
+|   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |--- top-left-square-b >  0.50
+|   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |--- bottom-middle-square-o <= 0.50
+|   |   |   |   |   |   |   |--- bottom-middle-square-o >  0.50
+|   |   |   |   |   |   |   |--- bottom-middle-square-x <= 0.50
+|   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |--- bottom-middle-square-x >  0.50
+|   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |--- bottom-middle-square-o <= 0.50
+|   |   |   |   |   |   |   |--- bottom-middle-square-o >  0.50
+|   |   |   |   |   |   |   |--- top-left-square-o <= 0.50
+|   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |--- top-left-square-o >  0.50
+|   |   |   |   |   |   |   |--- top-right-square-o <= 0.50
+|   |   |   |   |   |   |   |--- top-right-square-o >  0.50
+|   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |--- top-right-square-o <= 0.50
+|   |   |   |   |   |   |   |--- top-right-square-o >  0.50
+|   |   |   |   |   |   |   |--- middle-right-square-x <= 0.50
+|   |   |   |   |   |   |   |--- middle-right-square-x >  0.50
+|   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |--- bottom-right-square-x <= 0.50
+|   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |--- bottom-right-square-x >  0.50
+|   |   |   |   |   |   |   |--- bottom-right-square-x <= 0.50
+|   |   |   |   |   |   |   |--- bottom-right-square-x >  0.50
+|   |   |   |   |   |   |   |--- top-right-square-b <= 0.50
+|   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |--- top-right-square-b >  0.50
+|   |   |   |   |   |   |   |--- bottom-middle-square-o <= 0.50
+|   |   |   |   |   |   |   |--- bottom-middle-square-o >  0.50
+|   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |--- top-left-square-o <= 0.50
+|   |   |   |   |   |   |   |--- top-left-square-o >  0.50
+|   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |--- top-left-square-o <= 0.50
+|   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |--- top-left-square-o >  0.50
+|   |   |   |   |   |   |   |--- top-left-square-x <= 0.50
+|   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |--- top-left-square-x >  0.50
+|   |   |   |   |   |   |   |--- bottom-left-square-b <= 0.50
+|   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |--- bottom-left-square-b >  0.50
+|   |   |   |   |   |   |   |--- top-right-square-x <= 0.50
+|   |   |   |   |   |   |   |--- top-right-square-x >  0.50
+|   |   |   |   |   |   |   |--- middle-right-square-b <= 0.50
+|   |   |   |   |   |   |   |--- middle-right-square-b >  0.50
+|   |   |   |   |   |   |   |--- top-left-square-o <= 0.50
+|   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |--- top-left-square-o >  0.50
+|   |   |   |   |   |   |   |--- middle-left-square-o <= 0.50
+|   |   |   |   |   |   |   |--- middle-left-square-o >  0.50
+|   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |--- middle-right-square-x <= 0.50
+|   |   |   |   |   |   |   |--- middle-right-square-x >  0.50
+|   |   |   |   |   |   |   |--- top-middle-square-b <= 0.50
+|   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |--- top-middle-square-b >  0.50
+|   |   |   |   |   |   |   |--- top-right-square-x <= 0.50
+|   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |--- top-right-square-x >  0.50
+|   |   |   |   |   |   |   |--- bottom-right-square-x <= 0.50
+|   |   |   |   |   |   |   |--- bottom-right-square-x >  0.50
+|   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |--- bottom-middle-square-b <= 0.50
+|   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |--- bottom-middle-square-b >  0.50
+|   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |--- top-right-square-b <= 0.50
+|   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |--- top-right-square-b >  0.50
+|   |   |   |   |   |   |   |--- bottom-middle-square-x <= 0.50
+|   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |--- bottom-middle-square-x >  0.50
+|   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |--- bottom-right-square-b <= 0.50
+|   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |--- bottom-right-square-b >  0.50
+|   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |--- middle-right-square-x <= 0.50
+|   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |--- middle-right-square-x >  0.50
+|   |   |   |   |   |   |   |--- bottom-right-square-o <= 0.50
+|   |   |   |   |   |   |   |--- bottom-right-square-o >  0.50
+|   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |--- middle-right-square-o <= 0.50
+|   |   |   |   |   |   |   |   |--- middle-right-square-o >  0.50
+|   |   |   |   |   |   |   |   |--- bottom-left-square-b <= 0.50
+|   |   |   |   |   |   |   |   |--- bottom-left-square-b >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |--- top-right-square-x <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |--- top-right-square-x >  0.50
+|   |   |   |   |   |   |   |   |--- top-middle-square-o <= 0.50
+|   |   |   |   |   |   |   |   |--- top-middle-square-o >  0.50
+|   |   |   |   |   |   |   |   |--- middle-left-square-b <= 0.50
+|   |   |   |   |   |   |   |   |--- middle-left-square-b >  0.50
+|   |   |   |   |   |   |   |   |--- top-left-square-b <= 0.50
+|   |   |   |   |   |   |   |   |--- top-left-square-b >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |--- top-left-square-o <= 0.50
+|   |   |   |   |   |   |   |   |--- top-left-square-o >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |--- middle-right-square-o <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |--- middle-right-square-o >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |--- middle-left-square-x <= 0.50
+|   |   |   |   |   |   |   |   |--- middle-left-square-x >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |--- middle-right-square-x <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |--- middle-right-square-x >  0.50
+|   |   |   |   |   |   |   |   |--- top-right-square-o <= 0.50
+|   |   |   |   |   |   |   |   |--- top-right-square-o >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |--- bottom-right-square-b <= 0.50
+|   |   |   |   |   |   |   |   |--- bottom-right-square-b >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |--- middle-right-square-o <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |--- middle-right-square-o >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |--- bottom-middle-square-b <= 0.50
+|   |   |   |   |   |   |   |   |--- bottom-middle-square-b >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |--- top-right-square-x <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |--- top-right-square-x >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |--- top-left-square-x <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |--- top-left-square-x >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |--- top-left-square-x <= 0.50
+|   |   |   |   |   |   |   |   |--- top-left-square-x >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |--- top-middle-square-o <= 0.50
+|   |   |   |   |   |   |   |   |--- top-middle-square-o >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |--- bottom-right-square-o <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |--- bottom-right-square-o >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |--- top-left-square-o <= 0.50
+|   |   |   |   |   |   |   |   |--- top-left-square-o >  0.50
+|   |   |   |   |   |   |   |   |--- bottom-middle-square-x <= 0.50
+|   |   |   |   |   |   |   |   |--- bottom-middle-square-x >  0.50
+|   |   |   |   |   |   |   |   |--- bottom-left-square-b <= 0.50
+|   |   |   |   |   |   |   |   |--- bottom-left-square-b >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |--- bottom-middle-square-o <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |--- bottom-middle-square-o >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |--- bottom-middle-square-b <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |--- bottom-middle-square-b >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |--- top-left-square-b <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |--- top-left-square-b >  0.50
+|   |   |   |   |   |   |   |   |--- middle-right-square-b <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |--- middle-right-square-b >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |--- top-right-square-o <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |--- top-right-square-o >  0.50
+|   |   |   |   |   |   |   |   |--- top-middle-square-b <= 0.50
+|   |   |   |   |   |   |   |   |--- top-middle-square-b >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |--- middle-left-square-o <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |--- middle-left-square-o >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |--- top-middle-square-b <= 0.50
+|   |   |   |   |   |   |   |   |--- top-middle-square-b >  0.50
+|   |   |   |   |   |   |   |   |--- middle-left-square-x <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |--- middle-left-square-x >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |--- top-right-square-o <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |--- top-right-square-o >  0.50
+|   |   |   |   |   |   |   |   |--- middle-left-square-o <= 0.50
+|   |   |   |   |   |   |   |   |--- middle-left-square-o >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |--- top-middle-square-x <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |--- top-middle-square-x >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |--- bottom-middle-square-x <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |--- bottom-middle-square-x >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |--- bottom-middle-square-b <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |--- bottom-middle-square-b >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |--- bottom-right-square-x <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |--- bottom-right-square-x >  0.50
+|   |   |   |   |   |   |   |   |--- top-right-square-o <= 0.50
+|   |   |   |   |   |   |   |   |--- top-right-square-o >  0.50
+|   |   |   |   |   |   |   |   |   |--- middle-left-square-b <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |   |--- middle-left-square-b >  0.50
+|   |   |   |   |   |   |   |   |   |--- middle-left-square-b <= 0.50
+|   |   |   |   |   |   |   |   |   |--- middle-left-square-b >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |   |--- middle-left-square-x <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |   |--- middle-left-square-x >  0.50
+|   |   |   |   |   |   |   |   |   |--- bottom-left-square-b <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |   |--- bottom-left-square-b >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |   |--- top-right-square-b <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |   |--- top-right-square-b >  0.50
+|   |   |   |   |   |   |   |   |   |--- bottom-middle-square-x <= 0.50
+|   |   |   |   |   |   |   |   |   |--- bottom-middle-square-x >  0.50
+|   |   |   |   |   |   |   |   |   |--- bottom-middle-square-o <= 0.50
+|   |   |   |   |   |   |   |   |   |--- bottom-middle-square-o >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |   |--- bottom-left-square-b <= 0.50
+|   |   |   |   |   |   |   |   |   |--- bottom-left-square-b >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |   |--- bottom-right-square-o <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |   |--- bottom-right-square-o >  0.50
+|   |   |   |   |   |   |   |   |   |--- middle-right-square-x <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |   |--- middle-right-square-x >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |   |--- middle-right-square-x <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |   |--- middle-right-square-x >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |   |--- middle-left-square-x <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |   |--- middle-left-square-x >  0.50
+|   |   |   |   |   |   |   |   |   |--- bottom-left-square-x <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |   |--- bottom-left-square-x >  0.50
+|   |   |   |   |   |   |   |   |   |--- bottom-left-square-b <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |   |--- bottom-left-square-b >  0.50
+|   |   |   |   |   |   |   |   |   |--- top-middle-square-b <= 0.50
+|   |   |   |   |   |   |   |   |   |--- top-middle-square-b >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |   |--- bottom-right-square-o <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |   |--- bottom-right-square-o >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |   |--- bottom-middle-square-o <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |   |--- bottom-middle-square-o >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |   |--- bottom-middle-square-b <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |   |--- bottom-middle-square-b >  0.50
+|   |   |   |   |   |   |   |   |   |--- bottom-right-square-b <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |   |--- bottom-right-square-b >  0.50
+|   |   |   |   |   |   |   |   |   |--- bottom-left-square-x <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |   |--- bottom-left-square-x >  0.50
+|   |   |   |   |   |   |   |   |   |--- bottom-left-square-x <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |   |--- bottom-left-square-x >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |   |--- bottom-middle-square-b <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |   |--- bottom-middle-square-b >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |   |--- middle-left-square-o <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |   |--- middle-left-square-o >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |   |--- top-left-square-o <= 0.50
+|   |   |   |   |   |   |   |   |   |--- top-left-square-o >  0.50
+|   |   |   |   |   |   |   |   |   |--- top-right-square-x <= 0.50
+|   |   |   |   |   |   |   |   |   |--- top-right-square-x >  0.50
+|   |   |   |   |   |   |   |   |   |--- middle-left-square-b <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |   |--- middle-left-square-b >  0.50
+|   |   |   |   |   |   |   |   |   |--- top-left-square-b <= 0.50
+|   |   |   |   |   |   |   |   |   |--- top-left-square-b >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |   |--- top-left-square-x <= 0.50
+|   |   |   |   |   |   |   |   |   |--- top-left-square-x >  0.50
+|   |   |   |   |   |   |   |   |   |--- top-left-square-b <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |   |--- top-left-square-b >  0.50
+|   |   |   |   |   |   |   |   |   |--- bottom-middle-square-o <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |   |--- bottom-middle-square-o >  0.50
+|   |   |   |   |   |   |   |   |   |--- bottom-right-square-b <= 0.50
+|   |   |   |   |   |   |   |   |   |--- bottom-right-square-b >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |   |--- middle-left-square-x <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |   |--- middle-left-square-x >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |   |   |--- bottom-right-square-b <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |   |   |--- bottom-right-square-b >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |   |   |--- bottom-right-square-x <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |   |   |--- bottom-right-square-x >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |   |   |--- bottom-right-square-x <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- bottom-right-square-x >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |   |   |--- bottom-middle-square-o <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- bottom-middle-square-o >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |   |   |--- top-right-square-x <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |   |   |--- top-right-square-x >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- middle-left-square-x <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- middle-left-square-x >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |   |   |--- top-middle-square-x <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |   |   |--- top-middle-square-x >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |   |   |--- top-right-square-b <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- top-right-square-b >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |   |   |--- middle-right-square-b <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- middle-right-square-b >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |   |   |--- bottom-left-square-x <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |   |   |--- bottom-left-square-x >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |   |   |--- middle-left-square-b <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |   |   |--- middle-left-square-b >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |   |   |--- middle-right-square-o <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- middle-right-square-o >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |   |   |--- bottom-right-square-x <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |   |   |--- bottom-right-square-x >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- bottom-right-square-o <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |   |   |--- bottom-right-square-o >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |   |   |--- top-right-square-x <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |   |   |--- top-right-square-x >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |   |   |--- bottom-middle-square-b <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- bottom-middle-square-b >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |   |   |--- middle-left-square-o <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |   |   |--- middle-left-square-o >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- middle-left-square-x <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |   |   |--- middle-left-square-x >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- top-left-square-x <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |   |   |--- top-left-square-x >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- top-left-square-o <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |   |   |--- top-left-square-o >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |   |   |--- middle-right-square-b <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |   |   |--- middle-right-square-b >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |   |   |--- bottom-right-square-b <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |   |   |--- bottom-right-square-b >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |   |   |--- top-middle-square-x <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |   |   |--- top-middle-square-x >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- middle-left-square-o <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |   |   |--- middle-left-square-o >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |   |   |--- bottom-right-square-x <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |   |   |--- bottom-right-square-x >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |   |   |--- top-right-square-b <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |   |   |--- top-right-square-b >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |   |   |--- top-left-square-o <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: positive
+|   |   |   |   |   |   |   |   |   |   |--- top-left-square-o >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: negative
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3

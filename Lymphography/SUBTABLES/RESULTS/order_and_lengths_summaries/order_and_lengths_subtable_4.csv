@@ -1,135 +1,40 @@
-Order,Length_1
-1,4
-4,7
-5,8
-6,8
-7,6
-8,6
-9,5
-10,4
-11,7
-12,6
-13,6
-14,4
-15,4
-16,6
-17,7
-18,6
-19,4
-20,6
-21,4
-22,7
-23,6
-24,6
-25,4
-26,10
-27,7
-28,4
-29,6
-30,8
-31,8
-32,4
-33,8
-34,6
-35,6
-36,6
-37,3
-38,7
-39,7
-40,5
-41,4
-42,5
-43,6
-45,5
-46,4
-49,6
-50,6
-51,5
-52,4
-53,8
-54,6
-55,6
-57,4
-58,4
-59,5
-61,4
-62,6
-63,4
-64,6
-65,6
-66,4
-67,7
-68,7
-69,8
-70,4
-71,6
-72,7
-73,8
-74,7
-75,7
-76,7
-77,6
-78,5
-79,4
-81,4
-82,6
-83,4
-84,5
-85,7
-86,6
-87,6
-88,6
-89,7
-90,4
-91,4
-92,6
-93,4
-94,8
-95,4
-96,4
-97,6
-98,7
-99,6
-100,6
-101,8
-102,6
-103,6
-104,7
-105,6
-106,5
-108,5
-109,6
-111,8
-112,7
-113,8
-114,4
-115,4
-116,4
-117,4
-118,6
-119,4
-120,7
-121,10
-122,8
-123,7
-124,9
-126,4
-127,6
-128,6
-129,5
-130,6
-131,6
-132,5
-133,4
-135,4
-136,4
-137,6
-139,6
-140,3
-142,4
-143,6
-144,6
-145,5
-146,5
-147,4
-148,4
+Order,Length_1,Length_2,Length_3,Length_4,Length_5,Length_6,Length_7,Length_8,Length_9,Length_10,Length_11,Length_12,Length_13,Length_14,Length_15,Length_16,Length_17,Length_18,Length_19,Length_20,Length_21,Length_22,Length_23,Length_24,Length_25,Length_26,Length_27,Length_28,Length_29,Length_30,Length_31,Length_32,Length_33,Length_34,Length_35
+"Rule: (block_of_affere <= 1.5) & (early_uptake_in <= 1.5) & (no_of_nodes_in <= 3.0) & (changes_in_stru <= 2.0), Class: 3, Length: 4",class,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Rule: (block_of_affere <= 1.5) & (early_uptake_in <= 1.5) & (no_of_nodes_in <= 3.0) & (changes_in_stru > 2.0) & (changes_in_lym > 1.5) & (changes_in_node > 2.5) & (changes_in_stru > 3.5) & (no_of_nodes_in > 1.5) & (changes_in_lym <= 2.5) & (special_forms > 2.5), Class: 4, Length: 10",class,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Rule: (block_of_affere <= 1.5) & (early_uptake_in <= 1.5) & (no_of_nodes_in <= 3.0) & (changes_in_stru > 2.0) & (changes_in_lym > 1.5) & (changes_in_node > 2.5) & (changes_in_stru > 3.5) & (no_of_nodes_in > 1.5) & (changes_in_lym > 2.5), Class: 2, Length: 9",class,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Rule: (block_of_affere <= 1.5) & (early_uptake_in <= 1.5) & (no_of_nodes_in > 3.0), Class: 1, Length: 3",class,4,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Rule: (block_of_affere <= 1.5) & (early_uptake_in > 1.5) & (special_forms <= 1.5) & (no_of_nodes_in <= 1.5), Class: 2, Length: 4",class,2,2,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Rule: (block_of_affere <= 1.5) & (early_uptake_in > 1.5) & (special_forms <= 1.5) & (no_of_nodes_in > 1.5) & (changes_in_stru <= 5.5) & (changes_in_node <= 1.5), Class: 3, Length: 6",class,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Rule: (block_of_affere <= 1.5) & (early_uptake_in > 1.5) & (special_forms <= 1.5) & (no_of_nodes_in > 1.5) & (changes_in_stru <= 5.5) & (changes_in_node > 1.5), Class: 2, Length: 6",class,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Rule: (block_of_affere <= 1.5) & (early_uptake_in > 1.5) & (special_forms <= 1.5) & (no_of_nodes_in > 1.5) & (changes_in_stru > 5.5), Class: 4, Length: 5",class,3,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Rule: (block_of_affere <= 1.5) & (early_uptake_in > 1.5) & (special_forms > 1.5) & (changes_in_lym <= 2.5), Class: 4, Length: 4",class,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,,,,,,,,,,
+"Rule: (block_of_affere <= 1.5) & (early_uptake_in > 1.5) & (special_forms > 1.5) & (changes_in_lym > 2.5) & (no_of_nodes_in <= 1.5), Class: 2, Length: 5",class,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Rule: (block_of_affere <= 1.5) & (early_uptake_in > 1.5) & (special_forms > 1.5) & (changes_in_lym > 2.5) & (no_of_nodes_in > 1.5) & (special_forms <= 2.5), Class: 2, Length: 6",class,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Rule: (block_of_affere <= 1.5) & (early_uptake_in <= 1.5) & (no_of_nodes_in <= 3.0) & (changes_in_stru > 2.0) & (changes_in_lym <= 1.5), Class: 2, Length: 5",class,2,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Rule: (block_of_affere <= 1.5) & (early_uptake_in > 1.5) & (special_forms > 1.5) & (changes_in_lym > 2.5) & (no_of_nodes_in > 1.5) & (special_forms > 2.5) & (changes_in_stru <= 5.5), Class: 4, Length: 7",class,3,3,3,3,3,3,3,3,3,,,,,,,,,,,,,,,,,,,,,,,,,
+"Rule: (block_of_affere <= 1.5) & (early_uptake_in > 1.5) & (special_forms > 1.5) & (changes_in_lym > 2.5) & (no_of_nodes_in > 1.5) & (special_forms > 2.5) & (changes_in_stru > 5.5) & (changes_in_node <= 2.5), Class: 4, Length: 8",class,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Rule: (block_of_affere <= 1.5) & (early_uptake_in > 1.5) & (special_forms > 1.5) & (changes_in_lym > 2.5) & (no_of_nodes_in > 1.5) & (special_forms > 2.5) & (changes_in_stru > 5.5) & (changes_in_node > 2.5), Class: 2, Length: 8",class,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Rule: (block_of_affere > 1.5) & (no_of_nodes_in <= 3.5) & (changes_in_node <= 3.5) & (changes_in_node <= 1.5), Class: 4, Length: 4",class,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Rule: (block_of_affere > 1.5) & (no_of_nodes_in <= 3.5) & (changes_in_node <= 3.5) & (changes_in_node > 1.5) & (changes_in_node <= 2.5) & (no_of_nodes_in <= 1.5), Class: 2, Length: 6",class,2,2,2,2,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Rule: (block_of_affere > 1.5) & (no_of_nodes_in <= 3.5) & (changes_in_node <= 3.5) & (changes_in_node > 1.5) & (changes_in_node <= 2.5) & (no_of_nodes_in > 1.5) & (changes_in_stru <= 4.5), Class: 2, Length: 7",class,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Rule: (block_of_affere > 1.5) & (no_of_nodes_in <= 3.5) & (changes_in_node <= 3.5) & (changes_in_node > 1.5) & (changes_in_node <= 2.5) & (no_of_nodes_in > 1.5) & (changes_in_stru > 4.5), Class: 4, Length: 7",class,3,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Rule: (block_of_affere > 1.5) & (no_of_nodes_in <= 3.5) & (changes_in_node <= 3.5) & (changes_in_node > 1.5) & (changes_in_node > 2.5) & (no_of_nodes_in <= 2.5), Class: 2, Length: 6",class,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
+"Rule: (block_of_affere > 1.5) & (no_of_nodes_in <= 3.5) & (changes_in_node <= 3.5) & (changes_in_node > 1.5) & (changes_in_node > 2.5) & (no_of_nodes_in > 2.5) & (special_forms <= 2.5), Class: 2, Length: 7",class,2,2,2,2,2,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Rule: (block_of_affere > 1.5) & (no_of_nodes_in <= 3.5) & (changes_in_node <= 3.5) & (changes_in_node > 1.5) & (changes_in_node > 2.5) & (no_of_nodes_in > 2.5) & (special_forms > 2.5) & (changes_in_stru <= 5.0), Class: 2, Length: 8",class,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Rule: (block_of_affere <= 1.5) & (early_uptake_in <= 1.5) & (no_of_nodes_in <= 3.0) & (changes_in_stru > 2.0) & (changes_in_lym > 1.5) & (changes_in_node <= 2.5) & (changes_in_stru <= 6.5), Class: 4, Length: 7",class,3,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Rule: (block_of_affere > 1.5) & (no_of_nodes_in <= 3.5) & (changes_in_node <= 3.5) & (changes_in_node > 1.5) & (changes_in_node > 2.5) & (no_of_nodes_in > 2.5) & (special_forms > 2.5) & (changes_in_stru > 5.0), Class: 4, Length: 8",class,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Rule: (block_of_affere > 1.5) & (no_of_nodes_in <= 3.5) & (changes_in_node > 3.5) & (changes_in_stru <= 6.5), Class: 2, Length: 4",class,2,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Rule: (block_of_affere > 1.5) & (no_of_nodes_in <= 3.5) & (changes_in_node > 3.5) & (changes_in_stru > 6.5), Class: 4, Length: 4",class,3,3,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Rule: (block_of_affere > 1.5) & (no_of_nodes_in > 3.5) & (changes_in_stru <= 4.5) & (changes_in_lym <= 2.5) & (no_of_nodes_in <= 6.5), Class: 4, Length: 5",class,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Rule: (block_of_affere > 1.5) & (no_of_nodes_in > 3.5) & (changes_in_stru <= 4.5) & (changes_in_lym <= 2.5) & (no_of_nodes_in > 6.5), Class: 1, Length: 5",class,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Rule: (block_of_affere > 1.5) & (no_of_nodes_in > 3.5) & (changes_in_stru <= 4.5) & (changes_in_lym > 2.5), Class: 2, Length: 4",class,2,2,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Rule: (block_of_affere > 1.5) & (no_of_nodes_in > 3.5) & (changes_in_stru > 4.5) & (special_forms <= 1.5), Class: 1, Length: 4",class,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Rule: (block_of_affere > 1.5) & (no_of_nodes_in > 3.5) & (changes_in_stru > 4.5) & (special_forms > 1.5) & (special_forms <= 2.5) & (changes_in_node <= 2.5), Class: 2, Length: 6",class,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Rule: (block_of_affere > 1.5) & (no_of_nodes_in > 3.5) & (changes_in_stru > 4.5) & (special_forms > 1.5) & (special_forms <= 2.5) & (changes_in_node > 2.5), Class: 4, Length: 6",class,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Rule: (block_of_affere > 1.5) & (no_of_nodes_in > 3.5) & (changes_in_stru > 4.5) & (special_forms > 1.5) & (special_forms > 2.5), Class: 4, Length: 5",class,3,3,3,3,3,3,3,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Rule: (block_of_affere <= 1.5) & (early_uptake_in <= 1.5) & (no_of_nodes_in <= 3.0) & (changes_in_stru > 2.0) & (changes_in_lym > 1.5) & (changes_in_node <= 2.5) & (changes_in_stru > 6.5) & (special_forms <= 1.5), Class: 2, Length: 8",class,2,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Rule: (block_of_affere <= 1.5) & (early_uptake_in <= 1.5) & (no_of_nodes_in <= 3.0) & (changes_in_stru > 2.0) & (changes_in_lym > 1.5) & (changes_in_node <= 2.5) & (changes_in_stru > 6.5) & (special_forms > 1.5), Class: 4, Length: 8",class,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Rule: (block_of_affere <= 1.5) & (early_uptake_in <= 1.5) & (no_of_nodes_in <= 3.0) & (changes_in_stru > 2.0) & (changes_in_lym > 1.5) & (changes_in_node > 2.5) & (changes_in_stru <= 3.5) & (special_forms <= 1.5), Class: 2, Length: 8",class,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Rule: (block_of_affere <= 1.5) & (early_uptake_in <= 1.5) & (no_of_nodes_in <= 3.0) & (changes_in_stru > 2.0) & (changes_in_lym > 1.5) & (changes_in_node > 2.5) & (changes_in_stru <= 3.5) & (special_forms > 1.5), Class: 4, Length: 8",class,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Rule: (block_of_affere <= 1.5) & (early_uptake_in <= 1.5) & (no_of_nodes_in <= 3.0) & (changes_in_stru > 2.0) & (changes_in_lym > 1.5) & (changes_in_node > 2.5) & (changes_in_stru > 3.5) & (no_of_nodes_in <= 1.5), Class: 2, Length: 8",class,2,2,2,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Rule: (block_of_affere <= 1.5) & (early_uptake_in <= 1.5) & (no_of_nodes_in <= 3.0) & (changes_in_stru > 2.0) & (changes_in_lym > 1.5) & (changes_in_node > 2.5) & (changes_in_stru > 3.5) & (no_of_nodes_in > 1.5) & (changes_in_lym <= 2.5) & (special_forms <= 2.5), Class: 2, Length: 10",class,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
